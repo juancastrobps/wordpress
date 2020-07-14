@@ -1,0 +1,9 @@
+/*
+* Crowdfunding Login Form
+*/
+input#user_login {
+    width: 100%;
+}
+input#user_pass {
+    width: 100%;
+}

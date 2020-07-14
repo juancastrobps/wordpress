@@ -1,0 +1,191 @@
+2020-06-30T15:03:52+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL) in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 13
+
+2020-06-30T15:03:52+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL) in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 13
+
+2020-06-30T15:03:59+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL) in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 13
+
+2020-06-30T16:23:43+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:21
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(103): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 21
+
+2020-06-30T16:39:29+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(22): WC_Product->__construct('14')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(119): charitize_activity_array('from-page')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\ in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-06-30T16:51:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(119): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 24
+
+2020-06-30T16:54:07+00:00 CRITICAL syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 24
+
+2020-06-30T19:25:53+00:00 CRITICAL Uncaught Error: Call to a member function get_month() on null in C:\xampp\htdocs\wordpress\wp-includes\media.php:3816
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Base.php(129): wp_enqueue_media()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WPCF\woocommerce\Base->frontend_script('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2294): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Manager->setup_theme('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp in C:\xampp\htdocs\wordpress\wp-includes\media.php on line 3816
+
+2020-06-30T20:00:17+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T20:01:03+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:05:54+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(134): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:07:58+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(134): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:08:41+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(131): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:09:16+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(131): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:09:40+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(131): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:10:34+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(131): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T21:12:19+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(131): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 103
+
+2020-06-30T22:52:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_raised_percent() in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:122
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(150): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 122
+
+2020-06-30T22:52:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_raised_percent() in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:122
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(150): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 122
+
+2020-06-30T22:58:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_fund_raised_percent_format() in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php:123
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php(151): charitize_activity_array('from-page')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\front-page.php(25): do_action('charitize_actio...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\hooks\home-activity-section.php on line 123
+
