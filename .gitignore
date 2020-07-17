@@ -1,0 +1,10 @@
+# Retirar carpetas de raiz
+wp-admin/
+wp-includes/
+
+
+# Retirar solo los archivos de la carpeta raiz
+/*.*
+
+# agregar
+!/.gitignore
