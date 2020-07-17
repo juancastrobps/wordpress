@@ -1,9 +1,7 @@
+# Retirar carpetas de raiz
 wp-admin/
 wp-includes/
 
 
-# Retirar todo
-*
-
-# agregar 
-!wp-content/
+# Retirar solo los archivos de la carpeta raiz
+/*.*
