@@ -8083,5 +8083,24 @@ nav.navigation.pagination .nav-links  {
   padding: 13px 0;
 }
 
+/* wp Croudfunding Custom Styles*/
+
+.wpneo-funding-data {
+  display: flex;
+  flex-direction: column;
+}
+.wpneo-funding-goal, .wpneo-fund-raised, .wpneo-time-remaining {
+  padding: 1px 0px;
+}
+.wpneo-meta-name {
+  font-size: 12px;
+}
+
+
 /*==== HAPPY STYLING!!! ===*/
 /*=========================*/
+
+
+.accordion-section, .control-section, .control-section-charitize .cannot-expand {
+  display: none;
+}
