@@ -1,2 +1,9 @@
 wp-admin/
 wp-includes/
+
+
+# Retirar todo
+*
+
+# agregar 
+!wp-content/
