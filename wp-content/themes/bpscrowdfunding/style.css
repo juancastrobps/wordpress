@@ -8104,3 +8104,9 @@ nav.navigation.pagination .nav-links  {
 .accordion-section, .control-section, .control-section-charitize .cannot-expand {
   display: none;
 }
+
+
+/* no mostrar seccion de "click to login" */
+.woocommerce-info {
+  display: none;
+}

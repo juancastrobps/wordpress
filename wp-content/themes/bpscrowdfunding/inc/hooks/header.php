@@ -298,7 +298,7 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                                 <?php if (is_user_logged_in()) : ?>
                                                       <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="button">Cerrar Sesión</a>
                                                 <?php else : ?>
-                                                    <a href="http://localhost/wordpress/login/" class="button">Iniciar Sesión</a>
+                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="button">Iniciar Sesión</a>
                                                 <?php endif;?>                                                
                                                 </span>
                                             </div>

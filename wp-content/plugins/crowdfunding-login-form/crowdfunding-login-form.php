@@ -146,7 +146,9 @@ function crowdfunding_login_form_handler($atts)
     if(isset($value_remember) && $value_remember != ""){
         $args['value_remember'] = $value_remember;
     }
+    //$args['label_register'] = 'register';
     $login_form = "";
+    
     //$login_form = print_r($args, true);
     if(is_user_logged_in()){
         $login_form .= wp_loginout(esc_url($_SERVER['REQUEST_URI']), false);
@@ -157,6 +159,8 @@ function crowdfunding_login_form_handler($atts)
             $lost_password_link = '<a href="'.wp_lostpassword_url().'">'.__('Lost your password?', 'crowdfunding-login-form').'</a>';
             $login_form .= $lost_password_link;
         }
+        $register_link = '<a href= "http://localhost/wordpress/registrate/" > ¿Aún no tienes cuenta? '.__('Regístrate', 'crowdfunding-login-form').'</a>';
+        $login_form .= $register_link;
     }
     return $login_form;
     
