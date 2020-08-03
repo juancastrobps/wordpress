@@ -187,12 +187,12 @@ if ( ! function_exists( 'charitize_activities_slider' ) ) :
                                                 }
                                         </style>
 
-                                        <div class="wpneo-raised-bar sjkdhfjdshf">
+                                        <!-- <div class="wpneo-raised-bar sjkdhfjdshf">
                                         <div id="neo-progressbar">
                                             <?php $css_width = wpcf_function()->get_raised_percent(); if( $css_width >= 100 ){ $css_width = 100; } ?>
                                             <div style="width: <?php echo $css_width; ?>%"></div>
                                         </div>
-                                        </div>   
+                                        </div>    -->
                                                                                          
                                         <div class="content-text">
                                             <?php echo wp_kses_post( $charitize_activities_slider_array['charitize-activities-content'] );?>

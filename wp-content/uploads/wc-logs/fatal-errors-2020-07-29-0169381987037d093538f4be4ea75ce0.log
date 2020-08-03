@@ -1,0 +1,112 @@
+2020-07-29T15:35:20+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(248)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\w in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T15:35:51+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(248)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\w in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T16:26:57+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(248)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\w in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T19:57:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_generator_tag(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): wc_generator_tag('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php(35): do_action('get_the_generat...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\shortcode\Project_Listing.php(77): WPCF\Functions->template('wpneo-listing')
+#6 C:\xampp\htdocs\wordpress\wp-includes\short in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 254
+
+2020-07-29T19:57:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_generator_tag(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): wc_generator_tag('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php(35): do_action('get_the_generat...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\shortcode\Project_Listing.php(77): WPCF\Functions->template('wpneo-listing')
+#6 C:\xampp\htdocs\wordpress\wp-includes\short in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 254
+
+2020-07-29T19:59:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_generator_tag(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): wc_generator_tag('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php(35): do_action('get_the_generat...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\shortcode\Project_Listing.php(77): WPCF\Functions->template('wpneo-listing')
+#6 C:\xampp\htdocs\wordpress\wp-includes\short in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 254
+
+2020-07-29T20:13:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_total_fund() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php:35
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\shortcode\Project_Listing.php(77): WPCF\Functions->template('wpneo-listing')
+#2 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WPCF\shortcode\Project_Listing->listing_callback('', '', 'wpneo_crowdfund...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(wpneo_...', 'do_shortcode_ta...', '[wpneo_crowdfun...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[wpneo_crowdfun...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(531): Elementor\Widget_Shortcode- in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php on line 35
+
+2020-07-29T21:32:37+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(322)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\w in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T21:32:56+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(322)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\w in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T21:34:00+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(13)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\wo in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T21:34:23+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(84)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\wo in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
+2020-07-29T21:37:11+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\loop\rating_html.php(7): WC_Product->__construct(13)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(228): WPCF\Functions->template('include/loop/ra...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\Template_Hooks.php(89): WPCF\wo in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 165
+
