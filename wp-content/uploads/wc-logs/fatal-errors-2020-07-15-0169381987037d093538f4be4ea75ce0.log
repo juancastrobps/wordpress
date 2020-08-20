@@ -1,4 +1,0 @@
-2020-07-15T22:46:11+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
-
-2020-07-15T23:08:40+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
-

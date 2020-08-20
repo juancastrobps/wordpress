@@ -1,0 +1,8 @@
+2020-08-19T19:41:01+00:00 CRITICAL Out of memory (allocated 35651584) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-registry.asset.php on line 1
+
+2020-08-19T19:41:01+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\element-base.php on line 1
+
+2020-08-19T19:41:01+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\modules\safe-mode\module.php on line 545
+
+2020-08-19T19:42:31+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\assets\frameworks\breadcrumbs\breadcrumbs.php on line 794
+

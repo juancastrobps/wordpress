@@ -8087,14 +8087,26 @@ nav.navigation.pagination .nav-links  {
 
 .wpneo-funding-data {
   display: flex;
-  flex-direction: column;
+ flex-direction: column; 
+}
+p.wpneo-short-description {
+  padding: 1px 30px 2px;
 }
 .wpneo-funding-goal, .wpneo-fund-raised, .wpneo-time-remaining {
+  width: 100%;
   padding: 1px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 .wpneo-meta-name {
   font-size: 12px;
 }
+/* .wpneo-time-remaining {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} */
 
 
 /*==== HAPPY STYLING!!! ===*/
@@ -8109,4 +8121,14 @@ nav.navigation.pagination .nav-links  {
 /* no mostrar seccion de "click to login" */
 .woocommerce-info {
   display: none;
+}
+
+/* Quitar flechas de campo numerico en formularios */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
 }
