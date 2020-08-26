@@ -546,15 +546,15 @@ class Functions {
                     return false;
                 }
                 break;
-
+// codigo modificado, cierre de campaña por tiempo u objetivo
             case 'target_goal_and_date':
-                if ( ! $this->is_reach_target_goal()) {
-                    return true;
+                if (  $this->is_reach_target_goal()) {
+                    return false;
                 }
-                if ( $this->get_date_remaining()) {
-                    return true;
+                if ( ! $this->get_date_remaining()) {
+                    return false;
                 }
-                return false;
+                return true;
                 break;
 
             case 'never_end':
