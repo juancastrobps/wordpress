@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-08-18 15:36+0000\n"
+"PO-Revision-Date: 2020-08-18 15:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "por"
 #: wpcftemplate/woocommerce/basic/include/fund_raised_percent.php:7
 #: wpcftemplate/woocommerce/basic/include/loop/fund_raised_percent.php:7
 msgid "Raised Percent"
-msgstr "Porcentaje"
+msgstr "Progreso"
 
 #: addons/social-share/classes/Init.php:171
 #: includes/woocommerce/Woocommerce.php:258

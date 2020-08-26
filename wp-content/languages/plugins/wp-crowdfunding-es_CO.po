@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-08-18 15:37+0000\n"
+"PO-Revision-Date: 2020-08-20 22:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -1803,7 +1803,7 @@ msgstr "Haga clic aquí para iniciar sesión"
 #: shortcode/Donate.php:19
 #: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:51
 msgid "Back Campaign"
-msgstr "De Regreso De La Campaña"
+msgstr "Apoyar Campaña"
 
 #: shortcode/Donate.php:23
 msgid "Campaign ID required"

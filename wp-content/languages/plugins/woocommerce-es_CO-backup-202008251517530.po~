@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-07-21T10:45:30+00:00\n"
-"PO-Revision-Date: 2020-08-18 15:04+0000\n"
+"PO-Revision-Date: 2020-08-25 15:15+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: es_CO\n"
@@ -35226,10 +35226,10 @@ msgid ""
 "account, but may take several minutes to show up in your inbox. Please wait "
 "at least 10 minutes before attempting another reset."
 msgstr ""
-"Para restablecer una contraseña de correo electrónico ha sido enviado a la "
-"dirección de correo electrónico registrada en su cuenta, pero puede tardar "
-"varios minutos en aparecer en tu bandeja de entrada. Por favor, espere al "
-"menos 10 minutos antes de intentar otro reset."
+"Un correo electrónico para restablecer su contraseña ha sido enviado a la "
+"dirección registrada en su cuenta, pero puede tardar varios minutos en "
+"aparecer en la bandeja de entrada. Por favor, espere al menos 10 minutos "
+"antes de intentar nuevamente."
 
 #: templates/myaccount/my-address.php:46
 msgid "The following addresses will be used on the checkout page by default."
@@ -35482,7 +35482,7 @@ msgstr "propietario verificado"
 
 #: templates/single-product/up-sells.php:26
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "Campañas Anteriores"
 
 #: packages/woocommerce-admin/dist/app/index.js:5738
 #: packages/woocommerce-admin/dist/chunks/6.8a01ef3df76cbe04b5e5.js:1215

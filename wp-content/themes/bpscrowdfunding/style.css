@@ -8123,6 +8123,11 @@ p.wpneo-short-description {
   display: none;
 }
 
+/* ocultar productos relacionados */
+.related.products {
+  display: none;
+}
+
 /* Quitar flechas de campo numerico en formularios */
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
@@ -8131,4 +8136,22 @@ input[type=number]::-webkit-inner-spin-button {
 }
 input[type=number] {
     -moz-appearance:textfield;
+}
+
+/* Formato de comentarios de campaña */
+.comment-body {
+  background-color: rgb(216, 216, 216);
+  border:1px solid
+}
+.wpneo-wrapper li {
+  padding: 10px;
+}
+.wpneo-wrapper ul {
+  padding: 5px;
+}
+
+/* Scroll utilizado en comentarios de campaña */
+#wpneo-tab-reviews {
+  height: 1000px;
+  overflow-y: scroll;
 }

@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-07-21T10:45:30+00:00\n"
-"PO-Revision-Date: 2020-08-18 15:05+0000\n"
+"PO-Revision-Date: 2020-08-25 15:17+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: es_CO\n"
@@ -35482,7 +35482,7 @@ msgstr "propietario verificado"
 
 #: templates/single-product/up-sells.php:26
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "Campañas Relacionadas"
 
 #: packages/woocommerce-admin/dist/app/index.js:5738
 #: packages/woocommerce-admin/dist/chunks/6.8a01ef3df76cbe04b5e5.js:1215
