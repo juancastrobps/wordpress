@@ -56,11 +56,11 @@ defined( 'ABSPATH' ) || exit;
 			if ( ! wpcf_function()->is_campaign_started()){
 				wpcf_function()->campaign_start_countdown();
 			}else{
-				if( wpcf_function()->is_reach_target_goal() ){
+				// if( wpcf_function()->is_reach_target_goal() ){
 					_e('The campaign is successful.','wp-crowdfunding');
-				}else{
-					_e('This campaign has been invalid or not started yet.','wp-crowdfunding');
-				}
+				// }else{
+					// _e('This campaign has been invalid or not started yet.','wp-crowdfunding');
+				// }
 			}
 		}
 	}

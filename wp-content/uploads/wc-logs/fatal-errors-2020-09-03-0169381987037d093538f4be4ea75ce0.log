@@ -1,0 +1,66 @@
+2020-09-03T15:46:08+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): restrict_submit(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(2457): apply_filters('comment_form_de...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php(77): comment_form()
+#4 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1536): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\campaign-tab.php(45): comments_template('reviews', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocom in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 2
+
+2020-09-03T15:47:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_id() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): restrict_submit(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(2457): apply_filters('comment_form_de...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php(77): comment_form()
+#4 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1536): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\campaign-tab.php(45): comments_template('reviews', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\wooco in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 2
+
+2020-09-03T15:48:11+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_id() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): restrict_submit(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(2457): apply_filters('comment_form_de...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php(77): comment_form()
+#4 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1536): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\campaign-tab.php(45): comments_template('reviews', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\wooco in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 2
+
+2020-09-03T15:52:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_customer_bought_product(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 3 and exactly 3 expected in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-user-functions.php:309
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code(3): wc_customer_bought_product()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): restrict_submit(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(2457): apply_filters('comment_form_de...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php(77): comment_form()
+#5 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1536): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\ in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-user-functions.php on line 309
+
+2020-09-03T15:52:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_customer_bought_product(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 3 and exactly 3 expected in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-user-functions.php:309
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code(3): wc_customer_bought_product()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): restrict_submit(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(2457): apply_filters('comment_form_de...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php(77): comment_form()
+#5 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1536): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\ in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-user-functions.php on line 309
+
+2020-09-03T15:54:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_id() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:3
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): restrict_submit(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(2457): apply_filters('comment_form_de...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php(77): comment_form()
+#4 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1536): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\campaign-tab.php(45): comments_template('reviews', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\Functions.php(302): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\wooco in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 3
+
+2020-09-03T16:07:24+00:00 CRITICAL Cannot redeclare restrict_submit() (previously declared in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1) in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\single-crowdfunding.php on line 28
+

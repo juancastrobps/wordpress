@@ -8144,14 +8144,21 @@ input[type=number] {
   border:1px solid
 }
 .wpneo-wrapper li {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
-.wpneo-wrapper ul {
+/* .wpneo-wrapper ul {
   padding: 5px;
-}
+} */
 
 /* Scroll utilizado en comentarios de campaña */
 #wpneo-tab-reviews {
   height: 1000px;
   overflow-y: scroll;
 }
+
+/* esconder cuadro texto de comentarios */
+/* .comment-respond {
+  display: none;
+} */

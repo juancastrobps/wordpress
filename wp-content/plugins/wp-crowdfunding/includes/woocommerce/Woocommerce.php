@@ -31,6 +31,7 @@ class Woocommerce {
         add_action( 'woocommerce_new_order',                            array($this, 'crowdfunding_order_type')); // Track is this product crowdfunding.
         add_filter( 'woocommerce_checkout_fields' ,                     array($this, 'override_checkout_fields') ); // Remove billing address from the checkout page
         add_action( 'woocommerce_review_order_before_payment',          array($this, 'check_anonymous_backer'));
+        add_action( 'woocommerce_review_order_before_payment',          array($this, 'dont_save_data'));
         add_action( 'woocommerce_checkout_order_processed',             array($this, 'check_anonymous_backer_post'));
         add_action( 'woocommerce_new_order_item',                       array($this, 'crowdfunding_new_order_item'), 10, 3);
         add_filter( 'wc_tax_enabled',                                   array($this, 'is_tax_enable_for_crowdfunding_product'));
@@ -804,6 +805,22 @@ class Woocommerce {
                 }
             }
         }
+    }
+
+    // opción no guardar datos de billing
+    public function dont_save_data(){
+        $items = WC()->cart->get_cart();
+        if( $items ){
+            foreach($items as $item => $values) {
+                $product = wc_get_product( $values['product_id'] );
+                if( $product->get_type() == 'crowdfunding' ){
+                    echo '<div id="dont_save_data" class="mark_name_anonymous_wrap">';
+                    echo '<label><input type="checkbox" value="true" name="dont_save_data" /> '.__('Don´t save my data', 'wp-crowdfunding').' </label>';
+                    echo '</div>';
+                }
+            }
+        }
+        
     }
 
     /**

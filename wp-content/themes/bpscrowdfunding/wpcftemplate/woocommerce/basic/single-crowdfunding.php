@@ -23,6 +23,20 @@ if ( post_password_required() ) {
                                 <div class="wpneo-campaign-summary-inner" itemscope itemtype="http://schema.org/DonateAction">
                                     <?php do_action( 'wpcf_single_campaign_summary' ); ?>
                                 </div><!-- .wpneo-campaign-summary-inner -->
+                                <!-- control de comentarios - solo usuarios donates -->
+                                <?php if ( (!wc_customer_bought_product( '', get_current_user_id(), $product->get_id() )) || is_user_logged_in() ) {
+                                    function restrict_submit ( $fields){
+                                       
+                                            $fields =  array(
+                                                'comment_field'  => 'Debe ser Donante para dejar comentarios',
+                                                'submit_button' => ''
+                                            );
+                                            return $fields;
+            
+                                        }
+                                        
+                                        add_filter ('comment_form_defaults' , 'restrict_submit');
+                                } ?>
                             </div><!-- .wpneo-campaign-summary -->
                             <?php do_action( 'wpcf_after_single_campaign_summary' ); ?>
                             <meta itemprop="url" content="<?php the_permalink(); ?>" />
