@@ -109,6 +109,8 @@ if ( ! function_exists( 'charitize_footer' ) ) :
                 <nav class="footer-nav main-navigation">
                     <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
                 </nav>
+                <!-- codigo social share -->
+                <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>
                 <div class="footer-bottom">
                     <span class="copyright">
                         <?php

@@ -31,16 +31,17 @@ if ( post_password_required() ) {
                                                 'comment_field'  => 'Debe ser Donante para dejar comentarios',
                                                 'submit_button' => ''
                                             );
-                                            return $fields;
-            
-                                        }
-                                        
+                                            return $fields;            
+                                        }                                        
                                         add_filter ('comment_form_defaults' , 'restrict_submit');
                                 } ?>
+                                <!-- codigo social share -->
+                                <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>
                             </div><!-- .wpneo-campaign-summary -->
                             <?php do_action( 'wpcf_after_single_campaign_summary' ); ?>
                             <meta itemprop="url" content="<?php the_permalink(); ?>" />
-                        </div><!-- #campaign-<?php the_ID(); ?> -->
+                        </div>
+                        <!-- #campaign-<?php the_ID(); ?> -->
                         <?php do_action( 'wpcf_after_single_campaign' ); ?>
                         <?php do_action( 'wpcf_after_main_content' ); ?>
                     <?php endwhile; // end of the loop. ?>
