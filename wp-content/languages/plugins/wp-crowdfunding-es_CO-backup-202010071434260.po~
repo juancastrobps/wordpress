@@ -1,0 +1,2307 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: WP Crowdfunding\n"
+"POT-Creation-Date: 2020-04-02 15:15+0600\n"
+"PO-Revision-Date: 2020-10-06 20:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español de Colombia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-crowdfunding.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es_CO\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: addons/social-share/classes/Init.php:34
+#: addons/social-share/social-share.php:18
+msgid "Social Share"
+msgstr "Cuota Social"
+
+#: addons/social-share/classes/Init.php:136
+#: includes/woocommerce/dashboard/campaign.php:53
+#: includes/woocommerce/dashboard/dashboard-campaign.php:57
+#: wpcftemplate/woocommerce/basic/include/author.php:8
+#: wpcftemplate/woocommerce/basic/include/loop/author.php:4
+msgid "by"
+msgstr "por"
+
+#: addons/social-share/classes/Init.php:155
+#: includes/woocommerce/Dashboard.php:196
+#: wpcftemplate/woocommerce/basic/include/fund_raised_percent.php:7
+#: wpcftemplate/woocommerce/basic/include/loop/fund_raised_percent.php:7
+msgid "Raised Percent"
+msgstr "Progreso"
+
+#: addons/social-share/classes/Init.php:171
+#: includes/woocommerce/Woocommerce.php:258
+#: includes/woocommerce/dashboard/campaign.php:112
+#: shortcode/Submit_Form.php:277
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:19
+#: wpcftemplate/woocommerce/basic/include/loop/funding_goal.php:9
+msgid "Funding Goal"
+msgstr "Objetivo De Recaudo"
+
+#: addons/social-share/classes/Init.php:176
+#: includes/woocommerce/dashboard/campaign.php:116
+#: includes/woocommerce/dashboard/dashboard-campaign.php:42
+#: wpcftemplate/woocommerce/basic/include/loop/time_remaining.php:3
+msgid "0"
+msgstr "0"
+
+#: addons/social-share/classes/Init.php:183
+#: includes/woocommerce/dashboard/campaign.php:127
+#: includes/woocommerce/dashboard/dashboard-campaign.php:49
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:30
+#: wpcftemplate/woocommerce/basic/include/loop/time_remaining.php:14
+msgid "Days to go"
+msgstr "Días Restantes"
+
+#: addons/social-share/classes/Init.php:194
+#: includes/woocommerce/dashboard/campaign.php:105
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:218
+#: wpcftemplate/woocommerce/basic/include/loop/fund_raised.php:12
+msgid "Fund Raised"
+msgstr "Recaudado"
+
+#: addons/social-share/classes/Init.php:214
+msgid "Embed Code"
+msgstr "El Código De Inserción"
+
+#: addons/social-share/classes/Init.php:219
+msgid "Copy this code and paste inside your content."
+msgstr "Copiar este código y pegarlo dentro de su contenido."
+
+#: addons/social-share/pages/tab-social-share.php:9
+msgid "Social Share Settings"
+msgstr "Participación Social La Configuración De"
+
+#: addons/social-share/pages/tab-social-share.php:19
+msgid "Embed Option"
+msgstr "Opción De Inserción"
+
+#: addons/social-share/pages/tab-social-share.php:20
+msgid "Embed Option in Single Campaign."
+msgstr "Opción incrustar en una Sola Campaña."
+
+#: addons/social-share/pages/tab-social-share.php:29
+msgid "Twitter"
+msgstr "Twitter"
+
+#: addons/social-share/pages/tab-social-share.php:30
+msgid "Facebook"
+msgstr "Facebook"
+
+#: addons/social-share/pages/tab-social-share.php:31
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: addons/social-share/pages/tab-social-share.php:32
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: addons/social-share/pages/tab-social-share.php:33
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: addons/social-share/pages/tab-social-share.php:34
+msgid "Blogger"
+msgstr "Blogger"
+
+#: addons/social-share/pages/tab-social-share.php:35
+msgid "Delicious"
+msgstr "Delicioso"
+
+#: addons/social-share/pages/tab-social-share.php:36
+msgid "Digg"
+msgstr "Digg"
+
+#: addons/social-share/pages/tab-social-share.php:37
+msgid "Reddit"
+msgstr "Reddit"
+
+#: addons/social-share/pages/tab-social-share.php:38
+msgid "Stumbleupon"
+msgstr "Stumbleupon"
+
+#: addons/social-share/pages/tab-social-share.php:39
+msgid "Pocket"
+msgstr "Bolsillo"
+
+#: addons/social-share/pages/tab-social-share.php:40
+msgid "WordPress"
+msgstr "WordPress"
+
+#: addons/social-share/pages/tab-social-share.php:41
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: addons/social-share/pages/tab-social-share.php:43
+msgid "Multiple Checkbox"
+msgstr "Varios Casilla De Verificación"
+
+#: addons/social-share/social-share.php:19
+msgid ""
+"Connect with more visitors by sharing your site with Social Share addon."
+msgstr ""
+"Conectar con más visitantes por compartir tu sitio con participación Social "
+"addon."
+
+#: includes/Functions.php:443
+msgid "Your browser does not support the video tag."
+msgstr "Su navegador no soporta la etiqueta de vídeo."
+
+#: includes/Functions.php:711
+msgid "'s Update"
+msgstr "'s de la Actualización"
+
+#: includes/Functions.php:797
+msgid "Campaign will be started within"
+msgstr "La campaña se iniciará dentro de"
+
+#: includes/Initial_Setup.php:218 includes/Initial_Setup.php:248
+msgid "Thanks for using WP Crowdfunding"
+msgstr "Gracias por usar WP Crowdfunding"
+
+#: includes/Initial_Setup.php:222 includes/Initial_Setup.php:252
+msgid "You must have"
+msgstr "Usted debe tener"
+
+#: includes/Initial_Setup.php:224 includes/Initial_Setup.php:254
+#: includes/Initial_Setup.php:325
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/Initial_Setup.php:225 includes/Initial_Setup.php:255
+msgid ""
+"installed and activated on this website in order to use WP Crowdfunding."
+msgstr ""
+"instalado y activado en este sitio web con el fin de utilizar WP "
+"Crowdfunding."
+
+#: includes/Initial_Setup.php:228 includes/Initial_Setup.php:258
+msgid "Learn more about WP Crowdfunding"
+msgstr "Aprender más acerca de WP Crowdfunding"
+
+#: includes/Initial_Setup.php:231
+msgid "Activate WooCommerce"
+msgstr "Activar WooCommerce"
+
+#: includes/Initial_Setup.php:261
+msgid "Install WooCommerce"
+msgstr "Instalar WooCommerce"
+
+#: includes/Initial_Setup.php:310
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "La instalación de Plugin: %s"
+
+#: includes/Initial_Setup.php:323
+msgid "Your"
+msgstr "Su"
+
+#: includes/Initial_Setup.php:326
+msgid "version is below then 3.0, please update."
+msgstr "la versión es inferior, 3.0, por favor, actualice."
+
+#: includes/woocommerce/Account_Dashboard.php:45
+msgid "Crowdfunding Dashboard"
+msgstr "Crowdfunding Tablero De Instrumentos"
+
+#: includes/woocommerce/Account_Dashboard.php:46 shortcode/Dashboard.php:26
+msgid "Profile"
+msgstr "Perfil"
+
+#: includes/woocommerce/Account_Dashboard.php:47
+#: includes/woocommerce/dashboard/dashboard.php:19 shortcode/Dashboard.php:36
+msgid "My Campaigns"
+msgstr "Mis Campañas"
+
+#: includes/woocommerce/Account_Dashboard.php:48
+msgid "Backed Campaigns"
+msgstr "Copia De Campañas"
+
+#: includes/woocommerce/Account_Dashboard.php:49 shortcode/Dashboard.php:46
+msgid "Pledges Received"
+msgstr "Donaciones Recibidas"
+
+#: includes/woocommerce/Account_Dashboard.php:50 shortcode/Dashboard.php:51
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: includes/woocommerce/Actions.php:44 includes/woocommerce/Actions.php:76
+#: includes/woocommerce/Actions.php:128 includes/woocommerce/Actions.php:188
+msgid "Sorry, your nonce did not verify."
+msgstr "Lo sentimos, tu nonce no verificar."
+
+#: includes/woocommerce/Actions.php:67 includes/woocommerce/Actions.php:122
+#: includes/woocommerce/Actions.php:182 includes/woocommerce/Actions.php:238
+msgid "Successfully updated."
+msgstr "Actualizado correctamente."
+
+#: includes/woocommerce/Actions.php:69
+msgid "Error updating, please try again."
+msgstr "Error al actualizar, por favor, inténtelo de nuevo."
+
+#: includes/woocommerce/Actions.php:202
+msgid "Password successfully updated."
+msgstr "La contraseña correctamente actualizado."
+
+#: includes/woocommerce/Actions.php:205
+msgid "Error updating, please try again"
+msgstr "Error al actualizar, por favor intente de nuevo"
+
+#: includes/woocommerce/Actions.php:211 shortcode/Registration.php:155
+msgid "Sorry, your status did not verify."
+msgstr "Lo siento, su estatus no verificar."
+
+#: includes/woocommerce/Base.php:71
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/woocommerce/Base.php:72
+msgid "Support"
+msgstr "Apoyo"
+
+#: includes/woocommerce/Base.php:75
+msgid "Update Pro"
+msgstr "Actualización De Pro"
+
+#: includes/woocommerce/Base.php:91
+msgid ""
+"WP Crowdfunding will not work properly if you activate it from network, "
+"please deactivate from network and activate again from individual site admin."
+msgstr ""
+"WP Crowdfunding no funcionará correctamente si se activa desde la red, por "
+"favor, desactivar desde la red y activar de nuevo individuales de "
+"administración del sitio."
+
+#: includes/woocommerce/Base.php:162
+#, php-format
+msgid ""
+"If you like <strong>WP Crowdfunding</strong> please leave us a 5-stars %s "
+"rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/woocommerce/Base.php:162
+msgid "Thanks :)"
+msgstr "Gracias :)"
+
+#: includes/woocommerce/Base.php:170
+#, php-format
+msgid "Thank you for raise funds with <strong>WP Crowdfunding</strong> by %s."
+msgstr ""
+
+#: includes/woocommerce/Common.php:39 includes/woocommerce/Dashboard.php:225
+msgid "Please Sign In first"
+msgstr "Por favor, iniciar sesión por primera vez"
+
+#: includes/woocommerce/Common.php:52
+msgid "Campaign already loved"
+msgstr "Campaña con me gusta"
+
+#: includes/woocommerce/Common.php:60
+msgid "Loved campaign"
+msgstr "Me gusta campaña"
+
+#: includes/woocommerce/Common.php:81
+msgid "Campaign has been deleted"
+msgstr "La campaña ha sido eliminado"
+
+#: includes/woocommerce/Dashboard.php:26
+msgid "CrowdFunding Overview"
+msgstr "Descripción De CrowdFunding"
+
+#: includes/woocommerce/Dashboard.php:68
+msgid "Total Campaign"
+msgstr "Total De La Campaña"
+
+#: includes/woocommerce/Dashboard.php:69
+msgid "Completed Orders"
+msgstr "Los Pedidos Realizados"
+
+#: includes/woocommerce/Dashboard.php:70
+msgid "On-Hold Orders"
+msgstr "En Espera De Órdenes"
+
+#: includes/woocommerce/Dashboard.php:71
+msgid "Total Donation Raised"
+msgstr "La Donación Total Recaudado"
+
+#: includes/woocommerce/Dashboard.php:113
+msgid "Owner"
+msgstr "Propietario"
+
+#: includes/woocommerce/Dashboard.php:149
+msgid "Campaign Summary"
+msgstr "Resumen De Campañas"
+
+#: includes/woocommerce/Dashboard.php:161
+msgid "By"
+msgstr "Por"
+
+#: includes/woocommerce/Dashboard.php:171 shortcode/Submit_Form.php:233
+msgid "Start Date"
+msgstr "Fecha De Inicio"
+
+#: includes/woocommerce/Dashboard.php:176 shortcode/Submit_Form.php:243
+msgid "End Date"
+msgstr "Fecha De Fin"
+
+#: includes/woocommerce/Dashboard.php:181
+#: includes/woocommerce/dashboard/dashboard-campaign.php:77
+msgid "Goal"
+msgstr "Objetivo"
+
+#: includes/woocommerce/Dashboard.php:186
+msgid "Raised"
+msgstr "Criado"
+
+#: includes/woocommerce/Dashboard.php:213
+#: includes/woocommerce/Dashboard.php:271 includes/woocommerce/Reward.php:286
+#: includes/woocommerce/Reward.php:305
+msgid "Selected Reward"
+msgstr "Seleccionado Recompensa"
+
+#: includes/woocommerce/Dashboard.php:233
+msgid "Order ID"
+msgstr "IDENTIFICACIÓN de la orden"
+
+#: includes/woocommerce/Dashboard.php:234
+msgid "Order Date"
+msgstr "La Fecha De La Orden"
+
+#: includes/woocommerce/Dashboard.php:235
+msgid "Order Status"
+msgstr "Estado De La Orden De"
+
+#: includes/woocommerce/Dashboard.php:240
+msgid "Product"
+msgstr "Producto"
+
+#: includes/woocommerce/Dashboard.php:241
+#: includes/woocommerce/dashboard/dashboard-campaign.php:71
+#: includes/woocommerce/dashboard/investment.php:44
+#: includes/woocommerce/dashboard/order.php:54
+msgid "Total"
+msgstr "Total"
+
+#: includes/woocommerce/Dashboard.php:286
+msgid "Subtotal:"
+msgstr "Subtotal:"
+
+#: includes/woocommerce/Dashboard.php:291
+msgid "Payments Method:"
+msgstr "Los Pagos Método:"
+
+#: includes/woocommerce/Dashboard.php:296
+msgid "Total:"
+msgstr "Total:"
+
+#: includes/woocommerce/Dashboard.php:303
+msgid "Customer details"
+msgstr "Detalles del cliente"
+
+#: includes/woocommerce/Dashboard.php:307
+msgid "Note:"
+msgstr "Nota:"
+
+#: includes/woocommerce/Dashboard.php:313
+#: includes/woocommerce/dashboard/contact.php:277
+#: includes/woocommerce/dashboard/dashboard.php:46
+#: includes/woocommerce/dashboard/profile.php:112
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: includes/woocommerce/Dashboard.php:319
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#: includes/woocommerce/Dashboard.php:327
+msgid "Billing Address:"
+msgstr "Dirección De Facturación:"
+
+#: includes/woocommerce/Dashboard.php:329
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/woocommerce/Reward.php:25 includes/woocommerce/Reward.php:69
+#: shortcode/Submit_Form.php:413 shortcode/Submit_Form.php:494
+msgid "Reward"
+msgstr "Recompensa"
+
+#: includes/woocommerce/Reward.php:47 includes/woocommerce/Reward.php:50
+#: shortcode/Submit_Form.php:389 shortcode/Submit_Form.php:474
+#: shortcode/Submit_Form.php:477
+msgid "Pledge Amount"
+msgstr "Cantidad De Compromiso"
+
+#: includes/woocommerce/Reward.php:58 includes/woocommerce/Reward.php:61
+msgid "Image Field"
+msgstr "El Campo De La Imagen"
+
+#: includes/woocommerce/Reward.php:72 shortcode/Submit_Form.php:497
+msgid "Reward Description"
+msgstr "Recompensa Descripción"
+
+#: includes/woocommerce/Reward.php:79 shortcode/Submit_Form.php:422
+#: shortcode/Submit_Form.php:504
+msgid "Estimated Delivery Month"
+msgstr "Estimado De Entrega Mes"
+
+#: includes/woocommerce/Reward.php:83 includes/woocommerce/Reward.php:106
+#: shortcode/Submit_Form.php:425 shortcode/Submit_Form.php:441
+#: shortcode/Submit_Form.php:507 shortcode/Submit_Form.php:521
+msgid "- Select -"
+msgstr "- Seleccione -"
+
+#: includes/woocommerce/Reward.php:84 shortcode/Submit_Form.php:368
+msgid "January"
+msgstr "De enero"
+
+#: includes/woocommerce/Reward.php:85 shortcode/Submit_Form.php:369
+msgid "February"
+msgstr "Febrero"
+
+#: includes/woocommerce/Reward.php:86 shortcode/Submit_Form.php:370
+msgid "March"
+msgstr "De marzo de"
+
+#: includes/woocommerce/Reward.php:87 shortcode/Submit_Form.php:371
+msgid "April"
+msgstr "De abril de"
+
+#: includes/woocommerce/Reward.php:88 shortcode/Submit_Form.php:372
+msgid "May"
+msgstr "Puede"
+
+#: includes/woocommerce/Reward.php:89 shortcode/Submit_Form.php:373
+msgid "June"
+msgstr "De junio de"
+
+#: includes/woocommerce/Reward.php:90 shortcode/Submit_Form.php:374
+msgid "July"
+msgstr "Julio"
+
+#: includes/woocommerce/Reward.php:91 shortcode/Submit_Form.php:375
+msgid "August"
+msgstr "De agosto de"
+
+#: includes/woocommerce/Reward.php:92 shortcode/Submit_Form.php:376
+msgid "September"
+msgstr "Septiembre"
+
+#: includes/woocommerce/Reward.php:93 shortcode/Submit_Form.php:377
+msgid "October"
+msgstr "Octubre"
+
+#: includes/woocommerce/Reward.php:94 shortcode/Submit_Form.php:378
+msgid "November"
+msgstr "Noviembre"
+
+#: includes/woocommerce/Reward.php:95 shortcode/Submit_Form.php:379
+msgid "December"
+msgstr "De diciembre de"
+
+#: includes/woocommerce/Reward.php:102 shortcode/Submit_Form.php:438
+#: shortcode/Submit_Form.php:518
+msgid "Estimated Delivery Year"
+msgstr "Entrega Estimada Año"
+
+#: includes/woocommerce/Reward.php:107
+msgid "2019"
+msgstr "2019"
+
+#: includes/woocommerce/Reward.php:108
+msgid "2020"
+msgstr "2020"
+
+#: includes/woocommerce/Reward.php:109
+msgid "2021"
+msgstr "2021"
+
+#: includes/woocommerce/Reward.php:110
+msgid "2022"
+msgstr "2022"
+
+#: includes/woocommerce/Reward.php:111
+msgid "2023"
+msgstr "2023"
+
+#: includes/woocommerce/Reward.php:112
+msgid "2024"
+msgstr "2024"
+
+#: includes/woocommerce/Reward.php:113
+msgid "2025"
+msgstr "2025"
+
+#: includes/woocommerce/Reward.php:120 shortcode/Submit_Form.php:453
+#: shortcode/Submit_Form.php:536
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/woocommerce/Reward.php:123
+msgid "Number of Rewards(Physical Product)"
+msgstr "Número de Recompensas(Producto Físico)"
+
+#: includes/woocommerce/Reward.php:161 includes/woocommerce/Reward.php:214
+#: includes/woocommerce/dashboard/profile.php:40
+msgid "Upload"
+msgstr "Subir"
+
+#: includes/woocommerce/Reward.php:171 includes/woocommerce/Reward.php:223
+#: shortcode/Submit_Form.php:461 shortcode/Submit_Form.php:544
+msgid "- Remove"
+msgstr "- Quitar"
+
+#: includes/woocommerce/Reward.php:232 shortcode/Submit_Form.php:555
+msgid "pro version is required to add more than 1 reward"
+msgstr "la versión pro es necesario para agregar más de 1 recompensa"
+
+#: includes/woocommerce/Reward.php:232 shortcode/Submit_Form.php:555
+msgid "click here to get pro version"
+msgstr "haga clic aquí para obtener la versión pro"
+
+#: includes/woocommerce/Reward.php:237
+msgid "+ Add Reward"
+msgstr "+ Añadir Recompensa"
+
+#: includes/woocommerce/Reward.php:291 includes/woocommerce/Reward.php:309
+#: includes/woocommerce/Woocommerce.php:1050
+msgid "Amount"
+msgstr "Cantidad"
+
+#: includes/woocommerce/Reward.php:291
+msgid ", Delivery"
+msgstr ", Entrega"
+
+#: includes/woocommerce/Reward.php:310
+msgid "Delivery"
+msgstr "Entrega"
+
+#: includes/woocommerce/Submit_Form.php:36
+msgid "Sorry, your data did not verify."
+msgstr "Lo sentimos, sus datos no se verifique."
+
+#: includes/woocommerce/Submit_Form.php:46
+msgid "Title required"
+msgstr "Título requerido"
+
+#: includes/woocommerce/Submit_Form.php:49
+msgid "Description required"
+msgstr "Descripción se requiere"
+
+#: includes/woocommerce/Submit_Form.php:52
+msgid "Short Description required"
+msgstr "Descripción breve requiere"
+
+#: includes/woocommerce/Submit_Form.php:55
+msgid "Funding goal required"
+msgstr "Objetivo de financiación necesaria"
+
+#: includes/woocommerce/Submit_Form.php:58
+msgid "Please check terms condition"
+msgstr "Por favor, revise los términos de condición"
+
+#: includes/woocommerce/Submit_Form.php:180
+msgid "Campaign successfully submitted"
+msgstr "La campaña ha enviado correctamente"
+
+#: includes/woocommerce/Template_Hooks.php:142
+#: wpcftemplate/woocommerce/basic/include/tabs/story-tab.php:8
+msgid "Campaign Story"
+msgstr "Historia De La Campaña"
+
+#: includes/woocommerce/Template_Hooks.php:151
+msgid "Updates"
+msgstr "Actualizaciones"
+
+#: includes/woocommerce/Template_Hooks.php:162
+msgid "Backer List"
+msgstr "Donantes"
+
+#: includes/woocommerce/Template_Hooks.php:172
+#, php-format
+msgid "Reviews (%d)"
+msgstr "Comentarios (%d)"
+
+#: includes/woocommerce/Templating.php:224
+msgid "Error crowdfunding theme: "
+msgstr "Error de crowdfunding tema: "
+
+#: includes/woocommerce/Templating.php:267
+msgid "Select a Theme for Single and Listing Pages"
+msgstr "Seleccione un Tema para el Solo y las Páginas de Listado de"
+
+#: includes/woocommerce/Templating.php:271
+msgid "Select a theme"
+msgstr "Seleccione un tema"
+
+#: includes/woocommerce/Templating.php:281
+msgid "You have no valid theme"
+msgstr "Usted no tiene ninguna validez tema"
+
+#: includes/woocommerce/Woocommerce.php:148
+#: includes/woocommerce/Woocommerce.php:913
+msgid "Crowdfunding"
+msgstr "Crowdfunding"
+
+#: includes/woocommerce/Woocommerce.php:179
+msgid "Video Url"
+msgstr "La Dirección Url Del Vídeo"
+
+#: includes/woocommerce/Woocommerce.php:180
+msgid "Video url"
+msgstr "La dirección url del vídeo"
+
+#: includes/woocommerce/Woocommerce.php:181
+msgid "Enter a video url to show your video in campaign details page"
+msgstr ""
+"Introduzca la url de un vídeo para mostrar vídeo en la página de detalles de "
+"la campaña"
+
+#: includes/woocommerce/Woocommerce.php:189
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: includes/woocommerce/Woocommerce.php:190
+msgid "Start time of this campaign"
+msgstr "Tiempo de inicio de esta campaña"
+
+#: includes/woocommerce/Woocommerce.php:191
+msgid "Enter start of this campaign"
+msgstr "Introducir inicio de esta campaña"
+
+#: includes/woocommerce/Woocommerce.php:198
+msgid "End date"
+msgstr "Fecha de fin"
+
+#: includes/woocommerce/Woocommerce.php:199
+msgid "End time of this campaign"
+msgstr "Tiempo final de esta campaña"
+
+#: includes/woocommerce/Woocommerce.php:200
+msgid "Enter end time of this campaign"
+msgstr "Introduzca la hora de finalización de esta campaña"
+
+#: includes/woocommerce/Woocommerce.php:210
+#: includes/woocommerce/Woocommerce.php:211
+msgid "Minimum Price"
+msgstr "Precio Mínimo"
+
+#: includes/woocommerce/Woocommerce.php:212
+msgid "Enter the minimum price"
+msgstr "Introduzca el precio mínimo"
+
+#: includes/woocommerce/Woocommerce.php:222
+#: includes/woocommerce/Woocommerce.php:223
+msgid "Maximum Price"
+msgstr "Precio Máximo"
+
+#: includes/woocommerce/Woocommerce.php:224
+msgid "Enter the maximum price"
+msgstr "Introduzca el precio máximo"
+
+#: includes/woocommerce/Woocommerce.php:234
+#: includes/woocommerce/Woocommerce.php:235
+msgid "Recommended Price"
+msgstr "Con Un Precio Recomendado De"
+
+#: includes/woocommerce/Woocommerce.php:236
+msgid "Enter the recommended price"
+msgstr "Introduzca el precio de venta recomendado"
+
+#: includes/woocommerce/Woocommerce.php:246 shortcode/Submit_Form.php:297
+msgid "Predefined Pledge Amount"
+msgstr "Predefinidos Cantidad De Compromiso"
+
+#: includes/woocommerce/Woocommerce.php:247
+msgid "10,20,30,40"
+msgstr "10,20,30,40"
+
+#: includes/woocommerce/Woocommerce.php:248
+msgid ""
+"Predefined amount allow you to place the amount in donate box by click, "
+"example: <code>10,20,30,40</code>"
+msgstr ""
+
+#: includes/woocommerce/Woocommerce.php:259
+msgid "Funding goal"
+msgstr "Objetivo de recaudo"
+
+#: includes/woocommerce/Woocommerce.php:260
+msgid "Enter the funding goal"
+msgstr "Introducir el objetivo de la financiación"
+
+#: includes/woocommerce/Woocommerce.php:268 shortcode/Submit_Form.php:211
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:42
+msgid "Target Goal"
+msgstr "Meta"
+
+#: includes/woocommerce/Woocommerce.php:271 shortcode/Submit_Form.php:215
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:44
+msgid "Target Date"
+msgstr "La Fecha De La Meta"
+
+#: includes/woocommerce/Woocommerce.php:274 shortcode/Submit_Form.php:219
+msgid "Target Goal & Date"
+msgstr ""
+
+#: includes/woocommerce/Woocommerce.php:277 shortcode/Submit_Form.php:223
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:48
+msgid "Campaign Never Ends"
+msgstr "La Campaña No Termina Nunca"
+
+#: includes/woocommerce/Woocommerce.php:284 shortcode/Submit_Form.php:206
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:52
+msgid "Campaign End Method"
+msgstr "Finalización De La Campaña Método"
+
+#: includes/woocommerce/Woocommerce.php:285
+#: includes/woocommerce/Woocommerce.php:323
+#: includes/woocommerce/Woocommerce.php:324 shortcode/Submit_Form.php:331
+msgid "Country"
+msgstr "País"
+
+#: includes/woocommerce/Woocommerce.php:296
+msgid "Show Contributor Table"
+msgstr "Mostrar Colaborador De La Tabla"
+
+#: includes/woocommerce/Woocommerce.php:298
+msgid "Enable this option to display the contributors for this Campaign"
+msgstr "Active esta opción para mostrar los colaboradores para esta Campaña"
+
+#: includes/woocommerce/Woocommerce.php:306
+msgid "Mark Contributors as Anonymous"
+msgstr "Marca de Colaboradores Anónimos"
+
+#: includes/woocommerce/Woocommerce.php:308
+msgid ""
+"Enable this option to display the contributors Name as Anonymous for this "
+"Campaign"
+msgstr ""
+"Active esta opción para mostrar el Nombre de los contribuyentes como Anónimo "
+"para esta Campaña"
+
+#: includes/woocommerce/Woocommerce.php:334
+#: includes/woocommerce/Woocommerce.php:335 shortcode/Submit_Form.php:352
+msgid "Location"
+msgstr "Ubicación"
+
+#: includes/woocommerce/Woocommerce.php:336
+msgid "Location of this campaign"
+msgstr "La ubicación de esta campaña"
+
+#: includes/woocommerce/Woocommerce.php:346
+msgid "Campaign Update Status"
+msgstr "Campaña De Actualización De Estado"
+
+#: includes/woocommerce/Woocommerce.php:370
+#: includes/woocommerce/Woocommerce.php:410
+#: includes/woocommerce/dashboard/investment.php:42
+#: includes/woocommerce/dashboard/order.php:52
+#: includes/woocommerce/dashboard/update.php:31
+#: includes/woocommerce/dashboard/update.php:51
+#: includes/woocommerce/dashboard/update.php:95
+#: wpcftemplate/woocommerce/basic/include/tabs/baker-list-tab.php:14
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/woocommerce/Woocommerce.php:381
+#: includes/woocommerce/Woocommerce.php:421
+#: includes/woocommerce/dashboard/update.php:35
+#: includes/woocommerce/dashboard/update.php:36
+#: includes/woocommerce/dashboard/update.php:55
+#: includes/woocommerce/dashboard/update.php:56
+msgid "Update Title"
+msgstr "Título De La Actualización"
+
+#: includes/woocommerce/Woocommerce.php:384
+#: includes/woocommerce/Woocommerce.php:424
+msgid "Update title"
+msgstr "Título de la actualización"
+
+#: includes/woocommerce/Woocommerce.php:391
+#: includes/woocommerce/dashboard/update.php:39
+#: includes/woocommerce/dashboard/update.php:40
+#: includes/woocommerce/dashboard/update.php:59
+#: includes/woocommerce/dashboard/update.php:60
+msgid "Update Details"
+msgstr "Detalles De La Actualización"
+
+#: includes/woocommerce/Woocommerce.php:394
+msgid "Update details"
+msgstr "Detalles de la actualización"
+
+#: includes/woocommerce/Woocommerce.php:398
+#: includes/woocommerce/Woocommerce.php:441
+#: includes/woocommerce/dashboard/update.php:42
+#: includes/woocommerce/dashboard/update.php:62
+msgid "Remove"
+msgstr "Quitar"
+
+#: includes/woocommerce/Woocommerce.php:449
+msgid "+ Add Update"
+msgstr "+ Añadir Actualización"
+
+#: includes/woocommerce/Woocommerce.php:564
+msgid "This campaign has been end"
+msgstr "Esta campaña ha sido de final"
+
+#: includes/woocommerce/Woocommerce.php:800
+msgid "Make me anonymous"
+msgstr "Me hacen anónimo"
+
+#: includes/woocommerce/Woocommerce.php:856
+#: includes/woocommerce/Woocommerce.php:880
+msgid "Mark as Crowdfunding Category"
+msgstr "Marca como Crowdfunding Categoría"
+
+#: includes/woocommerce/Woocommerce.php:859
+#: includes/woocommerce/Woocommerce.php:883
+msgid "This check mark allow you to detect crowdfunding specific category,"
+msgstr ""
+"Esta marca de verificación le permiten detectar crowdfunding categoría "
+"específica,"
+
+#: includes/woocommerce/Woocommerce.php:869
+msgid "Is Crowdfunding Category"
+msgstr "Es El Crowdfunding Categoría"
+
+#: includes/woocommerce/Woocommerce.php:923
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/woocommerce/Woocommerce.php:963
+msgid "Date expired"
+msgstr "Fecha caducado"
+
+#: includes/woocommerce/Woocommerce.php:965
+msgid " days remaining"
+msgstr " días restantes"
+
+#: includes/woocommerce/Woocommerce.php:973
+msgid "Location: "
+msgstr "Ubicación: "
+
+#: includes/woocommerce/Woocommerce.php:979
+msgid "Funding Goal: "
+msgstr "Objetivo De Recaudo: "
+
+#: includes/woocommerce/Woocommerce.php:985
+msgid "Raised: "
+msgstr "Criado: "
+
+#: includes/woocommerce/Woocommerce.php:992
+msgid "Funded percent: "
+msgstr "Financiado por ciento: "
+
+#: includes/woocommerce/Woocommerce.php:1018
+msgid "Backed User"
+msgstr "Copia De Usuario"
+
+#: includes/woocommerce/Woocommerce.php:1047
+msgid "ID"
+msgstr "ID"
+
+#: includes/woocommerce/Woocommerce.php:1048
+#: wpcftemplate/woocommerce/basic/include/tabs/baker-list-tab.php:12
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/woocommerce/Woocommerce.php:1049 settings/view/Addons.php:130
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/woocommerce/Woocommerce.php:1078
+msgid "Sorry, no posts matched your criteria."
+msgstr "Lo sentimos, no hay puestos corresponde a sus criterios."
+
+#: includes/woocommerce/dashboard/bookmark.php:29
+#: includes/woocommerce/dashboard/update.php:96 shortcode/Submit_Form.php:108
+msgid "Title"
+msgstr "Título"
+
+#: includes/woocommerce/dashboard/bookmark.php:30
+msgid "Created Time"
+msgstr "Fecha de creación"
+
+#: includes/woocommerce/dashboard/bookmark.php:31
+#: includes/woocommerce/dashboard/rewards.php:41
+msgid "Action"
+msgstr "Acción"
+
+#: includes/woocommerce/dashboard/bookmark.php:38
+msgid "Created at"
+msgstr "Creado en"
+
+#: includes/woocommerce/dashboard/bookmark.php:39
+#: includes/woocommerce/dashboard/campaign.php:40
+#: includes/woocommerce/dashboard/investment.php:133
+#: includes/woocommerce/dashboard/order.php:99
+#: includes/woocommerce/dashboard/order.php:146
+msgid "View"
+msgstr "Ver"
+
+#: includes/woocommerce/dashboard/bookmark.php:47
+msgid "Sorry, No bookmark found."
+msgstr "Lo sentimos, No hay marcador encontrado."
+
+#: includes/woocommerce/dashboard/campaign.php:74
+msgid "Update"
+msgstr "Actualización"
+
+#: includes/woocommerce/dashboard/campaign.php:75
+#: includes/woocommerce/dashboard/contact.php:293
+#: includes/woocommerce/dashboard/dashboard.php:101
+#: includes/woocommerce/dashboard/profile.php:223
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/woocommerce/dashboard/campaign.php:79
+#: settings/tabs/Tab_General.php:48
+msgid "Draft"
+msgstr "Proyecto de"
+
+#: includes/woocommerce/dashboard/campaign.php:130
+#: includes/woocommerce/dashboard/dashboard-campaign.php:51
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:33
+#: wpcftemplate/woocommerce/basic/include/loop/time_remaining.php:17
+msgid "Days Until Launch"
+msgstr "Días Hasta El Lanzamiento"
+
+#: includes/woocommerce/dashboard/campaign.php:144
+#: includes/woocommerce/dashboard/dashboard-campaign.php:92
+msgid "Sorry, no Campaign Found."
+msgstr "Lo sentimos, no hay Campaña Encontrado."
+
+#: includes/woocommerce/dashboard/contact.php:39
+msgid "Shipping Address"
+msgstr "Dirección De Envío"
+
+#: includes/woocommerce/dashboard/contact.php:44
+#: includes/woocommerce/dashboard/contact.php:155
+#: includes/woocommerce/dashboard/dashboard.php:56
+#: includes/woocommerce/dashboard/profile.php:59
+msgid "First Name:"
+msgstr "Primer Nombre:"
+
+#: includes/woocommerce/dashboard/contact.php:55
+#: includes/woocommerce/dashboard/contact.php:166
+#: includes/woocommerce/dashboard/dashboard.php:66
+#: includes/woocommerce/dashboard/profile.php:66
+msgid "Last Name:"
+msgstr "Apellido:"
+
+#: includes/woocommerce/dashboard/contact.php:65
+#: includes/woocommerce/dashboard/contact.php:177
+msgid "Company:"
+msgstr "Empresa:"
+
+#: includes/woocommerce/dashboard/contact.php:75
+#: includes/woocommerce/dashboard/contact.php:188
+msgid "Address 1:"
+msgstr "Dirección 1:"
+
+#: includes/woocommerce/dashboard/contact.php:85
+#: includes/woocommerce/dashboard/contact.php:199
+msgid "Address 2:"
+msgstr "Dirección 2:"
+
+#: includes/woocommerce/dashboard/contact.php:95
+#: includes/woocommerce/dashboard/contact.php:210
+msgid "City:"
+msgstr "Ciudad:"
+
+#: includes/woocommerce/dashboard/contact.php:105
+#: includes/woocommerce/dashboard/contact.php:221
+msgid "Postcode:"
+msgstr "Código postal:"
+
+#: includes/woocommerce/dashboard/contact.php:115
+#: includes/woocommerce/dashboard/contact.php:232
+msgid "Country:"
+msgstr "País:"
+
+#: includes/woocommerce/dashboard/contact.php:121
+#: includes/woocommerce/dashboard/contact.php:238 shortcode/Submit_Form.php:335
+msgid "Select a country"
+msgstr "Seleccione un país"
+
+#: includes/woocommerce/dashboard/contact.php:138
+#: includes/woocommerce/dashboard/contact.php:255
+msgid "State:"
+msgstr "Estado:"
+
+#: includes/woocommerce/dashboard/contact.php:151
+msgid "Billing Address"
+msgstr "La Dirección De Facturación"
+
+#: includes/woocommerce/dashboard/contact.php:266
+msgid "Telephone:"
+msgstr "Teléfono:"
+
+#: includes/woocommerce/dashboard/contact.php:294
+#: includes/woocommerce/dashboard/dashboard.php:102
+#: includes/woocommerce/dashboard/password.php:45
+#: includes/woocommerce/dashboard/profile.php:224
+#: shortcode/Registration.php:137 shortcode/Submit_Form.php:588
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/woocommerce/dashboard/contact.php:295
+#: includes/woocommerce/dashboard/dashboard.php:103
+#: includes/woocommerce/dashboard/password.php:46
+#: includes/woocommerce/dashboard/profile.php:225
+#: includes/woocommerce/dashboard/update.php:77
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/woocommerce/dashboard/dashboard.php:32
+msgid "My Information"
+msgstr "Mi Información"
+
+#: includes/woocommerce/dashboard/dashboard.php:35
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: includes/woocommerce/dashboard/dashboard.php:76
+#: includes/woocommerce/dashboard/profile.php:132
+msgid "Website:"
+msgstr "Página web:"
+
+#: includes/woocommerce/dashboard/dashboard.php:86
+msgid "Bio:"
+msgstr "Bio:"
+
+#: includes/woocommerce/dashboard/dashboard.php:93
+msgid "Payment Info"
+msgstr "La Información De Pago"
+
+#: includes/woocommerce/dashboard/investment.php:41
+#: includes/woocommerce/dashboard/order.php:51
+#: includes/woocommerce/dashboard/rewards.php:39
+msgid "Order"
+msgstr "El fin de"
+
+#: includes/woocommerce/dashboard/investment.php:43
+#: includes/woocommerce/dashboard/order.php:53
+msgid "Status"
+msgstr "Estado"
+
+#: includes/woocommerce/dashboard/investment.php:45
+#: includes/woocommerce/dashboard/investment.php:123
+#: includes/woocommerce/dashboard/order.php:55
+#: includes/woocommerce/dashboard/order.php:133 shortcode/Dashboard.php:61
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:12
+msgid "Rewards"
+msgstr "Recompensas"
+
+#: includes/woocommerce/dashboard/investment.php:46
+#: includes/woocommerce/dashboard/order.php:56
+msgid "Actions"
+msgstr "Acciones"
+
+#: includes/woocommerce/dashboard/investment.php:87
+#: includes/woocommerce/dashboard/order.php:96
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: includes/woocommerce/dashboard/investment.php:97
+#: includes/woocommerce/dashboard/order.php:108
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s %s elemento"
+msgstr[1] "%s %s elementos"
+
+#: includes/woocommerce/dashboard/investment.php:144
+msgid "Sorry, No Backed Campaigns Data Found."
+msgstr "Lo Sentimos, No Hay Copia De Las Campañas De Los Datos Encontrados."
+
+#: includes/woocommerce/dashboard/order.php:157
+msgid "Sorry, No Pledges Received Data Found."
+msgstr ""
+"Lo Sentimos, No Hay Promesas De Contribuciones Recibidas De Los Datos "
+"Encontrados."
+
+#: includes/woocommerce/dashboard/password.php:11
+msgid "Current Password"
+msgstr "Contraseña Actual"
+
+#: includes/woocommerce/dashboard/password.php:22
+msgid "New Password"
+msgstr "Nueva Contraseña"
+
+#: includes/woocommerce/dashboard/password.php:32
+msgid "Retype Password"
+msgstr "Vuelva A Escribir La Contraseña"
+
+#: includes/woocommerce/dashboard/profile.php:26
+msgid "Profile Picture"
+msgstr "Imagen De Perfil"
+
+#: includes/woocommerce/dashboard/profile.php:35
+msgid "Profile Image:"
+msgstr "Imagen De Perfil:"
+
+#: includes/woocommerce/dashboard/profile.php:49
+msgid "Basic Info"
+msgstr "Información Básica"
+
+#: includes/woocommerce/dashboard/profile.php:51
+msgid "Name:"
+msgstr "Nombre:"
+
+#: includes/woocommerce/dashboard/profile.php:75
+msgid "About Us:"
+msgstr "Acerca De Nosotros:"
+
+#: includes/woocommerce/dashboard/profile.php:85
+msgid "User Bio:"
+msgstr "Usuario Bio:"
+
+#: includes/woocommerce/dashboard/profile.php:99
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:91
+msgid "Contact Info"
+msgstr "Información De Contacto"
+
+#: includes/woocommerce/dashboard/profile.php:102
+msgid "Mobile Number:"
+msgstr "Número De Móvil:"
+
+#: includes/woocommerce/dashboard/profile.php:122
+msgid "Fax:"
+msgstr "Fax:"
+
+#: includes/woocommerce/dashboard/profile.php:143
+msgid "Address:"
+msgstr "Dirección:"
+
+#: includes/woocommerce/dashboard/profile.php:155
+msgid "Social Profile"
+msgstr "Perfil Social"
+
+#: includes/woocommerce/dashboard/profile.php:159
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: includes/woocommerce/dashboard/profile.php:170
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: includes/woocommerce/dashboard/profile.php:181
+msgid "VK:"
+msgstr "VK:"
+
+#: includes/woocommerce/dashboard/profile.php:192
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: includes/woocommerce/dashboard/profile.php:203
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: includes/woocommerce/dashboard/rewards.php:40
+msgid "Campaign Name / Reward Amount"
+msgstr "Nombre De La Campaña / Recompensa Cantidad"
+
+#: includes/woocommerce/dashboard/rewards.php:65
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:63
+msgid "Estimated Delivery"
+msgstr "Estimado De Entrega"
+
+#: includes/woocommerce/dashboard/rewards.php:70 shortcode/Submit_Form.php:117
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/woocommerce/dashboard/rewards.php:73
+msgid "Backer info"
+msgstr "Respaldo de información"
+
+#: includes/woocommerce/dashboard/rewards.php:93
+msgid "View Details"
+msgstr "Ver Detalles"
+
+#: includes/woocommerce/dashboard/rewards.php:102
+msgid "There is no rewards selected by backer"
+msgstr "No hay recompensas seleccionado por el promotor"
+
+#: includes/woocommerce/dashboard/update.php:68
+#: includes/woocommerce/dashboard/update.php:109
+#: includes/woocommerce/dashboard/update.php:114
+msgid "Add Update"
+msgstr "Añadir Actualización"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:19
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:197
+msgid "1W"
+msgstr "1W"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:25
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:198
+msgid "2W"
+msgstr "2W"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:32
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:199
+msgid "1M"
+msgstr "1M"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:39
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:200
+msgid "3M"
+msgstr "3M"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:46
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:201
+msgid "6M"
+msgstr "6M"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:54
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:202
+msgid "1Y"
+msgstr "1Y"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:195
+msgid "Summary"
+msgstr "Resumen"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:209
+msgid "to"
+msgstr "a"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:211
+#: shortcode/Search.php:14 shortcode/Search.php:19
+msgid "Search"
+msgstr "Búsqueda"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:219
+msgid "Total Backed"
+msgstr "Total Respaldo"
+
+#: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:220
+msgid "Pledge Received"
+msgstr "Donativos Recibidos"
+
+#: settings/Admin_Menu.php:154 settings/Admin_Menu.php:160
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: settings/Admin_Menu.php:156
+msgid ""
+"Add-ons <span class=\"dashicons dashicons-star-filled\" style=\"color:"
+"#ef450b\"/>"
+msgstr ""
+
+#: settings/Admin_Menu.php:168 settings/Admin_Menu.php:169
+msgid "Settings"
+msgstr "Configuración"
+
+#: settings/Admin_Menu.php:189 settings/tabs/Tab_General.php:26
+msgid "General Settings"
+msgstr "Configuración General"
+
+#: settings/Admin_Menu.php:193
+msgid "Style"
+msgstr "Estilo"
+
+#: settings/Admin_Menu.php:201 settings/tabs/Tab_Woocommerce.php:18
+msgid "WooCommerce Settings"
+msgstr "La Configuración De WooCommerce"
+
+#: settings/Admin_Menu.php:214
+msgid "Settings have been Saved."
+msgstr "Los ajustes se han Guardado."
+
+#: settings/Admin_Menu.php:244
+msgid "Reset Settings"
+msgstr "Restablecimiento De La Configuración"
+
+#: settings/tabs/Tab_General.php:35
+msgid "Woocommerce"
+msgstr "Woocommerce"
+
+#: settings/tabs/Tab_General.php:37
+msgid "Funds Manager"
+msgstr "Administradora De Fondos De"
+
+#: settings/tabs/Tab_General.php:38
+msgid ""
+"Define the system you want to use to receive and manage the funds raised for "
+"your campaigns"
+msgstr ""
+"Definir el sistema que desea utilizar para recibir y administrar los fondos "
+"recaudados para sus campañas"
+
+#: settings/tabs/Tab_General.php:46
+msgid "Published"
+msgstr "Publicado"
+
+#: settings/tabs/Tab_General.php:47
+msgid "Pending Review"
+msgstr "Pendiente De Revisión"
+
+#: settings/tabs/Tab_General.php:50
+msgid "Default Campaign Status"
+msgstr "Predeterminado Estado De La Campaña"
+
+#: settings/tabs/Tab_General.php:51
+msgid "Default status of a campaign added by a user"
+msgstr "El estado predeterminado de una campaña añadido por usuario"
+
+#: settings/tabs/Tab_General.php:59
+msgid "Campaign remain publish"
+msgstr "Campaña de permanecer publicar"
+
+#: settings/tabs/Tab_General.php:60
+msgid "Required Review (Pending)"
+msgstr "Examen Requerido (Pendiente)"
+
+#: settings/tabs/Tab_General.php:61
+msgid "Required Review (Draft)"
+msgstr "Examen Requerido (Proyecto)"
+
+#: settings/tabs/Tab_General.php:63
+msgid "Campaign Edit Status"
+msgstr "La Campaña Del Estado De Edición"
+
+#: settings/tabs/Tab_General.php:64
+msgid ""
+"What will be campaign status when a campaign owner edit/update his own "
+"campaign"
+msgstr ""
+"¿Cuál será el estado de la campaña cuando una campaña propietario de "
+"edición/actualización de su propia campaña"
+
+#: settings/tabs/Tab_General.php:72
+msgid "Enable Minimum Price"
+msgstr "Habilitar El Precio Mínimo"
+
+#: settings/tabs/Tab_General.php:73
+msgid "Enable minimum price option on the campaign submission form"
+msgstr ""
+"Habilitar el precio mínimo de la opción en el formulario de presentación de "
+"la campaña"
+
+#: settings/tabs/Tab_General.php:81
+msgid "Enable Maximum Price"
+msgstr "Habilitar El Precio Máximo"
+
+#: settings/tabs/Tab_General.php:82
+msgid "Enable maximum price option on the campaign submission form"
+msgstr ""
+"Aumentar al máximo el precio de la opción en el formulario de presentación "
+"de la campaña"
+
+#: settings/tabs/Tab_General.php:90
+msgid "Enable Recommended Price"
+msgstr "Habilitar Un Precio Recomendado De"
+
+#: settings/tabs/Tab_General.php:91
+msgid "Enable recommended price option on the campaign submission form"
+msgstr ""
+"Habilitar un precio recomendado de la opción en el formulario de "
+"presentación de la campaña"
+
+#: settings/tabs/Tab_General.php:99 settings/tabs/Tab_General.php:108
+#: settings/tabs/Tab_General.php:117 settings/tabs/Tab_General.php:126
+#: settings/tabs/Tab_Woocommerce.php:29 settings/tabs/Tab_Woocommerce.php:48
+#: settings/tabs/Tab_Woocommerce.php:82 settings/tabs/Tab_Woocommerce.php:203
+#: settings/tabs/Tab_Woocommerce.php:216
+msgid "Enable/Disable"
+msgstr "Habilitar/Deshabilitar"
+
+#: settings/tabs/Tab_General.php:100
+msgid "Show Target Goal"
+msgstr "Mostrar Meta"
+
+#: settings/tabs/Tab_General.php:109
+msgid "Show Target Date"
+msgstr "Mostrar La Fecha De La Meta"
+
+#: settings/tabs/Tab_General.php:118
+msgid "Show Target Goal & Date"
+msgstr ""
+
+#: settings/tabs/Tab_General.php:127
+msgid "Show Campaign Never End"
+msgstr "Mostrar Campaña De Nunca Acabar"
+
+#: settings/tabs/Tab_General.php:135
+msgid "Select Dashboard Page"
+msgstr "Seleccione La Página Del Panel"
+
+#: settings/tabs/Tab_General.php:136
+msgid "Select a page for access crowdfunding frontend dashboard"
+msgstr "Seleccione una página para acceso de crowdfunding interfaz de panel"
+
+#: settings/tabs/Tab_General.php:144
+msgid "Select Campaign Submit Form"
+msgstr "Seleccione La Campaña De Envío De Formulario"
+
+#: settings/tabs/Tab_General.php:145
+msgid "Select a WooCommerce campaign submission form page"
+msgstr ""
+"Seleccione una de WooCommerce campaña formulario de presentación de la página"
+
+#: settings/tabs/Tab_General.php:154
+msgid "Campaign Creator"
+msgstr "Campaña Creador"
+
+#: settings/tabs/Tab_General.php:155
+msgid "Select roles that can enable frontend campaign submission form."
+msgstr ""
+"Seleccione los roles que puede habilitar la interfaz de campaña formulario "
+"de presentación."
+
+#: settings/tabs/Tab_General.php:170
+msgid "Redirect URL for User Registration Success"
+msgstr "URL de redireccionamiento para el Registro de Usuario de Éxito"
+
+#: settings/tabs/Tab_Style.php:8
+msgid "Style Settings"
+msgstr "La Configuración De Estilo De"
+
+#: settings/tabs/Tab_Style.php:17
+msgid "Enable Color Styling"
+msgstr "Habilitar El Color Estilo"
+
+#: settings/tabs/Tab_Style.php:18
+msgid "Enable color styling option for custom color layout."
+msgstr ""
+"Habilitar el color de estilo de la opción de color personalizado de diseño."
+
+#: settings/tabs/Tab_Style.php:25
+msgid "Color Scheme"
+msgstr "El Esquema De Color"
+
+#: settings/tabs/Tab_Style.php:26
+msgid "Select color scheme of plugins."
+msgstr "Seleccione el esquema de color de los complementos."
+
+#: settings/tabs/Tab_Style.php:34
+msgid "Button BG Color"
+msgstr "Botón Color de fondo"
+
+#: settings/tabs/Tab_Style.php:35
+msgid "Select button background color."
+msgstr "Botón de selección de color de fondo."
+
+#: settings/tabs/Tab_Style.php:43
+msgid "Button BG Hover Color"
+msgstr "Botón BG Hover Color"
+
+#: settings/tabs/Tab_Style.php:44
+msgid "Select button background hover color."
+msgstr "Seleccione el botón de fondo hover color."
+
+#: settings/tabs/Tab_Style.php:52
+msgid "Button Text Color"
+msgstr "El Texto De Los Botones De Color"
+
+#: settings/tabs/Tab_Style.php:53
+msgid "Select button text color."
+msgstr "Botón seleccionar el color del texto."
+
+#: settings/tabs/Tab_Style.php:61
+msgid "Button Text Hover Color"
+msgstr "El Texto De Los Botones Hover Color"
+
+#: settings/tabs/Tab_Style.php:62
+msgid "Select button text hover color."
+msgstr "Seleccione el botón de texto hover color."
+
+#: settings/tabs/Tab_Style.php:70
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: settings/tabs/Tab_Style.php:71
+msgid "Put custom CSS here."
+msgstr "Poner CSS personalizado aquí."
+
+#: settings/tabs/Tab_Woocommerce.php:19
+msgid "All settings related to WooCommerce"
+msgstr "Todos los ajustes relacionados con WooCommerce"
+
+#: settings/tabs/Tab_Woocommerce.php:28
+msgid "Hide Crowdfunding Campaign From Shop Page"
+msgstr "Ocultar La Campaña De Crowdfunding De La Página De La Tienda"
+
+#: settings/tabs/Tab_Woocommerce.php:47
+msgid "Hide Billing Address From Checkout Page"
+msgstr "Ocultar Dirección De Facturación En La Página De Pago"
+
+#: settings/tabs/Tab_Woocommerce.php:56
+msgid "Select Listing Page"
+msgstr "Seleccione La Página Con La Lista"
+
+#: settings/tabs/Tab_Woocommerce.php:57
+msgid "Select Crowdfunding Product Listing Page."
+msgstr "Seleccione El Crowdfunding Del Producto Página Del Listado."
+
+#: settings/tabs/Tab_Woocommerce.php:65
+msgid "Select Registration Page"
+msgstr "Seleccione La Página De Registro"
+
+#: settings/tabs/Tab_Woocommerce.php:66
+msgid "Select Crowdfunding Registration Page."
+msgstr "Seleccione El Crowdfunding Página De Registro."
+
+#: settings/tabs/Tab_Woocommerce.php:72
+msgid "Categories Settings"
+msgstr "Categorías De Configuración"
+
+#: settings/tabs/Tab_Woocommerce.php:73
+msgid "Exclude or include WooCommerce product categories."
+msgstr "Excluir o incluir WooCommerce categorías de productos."
+
+#: settings/tabs/Tab_Woocommerce.php:81
+msgid "Separate Crowdfunding Categories"
+msgstr "Aparte De Crowdfunding Categorías"
+
+#: settings/tabs/Tab_Woocommerce.php:88
+msgid "Submit Form Text Settings"
+msgstr "Presentar El Formulario De Configuración De Texto"
+
+#: settings/tabs/Tab_Woocommerce.php:89
+msgid "All settings related to Submit Form Text."
+msgstr "Todos los ajustes relacionados a Presentar el Formulario de Texto."
+
+#: settings/tabs/Tab_Woocommerce.php:97
+msgid "Submit Form Requirement Title"
+msgstr "Presentar El Formulario Requisito De Título"
+
+#: settings/tabs/Tab_Woocommerce.php:98
+msgid "Additional title for Submit Form Requirement Title goes here."
+msgstr ""
+"Título adicional para Presentar el Formulario Requisito de Título va aquí."
+
+#: settings/tabs/Tab_Woocommerce.php:107
+msgid "Submit Form Requirement Text"
+msgstr "Presentar El Formulario De Requerimiento De Texto"
+
+#: settings/tabs/Tab_Woocommerce.php:108
+msgid "Additional text for Submit Form Requirement goes here."
+msgstr "Texto adicional para Presentar el Formulario Requisito entra aquí."
+
+#: settings/tabs/Tab_Woocommerce.php:116
+msgid "Submit Form Agree Title"
+msgstr "Presentar El Formulario De Acuerdo Del Título"
+
+#: settings/tabs/Tab_Woocommerce.php:117
+msgid "The checkmark text for agreeing with terms and conditions."
+msgstr ""
+"La marca de selección de texto para estar de acuerdo con los términos y "
+"condiciones."
+
+#: settings/tabs/Tab_Woocommerce.php:124
+msgid "Button Submit Action of \"Back This Campaign\" "
+msgstr "Botón de Acción de Enviar de Vuelta de Esta Campaña\" "
+
+#: settings/tabs/Tab_Woocommerce.php:125
+msgid ""
+"This action will determine where to redirect after clicking on “Back This "
+"Campaign” button of campaign single page."
+msgstr ""
+"Esta acción va a determinar dónde redirigir después de hacer clic en "
+"\"Volver a Esta Campaña\" botón de campaña de una sola página."
+
+#: settings/tabs/Tab_Woocommerce.php:131
+msgid "Listing Page Settings"
+msgstr "Listado De La Configuración De La Página"
+
+#: settings/tabs/Tab_Woocommerce.php:140 settings/tabs/Tab_Woocommerce.php:192
+msgid "2"
+msgstr "2"
+
+#: settings/tabs/Tab_Woocommerce.php:141
+msgid "3"
+msgstr "3"
+
+#: settings/tabs/Tab_Woocommerce.php:142
+msgid "4"
+msgstr "4"
+
+#: settings/tabs/Tab_Woocommerce.php:144
+msgid "Number of Columns in a Row"
+msgstr "Número de Columnas en una Fila"
+
+#: settings/tabs/Tab_Woocommerce.php:145
+msgid "Number of Columns in your Listing Page"
+msgstr "Número de Columnas en la Página de Listado de"
+
+#: settings/tabs/Tab_Woocommerce.php:155
+msgid "Number of Words Shown in Listing Description"
+msgstr "El número de Palabras que se Muestran en el Listado Descripción"
+
+#: settings/tabs/Tab_Woocommerce.php:165
+msgid "Product Number"
+msgstr "Número De Producto"
+
+#: settings/tabs/Tab_Woocommerce.php:171
+msgid "Single Page Settings"
+msgstr "Solo La Configuración De La Página"
+
+#: settings/tabs/Tab_Woocommerce.php:180
+msgid "In WP Crowdfunding own template"
+msgstr "En la nota WP Crowdfunding propia plantilla"
+
+#: settings/tabs/Tab_Woocommerce.php:181
+msgid "In WooCommerce Default"
+msgstr "En WooCommerce Por Defecto"
+
+#: settings/tabs/Tab_Woocommerce.php:183
+msgid "Template for campaign single page"
+msgstr "Plantilla para la campaña de una sola página"
+
+#: settings/tabs/Tab_Woocommerce.php:191
+msgid "1"
+msgstr "1"
+
+#: settings/tabs/Tab_Woocommerce.php:194
+msgid "Select Style for Rewards"
+msgstr "Seleccione el Estilo de Recompensas"
+
+#: settings/tabs/Tab_Woocommerce.php:202
+msgid "Set fixed price instead of range on Rewards"
+msgstr "Establecer precios fijos en lugar de rango en Premios"
+
+#: settings/tabs/Tab_Woocommerce.php:208
+msgid "Tax Settings"
+msgstr "Configuración De Impuestos"
+
+#: settings/tabs/Tab_Woocommerce.php:217
+msgid "Enable Tax in Crowdfunding Products"
+msgstr "Habilitar Impuesto en el Crowdfunding Productos"
+
+#: settings/view/Addons.php:3
+msgid "Addons List"
+msgstr "Complementos De La Lista"
+
+#: settings/view/Addons.php:122
+msgid "2Checkout"
+msgstr "2Checkout"
+
+#: settings/view/Addons.php:123
+msgid "Offer 2Checkout.com payment gateway option for all transactions."
+msgstr ""
+"Oferta 2Checkout.com pasarela de pago opción para todas las transacciones."
+
+#: settings/view/Addons.php:126
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#: settings/view/Addons.php:127
+msgid "Provide Authorize.net payment gateway option for users."
+msgstr ""
+"Proporcionar Authorize.net pasarela de pago de la opción para los usuarios."
+
+#: settings/view/Addons.php:131
+msgid ""
+"Connect with users through customizable email templates using Email addon."
+msgstr ""
+"Conectar con los usuarios a través de correo electrónico personalizables "
+"plantillas de Correo electrónico en uso addon."
+
+#: settings/view/Addons.php:134
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: settings/view/Addons.php:135
+msgid "Secure your site from bots and other identity threats with reCAPTCHA."
+msgstr "Proteger su sitio de bots y otros robos de identidad con reCAPTCHA."
+
+#: settings/view/Addons.php:138
+msgid "Reports"
+msgstr "Informes"
+
+#: settings/view/Addons.php:139
+msgid ""
+"Get detailed analytics & stats using advanced filters with powerful reports."
+msgstr ""
+
+#: settings/view/Addons.php:142
+msgid "Stripe connect"
+msgstr "Raya conectar"
+
+#: settings/view/Addons.php:143
+msgid ""
+"Enable Stripe Connect payment gateways to boost donations of your campaigns."
+msgstr ""
+"Habilitar la Raya Conectar pasarelas de pago para impulsar las donaciones de "
+"sus campañas."
+
+#: settings/view/Addons.php:146
+msgid "Wallet"
+msgstr "Cartera"
+
+#: settings/view/Addons.php:147
+msgid ""
+"Support native payment system for all donations using the native wallet "
+"addon."
+msgstr ""
+"El soporte nativo de sistema de pago por todas las donaciones mediante el "
+"nativo de la cartera addon."
+
+#: settings/view/Addons.php:181
+msgid "Buy Now"
+msgstr "Comprar Ahora"
+
+#: shortcode/Dashboard.php:21
+msgid "Dashboard"
+msgstr "Tablero de instrumentos"
+
+#: shortcode/Dashboard.php:31
+msgid "Contact"
+msgstr "Contacto"
+
+#: shortcode/Dashboard.php:41
+msgid "My Invested Campaigns"
+msgstr "Campañas Donadas"
+
+#: shortcode/Dashboard.php:56
+msgid "Password"
+msgstr "Contraseña"
+
+#: shortcode/Dashboard.php:94
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: shortcode/Dashboard.php:97
+msgid "Logout"
+msgstr "Cierre de sesión"
+
+#: shortcode/Dashboard.php:100
+#: wpcftemplate/woocommerce/basic/include/creator-info.php:27
+msgid "Campaigns"
+msgstr "Campañas"
+
+#: shortcode/Dashboard.php:106
+msgid "Add New Campaign"
+msgstr "Agregar Nueva Campaña"
+
+#: shortcode/Dashboard.php:135
+msgid "Please log in first?"
+msgstr "Por favor, inicie sesión en primera?"
+
+#: shortcode/Dashboard.php:135
+msgid "Click here to login"
+msgstr "Haga clic aquí para iniciar sesión"
+
+#: shortcode/Donate.php:19
+#: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:51
+msgid "Back Campaign"
+msgstr "Apoyar Campaña"
+
+#: shortcode/Donate.php:23
+msgid "Campaign ID required"
+msgstr "Campaña de IDENTIFICACIÓN"
+
+#: shortcode/Donate.php:28
+msgid "Invalid Campaign ID"
+msgstr "Invalid ID de Campaña"
+
+#: shortcode/Registration.php:18
+msgid "You are already logged in."
+msgstr "Usted ya está registrado."
+
+#: shortcode/Registration.php:29
+msgid "First Name"
+msgstr "Primer Nombre"
+
+#: shortcode/Registration.php:31
+msgid "Enter First Name"
+msgstr "Ingrese El Primer Nombre"
+
+#: shortcode/Registration.php:39
+msgid "Last Name"
+msgstr "Apellido"
+
+#: shortcode/Registration.php:41
+msgid "Enter Last Name"
+msgstr "Introducir El Último Nombre"
+
+#: shortcode/Registration.php:49
+msgid "Username *"
+msgstr ""
+
+#: shortcode/Registration.php:51
+msgid "Enter Username"
+msgstr "Ingresa El Nombre De Usuario"
+
+#: shortcode/Registration.php:59
+msgid "Password *"
+msgstr ""
+
+#: shortcode/Registration.php:61
+msgid "Enter Password"
+msgstr "Introduzca La Contraseña"
+
+#: shortcode/Registration.php:68
+msgid "Email *"
+msgstr ""
+
+#: shortcode/Registration.php:70
+msgid "Enter Email"
+msgstr "Ingresa Tu Correo Electrónico"
+
+#: shortcode/Registration.php:78
+msgid "Website"
+msgstr "Sitio web"
+
+#: shortcode/Registration.php:80
+msgid "Enter Website"
+msgstr "Escriba Sitio Web"
+
+#: shortcode/Registration.php:88
+msgid "Nickname"
+msgstr "Apodo"
+
+#: shortcode/Registration.php:90
+msgid "Enter Nickname"
+msgstr "Introduzca Apodo"
+
+#: shortcode/Registration.php:98
+msgid "About / Bio"
+msgstr "Acerca De / Bio"
+
+#: shortcode/Registration.php:100
+msgid "Enter About / Bio"
+msgstr "Escribir Acerca De / Bio"
+
+#: shortcode/Registration.php:140
+msgid "Sign UP"
+msgstr "Regístrate"
+
+#: shortcode/Registration.php:198
+msgid "Registration complete."
+msgstr "El registro completo."
+
+#: shortcode/Registration.php:203 shortcode/Registration.php:212
+msgid "ERROR"
+msgstr "ERROR"
+
+#: shortcode/Registration.php:224
+msgid "Required form field is missing"
+msgstr "Se requiere de campo de formulario falta"
+
+#: shortcode/Registration.php:228
+msgid "Username too short. At least 4 characters is required"
+msgstr "Nombre de usuario demasiado corto. Al menos 4 caracteres es necesario"
+
+#: shortcode/Registration.php:232
+msgid "Sorry, that username already exists!"
+msgstr "Lo siento, el nombre de usuario ya existe!"
+
+#: shortcode/Registration.php:235
+msgid "Sorry, the username you entered is not valid"
+msgstr "Lo siento, el nombre de usuario ingresado no es válido"
+
+#: shortcode/Registration.php:239
+msgid "Password length must be greater than 6"
+msgstr "La longitud de la contraseña debe ser mayor que 6"
+
+#: shortcode/Registration.php:243
+msgid "Email is not valid"
+msgstr "El correo electrónico no es válido"
+
+#: shortcode/Registration.php:247
+msgid "Email Already in use"
+msgstr "Correo electrónico Ya está en uso"
+
+#: shortcode/Registration.php:252
+msgid "Website is not a valid URL"
+msgstr "Sitio web no es una URL válida"
+
+#: shortcode/Submit_Form.php:32
+msgid "Not Found"
+msgstr "No Se Encuentra"
+
+#: shortcode/Submit_Form.php:34
+msgid "This is somewhat embarrassing, isn’t it?"
+msgstr "Esto es algo embarazoso, ¿no?"
+
+#: shortcode/Submit_Form.php:35
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Parece que nada se encuentra en esta ubicación. Tal vez intente una búsqueda?"
+
+#: shortcode/Submit_Form.php:90
+msgid "Please log in first."
+msgstr "Por favor, inicie sesión en primera."
+
+#: shortcode/Submit_Form.php:90
+msgid "Click here to login."
+msgstr "Haga clic aquí para iniciar la sesión."
+
+#: shortcode/Submit_Form.php:98
+msgid ""
+"You do not have permission to create a new campaign. Please contact the "
+"website administrator."
+msgstr ""
+"Usted no tiene permiso para crear una nueva campaña. Póngase en contacto con "
+"el administrador del sitio web."
+
+#: shortcode/Submit_Form.php:111
+msgid "Put the campaign title here"
+msgstr "Poner el título de la campaña aquí"
+
+#: shortcode/Submit_Form.php:122
+msgid "Put the campaign description here"
+msgstr "Poner la descripción de la campaña aquí"
+
+#: shortcode/Submit_Form.php:129
+msgid "Short Description"
+msgstr "Breve Descripción"
+
+#: shortcode/Submit_Form.php:134
+msgid "Put Here Product Short Description"
+msgstr "Poner Aquí Una Breve Descripción Del Producto"
+
+#: shortcode/Submit_Form.php:140
+msgid "Category"
+msgstr "Categoría"
+
+#: shortcode/Submit_Form.php:165
+msgid "At First Select Crowdfunding Category"
+msgstr "En Primer Lugar Seleccione El Crowdfunding Categoría"
+
+#: shortcode/Submit_Form.php:168
+msgid "Select your campaign category"
+msgstr "Seleccione su campaña categoría"
+
+#: shortcode/Submit_Form.php:175 shortcode/Submit_Form.php:177
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: shortcode/Submit_Form.php:178
+msgid "Separate tags with commas eg: tag1,tag2"
+msgstr "Separar las etiquetas con comas, por ejemplo: tag1,tag2"
+
+#: shortcode/Submit_Form.php:185
+msgid "Feature Image"
+msgstr "Característica De La Imagen"
+
+#: shortcode/Submit_Form.php:189 shortcode/Submit_Form.php:406
+#: shortcode/Submit_Form.php:487
+msgid "Upload Image"
+msgstr "Subir Imagen"
+
+#: shortcode/Submit_Form.php:190
+msgid "Upload a campaign feature image"
+msgstr "Subir una función campaña de imagen"
+
+#: shortcode/Submit_Form.php:197
+msgid "Video"
+msgstr "Video"
+
+#: shortcode/Submit_Form.php:199
+msgid "https://"
+msgstr "https://"
+
+#: shortcode/Submit_Form.php:200
+msgid "Put the campaign video URL here"
+msgstr "Poner el vídeo de la campaña URL aquí"
+
+#: shortcode/Submit_Form.php:226
+msgid "Choose the stage when campaign will end"
+msgstr "Elegir el escenario cuando la campaña de final de la"
+
+#: shortcode/Submit_Form.php:236
+msgid "Campaign start date (dd-mm-yy)"
+msgstr "Campaña de la fecha de inicio (dd-mm-aa)"
+
+#: shortcode/Submit_Form.php:246
+msgid "Campaign end date (dd-mm-yy)"
+msgstr "Campaña de la fecha final (dd-mm-aa)"
+
+#: shortcode/Submit_Form.php:254
+msgid "Minimum Amount"
+msgstr "Cantidad Mínima"
+
+#: shortcode/Submit_Form.php:257
+msgid "Minimum campaign funding amount"
+msgstr "Mínimo de la campaña de la cantidad de financiamiento"
+
+#: shortcode/Submit_Form.php:266
+msgid "Maximum Amount"
+msgstr "Cantidad Máxima"
+
+#: shortcode/Submit_Form.php:269
+msgid "Maximum campaign funding amount"
+msgstr "Máximo de la campaña de la cantidad de financiamiento"
+
+#: shortcode/Submit_Form.php:280
+msgid "Campaign funding goal"
+msgstr "El financiamiento de las campañas meta"
+
+#: shortcode/Submit_Form.php:287
+msgid "Recommended Amount"
+msgstr "Cantidad Recomendada"
+
+#: shortcode/Submit_Form.php:290
+msgid "Recommended campaign funding amount"
+msgstr "Se recomienda el financiamiento de las campañas cantidad"
+
+#: shortcode/Submit_Form.php:300
+msgid ""
+"Predefined amount allow you to place the amount in donate box by click, "
+"price should separated by comma (,), example: <code>10,20,30,40</code>"
+msgstr ""
+
+#: shortcode/Submit_Form.php:311
+msgid "Contributor Table"
+msgstr "Colaborador De La Tabla"
+
+#: shortcode/Submit_Form.php:315
+msgid "Show contributor table on campaign single page"
+msgstr "Mostrar colaborador de mesa en la campaña de una sola página"
+
+#: shortcode/Submit_Form.php:321
+msgid "Contributor Anonymity"
+msgstr "Colaborador Anonimato"
+
+#: shortcode/Submit_Form.php:325
+msgid "Make contributors anonymous on the contributor table"
+msgstr "Hacer que los colaboradores anónimos al contribuyente de la tabla"
+
+#: shortcode/Submit_Form.php:345
+msgid "Select your country"
+msgstr "Seleccione su país"
+
+#: shortcode/Submit_Form.php:355
+msgid "Put the campaign location here"
+msgstr "Poner la campaña de ubicación aquí"
+
+#: shortcode/Submit_Form.php:364
+msgid "Reward Option"
+msgstr "Recompensa Opción"
+
+#: shortcode/Submit_Form.php:392
+msgid "Put the pledge amount here"
+msgstr "Poner la cantidad de compromiso aquí"
+
+#: shortcode/Submit_Form.php:398 shortcode/Submit_Form.php:483
+msgid "Reward Image"
+msgstr "La Recompensa De La Imagen"
+
+#: shortcode/Submit_Form.php:407 shortcode/Submit_Form.php:488
+msgid "Upload a reward image"
+msgstr "Subir una recompensa de imagen"
+
+#: shortcode/Submit_Form.php:416
+msgid "Put the reward description here"
+msgstr "Poner la recompensa descripción aquí"
+
+#: shortcode/Submit_Form.php:432 shortcode/Submit_Form.php:512
+msgid "Estimated Delivery Month of the Reward"
+msgstr "Estimado Mes de Entrega de la Recompensa"
+
+#: shortcode/Submit_Form.php:447 shortcode/Submit_Form.php:530
+msgid "Estimated Delivery Year of the Reward"
+msgstr "Entrega estimada el Año de la Recompensa"
+
+#: shortcode/Submit_Form.php:456 shortcode/Submit_Form.php:539
+msgid "Quantity of physical products"
+msgstr "La cantidad de productos físicos"
+
+#: shortcode/Submit_Form.php:560
+msgid "+ Add"
+msgstr "+ Agregar"
+
+#: shortcode/Submit_Form.php:587
+msgid "Submit campaign"
+msgstr "Presentar la campaña"
+
+#: wpcftemplate/woocommerce/basic/author-campaigns.php:15
+msgid "Campaigns by Author"
+msgstr "Las campañas realizadas por el Autor"
+
+#: wpcftemplate/woocommerce/basic/include/creator-info.php:27
+msgid "Loved campaigns"
+msgstr "Me gusta en campañas"
+
+#: wpcftemplate/woocommerce/basic/include/creator-info.php:31
+msgid "See full bio"
+msgstr "Ver la biografía completa"
+
+#: wpcftemplate/woocommerce/basic/include/description.php:10
+msgid "Short Story"
+msgstr "Cuento Corto"
+
+#: wpcftemplate/woocommerce/basic/include/feature-image.php:40
+msgid "Awaiting product image"
+msgstr "A la espera de la imagen del producto"
+
+#: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:27
+msgid "Minimum amount is "
+msgstr "Cantidad mínima es de "
+
+#: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:28
+msgid "Maximum amount is "
+msgstr "El monto máximo es de "
+
+#: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:60
+msgid "The campaign is successful."
+msgstr "La campaña es exitosa."
+
+#: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:62
+msgid "This campaign has been invalid or not started yet."
+msgstr "Esta campaña ha sido nula o no se ha iniciado todavía."
+
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:15
+msgid "Not Set"
+msgstr "No Se Establece"
+
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:23
+msgid "Funds Raised"
+msgstr "Los Fondos Recaudados"
+
+#: wpcftemplate/woocommerce/basic/include/fund-raised.php:46
+msgid "Goal and Date"
+msgstr "Objetivo y Fecha"
+
+#: wpcftemplate/woocommerce/basic/include/loop/no-campaigns-found.php:5
+msgid "No campaigns found here."
+msgstr "No hay campañas que se encuentran aquí."
+
+#: wpcftemplate/woocommerce/basic/include/loop/thumbnail.php:9
+msgid "View Campaign"
+msgstr "Vista De La Campaña"
+
+#: wpcftemplate/woocommerce/basic/include/pagination.php:17
+msgid "Prev"
+msgstr "Prev"
+
+#: wpcftemplate/woocommerce/basic/include/pagination.php:18
+msgid "Next"
+msgstr "Siguiente"
+
+#: wpcftemplate/woocommerce/basic/include/social-share.php:20
+#: wpcftemplate/woocommerce/basic/include/social-share.php:82
+msgid "Share: "
+msgstr "Compartir: "
+
+#: wpcftemplate/woocommerce/basic/include/tabs/baker-list-tab.php:13
+msgid "Donate Amount"
+msgstr "Donar La Cantidad"
+
+#: wpcftemplate/woocommerce/basic/include/tabs/baker-list-tab.php:35
+#: wpcftemplate/woocommerce/basic/include/tabs/baker-list-tab.php:39
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:45
+msgid " or more"
+msgstr " o más"
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:76
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:93
+msgid "Reward no longer available."
+msgstr "La recompensa ya no está disponible."
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:84
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:101
+msgid "Select Reward"
+msgstr "Seleccione Recompensa"
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:113
+msgid "Campaign already completed."
+msgstr "La campaña ya se ha completado."
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:116
+msgid "Reward is not valid."
+msgstr "La recompensa no es válido."
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:118
+msgid "Campaign is not started."
+msgstr "La campaña no se ha iniciado."
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:130
+msgid "backers"
+msgstr "patrocinadores"
+
+#: wpcftemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:136
+msgid " rewards left"
+msgstr " premios a la izquierda"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:7
+msgid "Campaigns by: "
+msgstr "Campañas: "
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:73
+msgid " Campaigns"
+msgstr " Campañas"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:73
+msgid " Loved campaigns"
+msgstr "Me gusta en campañas"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:78
+msgid "Profile Information"
+msgstr "La Información De Perfil"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:85
+msgid "Portfolio"
+msgstr "Cartera"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:93
+msgid "Email: "
+msgstr "Correo electrónico: "
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:96
+msgid "Phone: "
+msgstr "Teléfono: "
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:99
+msgid "Fax: "
+msgstr "Fax: "
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:102
+msgid "Website: "
+msgstr "Página web: "
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:105
+msgid "Contact Me"
+msgstr "Póngase En Contacto Conmigo"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:110
+msgid "Social Link"
+msgstr "Enlace Social"
+
+#: wpcftemplate/woocommerce/basic/wpneo-functions.php:128
+msgid "About the campaign creator"
+msgstr "Acerca de la campaña creador"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Crowdfunding"
+msgstr "WP Crowdfunding"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.themeum.com/product/wp-crowdfunding-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The Ultimate Fundraising and Backer Plugin for WordPress."
+msgstr ""
+"El Último de Recaudación de fondos y de Soporte de plugins para WordPress."
+
+#. Author of the plugin/theme
+msgid "Themeum"
+msgstr "Themeum"
+
+#. Author URI of the plugin/theme
+msgid "https://themeum.com"
+msgstr ""

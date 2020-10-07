@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-08-20 22:18+0000\n"
+"PO-Revision-Date: 2020-10-07 14:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Progreso"
 #: wpcftemplate/woocommerce/basic/include/fund-raised.php:19
 #: wpcftemplate/woocommerce/basic/include/loop/funding_goal.php:9
 msgid "Funding Goal"
-msgstr "Objetivo De Financiación"
+msgstr "Objetivo De Recaudo"
 
 #: addons/social-share/classes/Init.php:176
 #: includes/woocommerce/dashboard/campaign.php:116
@@ -232,7 +232,7 @@ msgstr "Copia De Campañas"
 
 #: includes/woocommerce/Account_Dashboard.php:49 shortcode/Dashboard.php:46
 msgid "Pledges Received"
-msgstr "Promesas De Contribuciones Recibidas"
+msgstr "Donaciones Recibidas"
 
 #: includes/woocommerce/Account_Dashboard.php:50 shortcode/Dashboard.php:51
 msgid "Bookmarks"
@@ -307,11 +307,11 @@ msgstr "Por favor, iniciar sesión por primera vez"
 
 #: includes/woocommerce/Common.php:52
 msgid "Campaign already loved"
-msgstr "La campaña ha amado"
+msgstr "Campaña con me gusta"
 
 #: includes/woocommerce/Common.php:60
 msgid "Loved campaign"
-msgstr "Amado campaña"
+msgstr "Me gusta campaña"
 
 #: includes/woocommerce/Common.php:81
 msgid "Campaign has been deleted"
@@ -628,7 +628,7 @@ msgstr "Actualizaciones"
 
 #: includes/woocommerce/Template_Hooks.php:162
 msgid "Backer List"
-msgstr "Promotor Lista"
+msgstr "Donantes"
 
 #: includes/woocommerce/Template_Hooks.php:172
 #, php-format
@@ -737,7 +737,7 @@ msgstr ""
 
 #: includes/woocommerce/Woocommerce.php:259
 msgid "Funding goal"
-msgstr "Objetivo de financiación"
+msgstr "Objetivo de recaudo"
 
 #: includes/woocommerce/Woocommerce.php:260
 msgid "Enter the funding goal"
@@ -896,7 +896,7 @@ msgstr "Ubicación: "
 
 #: includes/woocommerce/Woocommerce.php:979
 msgid "Funding Goal: "
-msgstr "Objetivo De Financiación: "
+msgstr "Objetivo De Recaudo: "
 
 #: includes/woocommerce/Woocommerce.php:985
 msgid "Raised: "
@@ -934,7 +934,7 @@ msgstr "Título"
 
 #: includes/woocommerce/dashboard/bookmark.php:30
 msgid "Created Time"
-msgstr "Creó El Tiempo"
+msgstr "Fecha de creación"
 
 #: includes/woocommerce/dashboard/bookmark.php:31
 #: includes/woocommerce/dashboard/rewards.php:41
@@ -1769,7 +1769,7 @@ msgstr "Contacto"
 
 #: shortcode/Dashboard.php:41
 msgid "My Invested Campaigns"
-msgstr "Mi Invertido En Campañas De"
+msgstr "Campañas Donadas"
 
 #: shortcode/Dashboard.php:56
 msgid "Password"
@@ -2131,7 +2131,7 @@ msgstr "Las campañas realizadas por el Autor"
 
 #: wpcftemplate/woocommerce/basic/include/creator-info.php:27
 msgid "Loved campaigns"
-msgstr "Amado campañas"
+msgstr "Me gusta en campañas"
 
 #: wpcftemplate/woocommerce/basic/include/creator-info.php:31
 msgid "See full bio"
@@ -2155,7 +2155,7 @@ msgstr "El monto máximo es de "
 
 #: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:60
 msgid "The campaign is successful."
-msgstr "La campaña es exitosa."
+msgstr "La campaña ha cerrado exitosamente."
 
 #: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:62
 msgid "This campaign has been invalid or not started yet."
@@ -2247,7 +2247,7 @@ msgstr " Campañas"
 
 #: wpcftemplate/woocommerce/basic/wpneo-functions.php:73
 msgid " Loved campaigns"
-msgstr " Amado campañas"
+msgstr "Me gusta en campañas"
 
 #: wpcftemplate/woocommerce/basic/wpneo-functions.php:78
 msgid "Profile Information"

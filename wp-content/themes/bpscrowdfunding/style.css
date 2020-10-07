@@ -708,7 +708,7 @@ dt {
 .tags-links a:hover,
 .author a:hover,
 .comments-link a:hover {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .entry-meta span, .entry-meta .page-links a, .page-links .entry-meta a,
@@ -729,7 +729,7 @@ dt {
 }
 
 .edit-link a:hover, .edit-link a:focus {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 /*page navigation*/
@@ -766,8 +766,8 @@ dt {
 .nav-links .nav-next a:hover,
 .nav-links .nav-next a:focus,
 .nav-links .nav-next a:active {
-  border-color: #2F78FF;
-  color: #2F78FF;
+  border-color: #22DCE3;
+  color: #22DCE3;
 }
 
 .nav-links .nav-next a {
@@ -960,7 +960,7 @@ dt {
 .woocommerce article.hentry .widget-title, .woocommerce .site-main .widget-title {
   text-transform: uppercase;
   background: none;
-  border-bottom: 1px solid #2F78FF;
+  border-bottom: 1px solid #22DCE3;
   text-align: left;
   padding-bottom: 15px;
   font-size: 18px;
@@ -4400,7 +4400,7 @@ h1:after, h2:after, h3:after, h4:after, h5:after, h6:after {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 h1 {
@@ -4469,7 +4469,7 @@ a:focus {
 
 a:active,
 a:hover {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .button, .woocommerce li.product a.button, .woocommerce .header-btn a.button,
@@ -4486,7 +4486,7 @@ html input[type="button"]:visited,
 input[type="button"]:visited,
 input[type="reset"]:visited,
 input[type="submit"]:visited {
-  background: #2F78FF;
+  background: #22DCE3;
   border: none;
   color: #1e414e;
   cursor: pointer;
@@ -4514,7 +4514,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-  background: #2F78FF;
+  background: #22DCE3;
   -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
   -ms-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
@@ -4928,7 +4928,7 @@ dd {
 }
 
 .wraploader {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
   height: 100%;
   position: fixed;
   overflow: hidden;
@@ -5330,7 +5330,7 @@ dd {
 
 /*back-to-top section*/
 .evision-back-to-top, .evision-back-to-top:focus, .evision-back-to-top:visited {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
   bottom: -100px;
   color: #fff;
   display: inline-block;
@@ -5352,7 +5352,7 @@ dd {
 }
 
 .evision-back-to-top:hover, .evision-back-to-top:active {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -5446,7 +5446,7 @@ article .comment-list,
 
 .comment-list .reply a:hover, .comment-list .reply a:hover {
   border: 1px solid #ccc;
-  border-color: #2F78FF;
+  border-color: #22DCE3;
 }
 
 .comment-list .comment-form label, .comment-list .comment-notes label, .comment-list .comment-awaiting-moderation label, .comment-list .logged-in-as label, .comment-list .form-allowed-tags label, .comment-list .no-comments label {
@@ -5713,7 +5713,7 @@ article .comment-list,
 .page article.hentry li a:hover,
 .single article.hentry li a:hover,
 .woocommerce article.hentry li a:hover, .woocommerce .site-main li a:hover {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .widget .search-form label, .blog article.hentry .search-form label,
@@ -6151,7 +6151,7 @@ article .comment-list,
 .page article.hentry .search-form .search-submit:focus,
 .single article.hentry .woocommerce .site-main .search-form .search-submit:focus, .woocommerce .site-main
 .single article.hentry .search-form .search-submit:focus, .woocommerce article.hentry .site-main .search-form .search-submit:focus, .woocommerce .site-main article.hentry .search-form .search-submit:focus, .woocommerce .site-main .search-form .search-submit:focus {
-  background: #2F78FF;
+  background: #22DCE3;
   border: none;
   color: #1e414e;
   height: 38px;
@@ -6563,7 +6563,7 @@ article .comment-list,
 .page article.hentry .search-form .search-submit:hover:focus,
 .single article.hentry .woocommerce .site-main .search-form .search-submit:hover:focus, .woocommerce .site-main
 .single article.hentry .search-form .search-submit:hover:focus, .woocommerce article.hentry .site-main .search-form .search-submit:hover:focus, .woocommerce .site-main article.hentry .search-form .search-submit:hover:focus, .woocommerce .site-main .search-form .search-submit:hover:focus {
-  background: #2F78FF;
+  background: #22DCE3;
   -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
   -ms-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
@@ -6622,7 +6622,7 @@ article .comment-list,
 }
 
 .widget_calendar tbody a {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
   color: #ffffff;
 }
 
@@ -6787,7 +6787,7 @@ body.home.page #secondary  {
 }
 
 .site-header .site-title a:hover {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .site-header .site-description {
@@ -6823,8 +6823,8 @@ body.home.page #secondary  {
 }
 
 .site-header .header-btn .button:hover, .site-header .header-btn .button:focus, .site-header .header-btn .button:active {
-  background-color: #2F78FF;
-  border-color: #2F78FF;
+  background-color: #22DCE3;
+  border-color: #22DCE3;
 }
 
 @media screen and (max-width: 767px) {
@@ -7000,7 +7000,7 @@ body.home.page #secondary  {
 .main-navigation a:visited:hover,
 .main-navigation a:visited:focus,
 .main-navigation a:visited:active {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .main-navigation .current-menu-item > a,
@@ -7051,7 +7051,7 @@ body.home.page #secondary  {
 .dropdown-toggle:visited:focus,
 .dropdown-toggle:visited:active {
   background-color: transparent;
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .dropdown-toggle:focus,
@@ -7140,7 +7140,7 @@ body.home.page #secondary  {
   .main-navigation ul ul a:visited:hover,
   .main-navigation ul ul a:visited:focus,
   .main-navigation ul ul a:visited:active {
-    color: #2F78FF;
+    color: #22DCE3;
   }
   .main-navigation ul ul ul {
     top: -1px;
@@ -7176,7 +7176,7 @@ body.home.page #secondary  {
   .main-navigation a:visited:hover,
   .main-navigation a:visited:focus,
   .main-navigation a:visited:active {
-    color: #2F78FF;
+    color: #22DCE3;
   }
   .main-navigation ul > li.current-menu-item > a:before,
   .main-navigation ul > li:not(.menu-item-has-children):hover > a:after,
@@ -7203,7 +7203,7 @@ body.home.page #secondary  {
   .main-navigation li:hover > a,
   .main-navigation li.focus > a,
   .main-navigation li.active > a {
-    color: #2F78FF;
+    color: #22DCE3;
   }
   .main-navigation li:hover > ul,
   .main-navigation li.focus > ul {
@@ -7274,7 +7274,7 @@ body.home.page #secondary  {
 .footer-nav.main-navigation ul a:visited:hover,
 .footer-nav.main-navigation ul a:visited:focus,
 .footer-nav.main-navigation ul a:visited:active {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 @media screen and (min-width: 768px) {
@@ -7475,7 +7475,7 @@ body.home.page #secondary  {
 }
 
 .wrapper-slider .slide-item .slider-title a:hover {
-  color: #2F78FF;
+  color: #22DCE3;
 }
 
 .wrapper-slider .slide-item .text-content {
@@ -7570,7 +7570,7 @@ body.home.page #secondary  {
 .wrapper-slider .controls #charitize-next i:visited:hover,
 .wrapper-slider .controls #charitize-next i:visited:focus,
 .wrapper-slider .controls #charitize-next i:visited:active {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
 }
 
 @media screen and (max-width: 767px) {
@@ -7651,7 +7651,7 @@ body.home.page #secondary  {
 }
 
 .wrapper-activity .singlethumb .content-area:before {
-  border-bottom: 20px solid #2F78FF;
+  border-bottom: 20px solid #22DCE3;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   content: "";
@@ -7672,7 +7672,7 @@ body.home.page #secondary  {
 }
 
 .wrapper-activity .singlethumb .content-area .divider {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
   content: "";
   display: block;
   height: 2px;
@@ -7703,7 +7703,7 @@ body.home.page #secondary  {
 }
 
 .wrapper-activity .singlethumb:hover .content-area, .wrapper-activity .singlethumb:focus .content-area, .wrapper-activity .singlethumb:active .content-area {
-  background-color: #2F78FF;
+  background-color: #22DCE3;
   position: relative;
 }
 
@@ -8117,6 +8117,14 @@ p.wpneo-short-description {
   display: none;
 }
 
+.userlogged {
+  color: #332e2b;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  /* font-size: 1rem; */
+  font-weight: 700;
+  padding: 1px 30px 2px;
+}
 
 /* no mostrar seccion de "click to login" */
 .woocommerce-info {

@@ -1,0 +1,50 @@
+2020-10-02T15:16:22+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php:301
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_header('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\header.php(84): do_action('charitize_actio...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\page.php(15): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs.. in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php on line 301
+
+2020-10-02T15:16:23+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php:301
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_header('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\header.php(84): do_action('charitize_actio...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\404.php(10): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs... in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php on line 301
+
+2020-10-02T15:16:24+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php:301
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_header('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\header.php(84): do_action('charitize_actio...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\404.php(10): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs... in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php on line 301
+
+2020-10-02T15:16:25+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php:301
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_header('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\header.php(84): do_action('charitize_actio...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\charitize\404.php(10): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs... in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php on line 301
+
+2020-10-02T15:27:07+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\header.php on line 301
+

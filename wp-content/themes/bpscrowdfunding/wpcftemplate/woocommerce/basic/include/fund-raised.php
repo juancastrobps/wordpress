@@ -35,7 +35,8 @@ $end_method = get_post_meta(get_the_ID(), 'wpneo_campaign_end_method', true);
             </li>
         <?php } ?>
 
-        <li>
+        <!-- codigo comentariado para evitar mostrar metodo de finalizacion -->
+        <!-- <li>
             <p class="funding-amount">
                 <?php
                     if( $end_method == 'target_goal' ){
@@ -50,6 +51,6 @@ $end_method = get_post_meta(get_the_ID(), 'wpneo_campaign_end_method', true);
                 ?>
             </p>
             <span class="info-text"><?php _e('Campaign End Method', 'wp-crowdfunding') ?></span>
-        </li>
+        </li>  -->
     </ul>
 </div>

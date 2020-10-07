@@ -292,7 +292,16 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                                 </nav><!-- #site-navigation -->
                                             </div><!-- site-header-menu -->
                                         </div>
-                                        <!-- Codigo de control de boton login - logout -->
+                                        <!-- nombre de usuario -->                                        
+                                        <div class="userlogged">
+                                            <?php 
+                                                if (is_user_logged_in()) {
+                                                global $current_user;    
+                                                echo 'Hola, ' . $current_user->display_name . "\n";                                               
+                                              }
+                                            ?>
+                                        </div>
+                                        <!-- Codigo de control de boton login - logout -->            
                                          <div class="col-xs-3 mb-device go-right">
                                                 <span class="header-btn">
                                                 <?php if (is_user_logged_in()) : ?>
@@ -301,8 +310,7 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                                     <a href="<?php echo wp_login_url(get_permalink()); ?>" class="button">Iniciar Sesión</a>
                                                 <?php endif;?>                                                
                                                 </span>
-                                            </div>
-                                    </div>
+                                        </div>                                    
                                 </div>
                             </div>
                         </div>
@@ -356,11 +364,20 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                                 </nav><!-- #site-navigation -->
                                             </div><!-- site-header-menu -->
                                         </div>
+                                         <!-- nombre de usuario -->                                        
+                                         <div class="userlogged">
+                                            <?php 
+                                                 if (is_user_logged_in()) {
+                                                global $current_user;    
+                                                echo 'Hola, ' . $current_user->display_name . "\n";
+                                            }
+                                            ?>
+                                        </div>
                                         <div class="col-xs-3 mb-device go-right">
                                             <span class="header-btn">
                                                 <a href="<?php echo esc_url($charitize_customizer_all_values['charitize-donate-link'] );?>" class="button"><?php echo esc_html($charitize_customizer_all_values['charitize-donate-button-text'] );?></a>
                                             </span>
-                                        </div>
+                                        </div>                                       
                                     </div>
                                 </div>
                             </div>
