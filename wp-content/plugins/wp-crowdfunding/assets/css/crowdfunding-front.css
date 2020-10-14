@@ -147,6 +147,8 @@
 .wp-crowd-new-campaign {
    float: right;
    margin-top: 7px;
+   /* codigo esconder boton de nueva campaña */
+   display: none;
 }
  
  

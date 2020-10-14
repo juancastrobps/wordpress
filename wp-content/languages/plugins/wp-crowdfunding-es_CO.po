@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-10-07 14:34+0000\n"
+"PO-Revision-Date: 2020-10-07 16:23+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -1110,7 +1110,7 @@ msgstr "Recompensas"
 #: includes/woocommerce/dashboard/investment.php:46
 #: includes/woocommerce/dashboard/order.php:56
 msgid "Actions"
-msgstr "Acciones"
+msgstr "Detalles"
 
 #: includes/woocommerce/dashboard/investment.php:87
 #: includes/woocommerce/dashboard/order.php:96

@@ -105,34 +105,39 @@ if ( ! function_exists( 'charitize_footer' ) ) :
              Footer section starts
     ****************************************** -->
         <footer id="colophon" class="wrapper evision-wrapper site-footer" role="contentinfo">
-            <div class="container">
-                <nav class="footer-nav main-navigation">
-                    <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
-                </nav>
-                <!-- codigo social share -->
-                <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>
-                <div class="footer-bottom">
-                    <span class="copyright">
-                        <?php
-                        if(isset($charitize_customizer_all_values['charitize-copyright-text'])){
-                            echo wp_kses_post( $charitize_customizer_all_values['charitize-copyright-text'] );
-                        }
-                        ?>
-                    </span>
-                    <?php
-                        if( 1 == $charitize_customizer_all_values['charitize-enable-theme-name']){
-                            ?>
-                        <span class="site-info">
-                            <a href="<?php echo esc_url( 'https://wordpress.org/'); ?>"><?php printf( esc_html__( 'Proudly powered by %s.', 'charitize' ), 'WordPress' ); ?></a>
-                            <span class="sep"> | </span>
-                            <?php printf( esc_html__( 'Theme: %1$s by %2$s', 'charitize' ), 'Charitize', '<a href="http://evisionthemes.com/" rel="designer">eVisionThemes</a>' ); ?>
-                        </span><!-- .site-info -->
-                    <?php
-                        }
-                    ?>
+            <div class="elements">
+                <img src="wp-content/uploads/2020/10/logo-wekii-negativo.png" alt="icon" class="custom-logo-footer">
+                <div class="container-footer">
+                    <nav class="footer-nav main-navigation">
+                        <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
+                    </nav>                    
                 </div>
             </div>
-        </footer><!-- #colophon -->
+                    <!-- codigo social share -->
+                    <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>   
+                    <div class="footer-bottom">
+                        <span class="copyright">
+                            <?php
+                            if(isset($charitize_customizer_all_values['charitize-copyright-text'])){
+                                echo wp_kses_post( $charitize_customizer_all_values['charitize-copyright-text'] );
+                            }
+                            ?>
+                        </span>
+                        <?php
+                            if( 1 == $charitize_customizer_all_values['charitize-enable-theme-name']){
+                                ?>
+                            <span class="site-info">
+                                <a href="<?php echo esc_url( 'https://wordpress.org/'); ?>"><?php printf( esc_html__( 'Proudly powered by %s.', 'charitize' ), 'WordPress' ); ?></a>
+                                <span class="sep"> | </span>
+                                <?php printf( esc_html__( 'Theme: %1$s by %2$s', 'charitize' ), 'Charitize', '<a href="http://evisionthemes.com/" rel="designer">eVisionThemes</a>' ); ?>
+                            </span><!-- .site-info -->
+                        <?php
+                            }
+                        ?>
+                    </div>                    
+        </footer>
+        
+        <!-- #colophon -->
         <!-- *****************************************
                  Footer section ends
         ****************************************** -->

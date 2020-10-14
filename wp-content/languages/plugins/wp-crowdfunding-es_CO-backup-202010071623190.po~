@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-10-06 20:21+0000\n"
+"PO-Revision-Date: 2020-10-07 14:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -2155,7 +2155,7 @@ msgstr "El monto máximo es de "
 
 #: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:60
 msgid "The campaign is successful."
-msgstr "La campaña es exitosa."
+msgstr "La campaña ha cerrado exitosamente."
 
 #: wpcftemplate/woocommerce/basic/include/fund-campaign-btn.php:62
 msgid "This campaign has been invalid or not started yet."

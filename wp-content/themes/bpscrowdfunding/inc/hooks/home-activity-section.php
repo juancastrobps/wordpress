@@ -181,11 +181,11 @@ if ( ! function_exists( 'charitize_activities_slider' ) ) :
                                     <div class="content-area">
                                         <h2><?php echo esc_html( $charitize_activities_slider_array['charitize-activities-title'] );?></h2>
                                         <span id="progress" class="divider"></span>
-                                        <style type="text/css">
+                                        <!-- <style type="text/css">
                                                 .wrapper-activity .singlethumb:hover .divider, .wrapper-activity .singlethumb:focus .divider, .wrapper-activity .singlethumb:active .divider {
                                                     width: 80%;
                                                 }
-                                        </style>
+                                        </style> -->
 
                                         <!-- <div class="wpneo-raised-bar sjkdhfjdshf">
                                         <div id="neo-progressbar">
