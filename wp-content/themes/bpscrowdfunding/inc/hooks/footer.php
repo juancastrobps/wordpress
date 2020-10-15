@@ -108,7 +108,8 @@ if ( ! function_exists( 'charitize_footer' ) ) :
             <div class="elements">
                 <img src="wp-content/uploads/2020/10/logo-wekii-negativo.png" alt="icon" class="custom-logo-footer">
                 <div class="container-footer">
-                    <nav class="footer-nav main-navigation">
+                    <!-- <nav class="footer-nav main-navigation"> -->
+                    <nav class="footer-nav">
                         <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
                     </nav>                    
                 </div>
