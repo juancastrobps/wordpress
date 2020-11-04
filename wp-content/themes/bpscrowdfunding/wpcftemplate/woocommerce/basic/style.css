@@ -106,8 +106,8 @@
     width: 100%;
 }
 .wpneo-tabs-menu {
-    border-top: 1px solid#e7e7e7;
-    border-bottom: 1px solid#e7e7e7;
+    /* border-top: 1px solid#e7e7e7;
+    border-bottom: 1px solid#e7e7e7; */
     clear: both;
     display: table;
     width: 100%;
@@ -124,11 +124,13 @@
     outline: 0;
 }
 .wpneo-tabs-menu li a {
-    color: #414548;
+    /* color: #414548; */
     font-size: 16px;
     text-decoration: none;
     text-transform: capitalize;
     position: relative;
+    color: #EC5E00;
+
 }
 .wpneo-tabs-menu li span{
     color: #414548;
@@ -144,7 +146,8 @@
 }
 .wpneo-tab-content {
     display: none;
-    padding: 15px;
+    /* padding: 15px; */
+    background: #f2f2f2;
 }
 .wpneo-tab-content > h4 {
     color: #414548;
@@ -204,11 +207,13 @@
     margin-bottom: 25px;
 }
 .wpneo-tabs {
-    margin-top: 50px;
+    /* margin-top: 10em; */
 }
 .wpneo-campaign-summary {
     width: 48%;
     float: right;
+    background: #f9f9f9;
+    padding: 5px;
 }
 .wpneo-campaign-single-left-info {
     margin-bottom: 35px;
@@ -395,7 +400,7 @@ a.wpneo-single-main-image{
     padding: 8px 20px;
 }
 .wpneo-listings .wpneo-listing-content h4 a{
-    color: #000;
+    color: #818181;
     font-size: 24px;
     font-weight: normal;
     line-height: 28px;
@@ -411,9 +416,10 @@ a.wpneo-single-main-image{
     line-height: 18px;
     margin: 0;
     padding: 8px 20px;
+    text-align: right;
 }
 .wpneo-listings .wpneo-listing-content .wpneo-author a{
-    color: #737373;
+    color: #EC5E00;
     text-decoration: none;
     box-shadow: none;
 }
@@ -455,8 +461,8 @@ a.wpneo-single-main-image{
 }
 p.wpneo-short-description{
     color: #000;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 100;
     padding: 8px 20px 30px;
 }
 .wpneo-location{
@@ -518,14 +524,19 @@ p.wpneo-short-description{
 .wpneo-raised-percent .wpneo-meta-name,
 .wpneo-raised-percent .wpneo-meta-desc{
     display: inline-block;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .wpneo-raised-percent .wpneo-meta-desc{
     font-weight: bold;
+    background-color: #22DCE330;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
 }
 .wpneo-raised-bar{
-    padding: 5px 20px;
-    margin: 10px 0 20px;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    /* margin: 10px 0 20px; */
 }
 .wpneo-funding-goal,
 .wpneo-fund-raised,
@@ -537,13 +548,15 @@ p.wpneo-short-description{
 .wpneo-funding-goal .wpneo-meta-name,
 .wpneo-fund-raised .wpneo-meta-name,
 .wpneo-time-remaining .wpneo-meta-name{
-    font-size: 12px;
+    font-size: 14px;
+    text-align: center;
 }
 .wpneo-funding-goal .wpneo-meta-desc,
 .wpneo-fund-raised .wpneo-meta-desc,
 .wpneo-time-remaining .wpneo-meta-desc{
     font-size: 16px;
     font-weight: bold;
+    margin: auto;
 }
 .wpneo-fund-raised,
 .wpneo-time-remaining{
@@ -601,7 +614,7 @@ h2.wpneo-campaign-title{
     font-size: 18px;
 }
 .wpneo-link-style1{
-    color: #8cc641 !important;
+    color: #22DCE3 !important;
 }
 
 .campaign-funding-info{
@@ -686,6 +699,8 @@ input[type="number"].wpneo_donate_amount_field{
 .wpneo-tab h2{
     margin-top: 15px;
     margin-bottom: 15px;
+    border-bottom: 2px dotted #EC5E00;
+    
 }
 .tab-rewards-wrapper {
     padding: 5%;
@@ -710,6 +725,8 @@ input[type="number"].wpneo_donate_amount_field{
 .tab_col_9{
     width: 70%;
     float: left;
+    background: #f2f2f2;
+    padding: 18px;  
 }
 .tab_col_3{
     width: 28%;
@@ -784,11 +801,15 @@ ul.wpneo-crowdfunding-update{
 ul.wpneo-crowdfunding-update li{
     margin-bottom: 20px;
 }
-ul.wpneo-crowdfunding-update li .wpneo-crowdfunding-update-title{
-    margin-top: 10px;
+ul.wpneo-crowdfunding-update li .wpneo-crowdfunding-update-title h4{
+    display:none;
+}   
+ul.wpneo-crowdfunding-update li .wpneo-crowdfunding-update-title{    
     margin-bottom: 10px;
-    font-size: 22px;
-    color: #4C76FF;
+    font-size: 20px;
+    color: #EC5E00  !important;
+    margin-top: 6px;
+    border-bottom: 2px dotted #EC5E00;
 }
 .wpneo-crowdfunding-update h4 {
     margin-top: -26px;
@@ -823,9 +844,9 @@ ul.wpneo-crowdfunding-update li:hover span.round-circle{
     .tab_col_9{ width: 100%; }
 }
 img.profile-avatar{
-    width: 105px;
-    height: 105px !important;
-    border-radius: 50%;
+    width: 12em;
+    height: auto !important;
+    border-radius: 10%;
 }
 .wpneo-profile-left,
 .wpneo-profile-right{
@@ -864,6 +885,7 @@ img.profile-avatar{
     font-size: 18px;
     line-height: 50px;
     margin: 0;
+    display: none;
 }
 .wpneo-profile-about p{
     font-size: 14px;

@@ -17,13 +17,20 @@ $number = array( "2"=>"two","3"=>"three","4"=>"four" );
   <option value="50">50</option>    
 </select>  
 </form> -->
-<form label="porcentaje" action="campanas">
-    <label for="percent">Porcentaje:</label>
-    <input type="text" name="percent" id="percent">
-    <label for="location">Ubicación:</label>
-    <input type="text" name="location" id="location">
-    <input type="submit" value="Buscar">
-</form>
+<div class="search-fields">
+    <div class="search-fields_searchbar"><?php echo do_shortcode( '[wcas-search-form]' ); ?></div>    
+    <form label="porcentaje" action="campanas" class="search-fields_filters">
+       <div class="search-fields-inputs">
+            <label class="searchbar-label" for="percent">Porcentaje acumulado</label>
+            <input class="searchbar-input" type="text" name="percent" id="percent">
+        </div>
+        <div class="search-fields-inputs">
+            <label class="searchbar-label" for="location">Ubicación</label>
+            <input class="searchbar-input" type="text" name="location" id="location">           
+        </div>
+        <input class="search-buttom" type="submit" value="Buscar">
+    </form>
+</div>
 
 <?php
 if(isset($_GET["percent"])){
@@ -59,7 +66,7 @@ if(isset($_GET["location"]) && $_GET["location"] !== ""){
                             <div class="wpneo-listings <?php echo $number[$col_num]; ?> <?php echo $class; ?>">
                                 <?php do_action('wpcf_campaign_loop_item_before_content'); ?>
                                 <div class="wpneo-listing-content">
-                                    <?php  do_action('wpcf_campaign_loop_item_content');?>
+                                    <?php  do_action('wpcf_campaign_loop_item_content'); ?>
                                 </div>
                                 <?php do_action('wpcf_campaign_loop_item_after_content'); ?>
                             </div>

@@ -1,4 +1,4 @@
-2020-09-17T16:16:34+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf_function() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php:192
+2020-10-23T14:02:52+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf_function() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php:192
 Stack trace:
 #0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
 #1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
@@ -10,7 +10,7 @@ Stack trace:
 #7 {main}
   thrown in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php on line 192
 
-2020-09-17T16:16:49+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf_function() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php:192
+2020-10-23T14:03:05+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf_function() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php:192
 Stack trace:
 #0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
 #1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
@@ -22,7 +22,7 @@ Stack trace:
 #7 {main}
   thrown in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php on line 192
 
-2020-09-17T16:36:35+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf_function() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php:192
+2020-10-23T14:03:10+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf_function() in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php:192
 Stack trace:
 #0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): charitize_activities_slider('')
 #1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
@@ -33,4 +33,8 @@ Stack trace:
 #6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
 #7 {main}
   thrown in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\inc\hooks\home-activity-section.php on line 192
+
+2020-10-23T14:06:37+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\tabs\update-tab.php on line 16
+
+2020-10-23T14:07:07+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\include\tabs\update-tab.php on line 16
 

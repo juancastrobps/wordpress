@@ -160,6 +160,9 @@ function crowdfunding_login_form_handler($atts)
       }
     //
     
+    ?>
+    <div class=login-form>
+    <?php
     $login_form = "";
     if(is_user_logged_in()){
         $login_form .= wp_loginout(esc_url($_SERVER['REQUEST_URI']), false);
@@ -174,6 +177,10 @@ function crowdfunding_login_form_handler($atts)
         $login_form .= $register_link;
     }
     return $login_form;
+
+    ?>
+    <?php
+
     
 }
 

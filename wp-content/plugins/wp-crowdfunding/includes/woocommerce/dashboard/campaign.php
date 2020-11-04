@@ -85,10 +85,10 @@ $the_query = new WP_Query( $args );
                 <div class="wpneo-clearfix"></div>
                 <div class="wpneo-percent-rund-wrap">
                     
-                    <!-- percent -->
+                    <!-- percent  Modificado para quitar valores decimales-->
                     <?php $raised_percent = wpcf_function()->get_fund_raised_percent_format(); ?>
                     <div class="crowdfound-pie-chart" data-size="60" data-percent="<?php echo $raised_percent; ?>">
-                        <div class="sppb-chart-percent"><span><?php echo $raised_percent; ?></span></div>
+                        <div class="sppb-chart-percent"><span><?php echo round($raised_percent,0)."%"; ?></span></div>
                     </div>
 
                     <!-- fund-raised -->
@@ -114,7 +114,7 @@ $the_query = new WP_Query( $args );
 
                     <!--  Days to go -->
                     <?php $days_remaining = apply_filters('date_expired_msg', __('0', 'wp-crowdfunding'));
-                    if (wpcf_function()->get_date_remaining()){
+                    if (wpcf_function()->get_date_remaining()){                        
                         $days_remaining = apply_filters('date_remaining_msg', __(wpcf_function()->get_date_remaining(), 'wp-crowdfunding'));
                     }
 
@@ -123,7 +123,7 @@ $the_query = new WP_Query( $args );
                     if ($end_method != 'never_end'){ ?>
                         <div class="crowdfound-time-remaining">
                             <?php if (wpcf_function()->is_campaign_started()){ ?>
-                                <div class="wpneo-meta-desc"><?php echo wpcf_function()->get_date_remaining(); ?></div>
+                                <div class="wpneo-meta-desc"><?php echo wpcf_function()->get_end_date(); ?></div>
                                 <div class="wpneo-meta-name"><?php _e( 'Days to go','wp-crowdfunding' ); ?></div>
                             <?php } else { ?>
                                 <div class="wpneo-meta-desc"><?php echo wpcf_function()->days_until_launch(); ?></div>

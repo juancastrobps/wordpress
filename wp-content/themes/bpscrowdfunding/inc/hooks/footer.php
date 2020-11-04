@@ -106,22 +106,22 @@ if ( ! function_exists( 'charitize_footer' ) ) :
     ****************************************** -->
         <footer id="colophon" class="wrapper evision-wrapper site-footer" role="contentinfo">
             <div class="elements">
-                <img src="wp-content/uploads/2020/10/logo-wekii-negativo.png" alt="icon" class="custom-logo-footer">
+                <img src="http://localhost/wordpress/wp-content/uploads/2020/10/logo-wekii-negativo.png" alt="icon" class="custom-logo-footer">
                 <div class="container-footer">
                     <!-- <nav class="footer-nav main-navigation"> -->
                     <nav class="footer-nav">
                         <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
                     </nav>                    
                 </div>
+                <div class="politic-link" ><a href="http://localhost/wordpress/politica-de-proteccion-de-datos/">Política de protección de datos</a></div>
             </div>
                     <!-- codigo social share -->
                     <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>   
                     <div class="footer-bottom">
                         <span class="copyright">
+                        
                             <?php
-                            if(isset($charitize_customizer_all_values['charitize-copyright-text'])){
-                                echo wp_kses_post( $charitize_customizer_all_values['charitize-copyright-text'] );
-                            }
+                            echo "WEKII © Todos los derechos reservados.";
                             ?>
                         </span>
                         <?php

@@ -539,7 +539,7 @@ table.reward_table_dashboard td{
     padding: 20px;
 }
 textarea[disabled], html input[disabled]{
-    opacity: .8 !important;
+    /* opacity: .8 !important; */
     padding: 0;
 }
 .wpneo-fields input[type="number"],

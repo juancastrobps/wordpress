@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-10-07 16:23+0000\n"
+"PO-Revision-Date: 2020-10-28 17:01+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "Días Restantes"
 #: includes/woocommerce/dashboard/wpcrowd-reports-chart.php:218
 #: wpcftemplate/woocommerce/basic/include/loop/fund_raised.php:12
 msgid "Fund Raised"
-msgstr "Recaudado"
+msgstr "Fondos Recaudados"
 
 #: addons/social-share/classes/Init.php:214
 msgid "Embed Code"

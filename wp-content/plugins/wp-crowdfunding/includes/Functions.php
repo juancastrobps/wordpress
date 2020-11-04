@@ -506,6 +506,17 @@ class Functions {
         return 0;
     }
 
+    // funcion mostrar fecha de finalizacion
+    public function get_end_date($post_id = 0){
+        global $post;
+        if ($post_id == 0){
+            $post_id = $post->ID;
+        }
+        $enddate = get_post_meta( $post_id, '_nf_duration_end', true );
+        $enddateformated = date("d-m-Y", strtotime($enddate));  
+        return $enddateformated;
+    }
+
     public function is_reach_target_goal(){
         global $post;
         $funding_goal = get_post_meta($post->ID, '_nf_funding_goal' , true);

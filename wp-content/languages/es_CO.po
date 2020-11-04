@@ -16368,7 +16368,7 @@ msgstr "Desconectar"
 #: wp-login.php:875 wp-login.php:950 wp-login.php:1010 wp-login.php:1112
 #: wp-includes/general-template.php:324
 msgid "Log in"
-msgstr "Acceder"
+msgstr "Ingresar"
 
 #: wp-includes/functions.php:5804
 msgid "Manual Offsets"
@@ -17254,7 +17254,7 @@ msgstr "Editar Categoría"
 
 #: wp-login.php:1347 wp-login.php:1391 wp-includes/general-template.php:466
 msgid "Log In"
-msgstr "Acceder"
+msgstr "Ingresar"
 
 #: wp-login.php:975
 msgid "Strength indicator"

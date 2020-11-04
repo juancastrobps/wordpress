@@ -5,7 +5,7 @@ $raised_percent = wpcf_function()->get_fund_raised_percent_format();
 ?>
 <div class="wpneo-raised-percent">
     <div class="wpneo-meta-name"><?php _e('Raised Percent', 'wp-crowdfunding'); ?> :</div>
-    <div class="wpneo-meta-desc" ><?php echo $raised_percent; ?></div>
+    <div class="wpneo-meta-desc" ><?php echo round($raised_percent, 0)."%"; ?></div>
 </div>
 
 <div class="wpneo-raised-bar">

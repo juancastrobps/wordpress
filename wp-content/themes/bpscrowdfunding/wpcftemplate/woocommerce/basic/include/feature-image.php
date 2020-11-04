@@ -3,13 +3,13 @@ defined( 'ABSPATH' ) || exit;
 global $post, $product;
 $funding_video = trim(get_post_meta($post->ID, 'wpneo_funding_video', true)); ?>
 <div class="wpneo-campaign-single-left-info">
-    <?php if (!empty($funding_video)) { ?>
+    <?php //if (!empty($funding_video)) { ?>
         <div class="wpneo-post-img">
             <?php echo wpcf_function()->get_embeded_video($funding_video); ?>
-            <?php do_action( 'woocommerce_product_thumbnails' ); ?>
+            <?php //do_action( 'woocommerce_product_thumbnails' ); ?>
         </div>
     <?php
-    } else {
+  //  } else {
         $columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 );
         $post_thumbnail_id = get_post_thumbnail_id( $post->ID );
         $full_size_image   = wp_get_attachment_image_src( $post_thumbnail_id, 'full' );
@@ -46,6 +46,6 @@ $funding_video = trim(get_post_meta($post->ID, 'wpneo_funding_video', true)); ?>
             </figure>
         </div>
     <?php
-    } ?>
+    // } ?>
     <?php do_action( 'wpcf_after_feature_img' ); ?>
 </div>

@@ -12,8 +12,8 @@ $saved_campaign_update_a = json_decode($saved_campaign_update, true);
             <?php  foreach ($saved_campaign_update_a as $key => $value) { ?>
                 <li>
                     <span class="round-circle"></span>
-                    <h4><?php echo stripslashes($value['date']); ?></h4>
-                    <p class="wpneo-crowdfunding-update-title"><?php echo stripslashes($value['title']); ?></p>
+                    <!-- <h4><?php //echo stripslashes($value['date']); ?></h4> -->
+                    <p class="wpneo-crowdfunding-update-title"><?php echo stripslashes($value['date']); echo " "; echo stripslashes($value['title']); ?></p>
                     <p>
                         <?php
                         $upate_content = apply_filters('the_content', stripslashes($value['details']));

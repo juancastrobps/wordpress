@@ -1,0 +1,6 @@
+2020-11-03T20:32:11+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\dashboard\profile.php on line 148
+
+2020-11-03T20:32:58+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\dashboard\profile.php on line 230
+
+2020-11-03T20:33:41+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\plugins\wp-crowdfunding\includes\woocommerce\dashboard\profile.php on line 230
+

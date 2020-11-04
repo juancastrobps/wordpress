@@ -189,7 +189,7 @@ $pladges_received = wpcf_function()->get_pladge_received($from_date, $to_date);
 ?>
 
 <div class="wpneo-dashboard-chart wpneo-shadow chart-container">
-
+<div class="wpneo-dashboard-header"><h2>Mi Tablero </h2></div>
     <div class="wpneo-dashboard-head wpneo-clearfix">
         <div class="wpneo-dashboard-head-left">
             <span><?php _e( "Summary" , "wp-crowdfunding" );?></span>

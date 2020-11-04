@@ -305,9 +305,9 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                          <div class="col-xs-3 mb-device go-right">
                                                 <span class="header-btn">
                                                 <?php if (is_user_logged_in()) : ?>
-                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="button">Cerrar Sesión</a>
+                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="header_logout"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/salir.png"> Cerrar<br>Sesión </a>
                                                 <?php else : ?>
-                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="button">Iniciar Sesión</a>
+                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="header_login"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/ingresar.png"> Iniciar<br>Sesión</a>
                                                 <?php endif;?>                                                
                                                 </span>
                                         </div>                                    
@@ -374,9 +374,13 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                             ?>
                                         </div>
                                         <div class="col-xs-3 mb-device go-right">
-                                            <span class="header-btn">
-                                                <a href="<?php echo esc_url($charitize_customizer_all_values['charitize-donate-link'] );?>" class="button"><?php echo esc_html($charitize_customizer_all_values['charitize-donate-button-text'] );?></a>
-                                            </span>
+                                        <span class="header-btn">
+                                                <?php if (is_user_logged_in()) : ?>
+                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="header_logout"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/salir.png"> Cerrar<br>Sesión </a>
+                                                <?php else : ?>
+                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="header_login"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/ingresar.png"> Iniciar<br>Sesión</a>
+                                                <?php endif;?>                                                
+                                                </span>
                                         </div>                                       
                                     </div>
                                 </div>
