@@ -85,7 +85,7 @@ if ( ! function_exists( 'charitize_home_donate_section' ) ) :
 <section class="wrapper wrapper-callback" style="background-color: #EC5E00" ;>
             <!-- <div class="donate-image"><img src="<?php echo esc_url($thumb[0]); ?>" alt="donate"/></div> -->
             <img class="donate-image" src="<?php echo esc_url($thumb[0]); ?>" alt="donate"/>
-            <img class="donate-icon" src="http://localhost/wordpress/wp-content/uploads/2020/11/logo-wekii-negativo-icon.png" alt="donate"/>
+            <img class="donate-icon" src="<?php echo site_url().'/wp-content/uploads/2020/11/logo-wekii-negativo-icon.png' ?>" alt="donate"/>
             <div class="donate-container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">

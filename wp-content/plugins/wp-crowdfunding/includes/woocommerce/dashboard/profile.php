@@ -106,7 +106,7 @@ $html .= '<div class="wpneo-content">';
                     // $html .= '<h4>'.__("Contact Info","wp-crowdfunding").'</h4>';
                     // Email
                     $html .= '<p>';
-                        $html .= '<img src="http://localhost/wordpress/wp-content/uploads/2020/11/mail.png" alt="mail">';
+                        $html .= '<img src="'.site_url().'/wp-content/uploads/2020/11/mail.png" alt="mail">';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_email1'][0])){ $value = esc_attr($data['profile_email1'][0]); }
                             $html .= '<input type="text" name="profile_email1" value="'.$value.'" disabled>';
@@ -114,7 +114,7 @@ $html .= '<div class="wpneo-content">';
                     $html .= '</p>';
                     // Mobile Number
                     $html .= '<p>';
-                        $html .= '<img src="http://localhost/wordpress/wp-content/uploads/2020/11/telefono.png" alt="telefono">';                                     
+                        $html .= '<img src="'.site_url().'/wp-content/uploads/2020/11/telefono.png" alt="telefono">';                                     
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_mobile1'][0])){ $value = esc_attr($data['profile_mobile1'][0]); }
                             $html .= '<input type="text" name="profile_mobile1" value="'.$value.'" disabled>';
@@ -122,7 +122,7 @@ $html .= '<div class="wpneo-content">';
                     $html .= '<p>';
                     // Website
                     $html .= '<p>';
-                        $html .= '<img src="http://localhost/wordpress/wp-content/uploads/2020/11/web.png" alt="web">';    
+                        $html .= '<img src="'.site_url().'/wp-content/uploads/2020/11/web.png" alt="web">';    
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_website'][0])){ $value = esc_url($data['profile_website'][0]); }
                             $html .= '<input type="text" name="profile_website" value="'.$value.'" disabled>';
@@ -130,7 +130,7 @@ $html .= '<div class="wpneo-content">';
                     $html .= '</p>';                    
                     // Fax
                     // $html .= '<p>';
-                    //     $html .= '<img src="http://localhost/wordpress/wp-content/uploads/2020/11/mail.png" alt="mail">';
+                    //     $html .= '<img src="'.site_url().'/wp-content/uploads/2020/11/mail.png" alt="mail">';
                     //     $html .= '<span class="data_info">';
                     //         $value = ''; if(isset($data['profile_fax'][0])){ $value = esc_attr($data['profile_fax'][0]); }
                     //         $html .= '<input type="text" name="profile_fax" value="'.$value.'" disabled>';
@@ -158,7 +158,7 @@ $html .= '<div class="wpneo-content">';
 
                     //Facebook
                     $html .= '<p>';
-                        $html .= '<img src="http://localhost/wordpress/wp-content/uploads/2020/10/facebook.png" alt="facebook">';
+                        $html .= '<img src="'.site_url().'/wp-content/uploads/2020/10/facebook.png" alt="facebook">';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_facebook'][0])){ $value = esc_textarea($data['profile_facebook'][0]); }
                             $html .= '<input type="text" name="profile_facebook" value="'.$value.'" disabled>';
@@ -167,7 +167,7 @@ $html .= '<div class="wpneo-content">';
 
                     // Twitter
                     $html .= '<p>';
-                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/twitter.png" alt="twitter"> </a>';
+                    $html .='<img src="'.site_url().'/wp-content/uploads/2020/10/twitter.png" alt="twitter"> </a>';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_twitter'][0])){ $value = esc_textarea($data['profile_twitter'][0]); }
                             $html .= '<input type="text" name="profile_twitter" value="'.$value.'" disabled>';
@@ -176,7 +176,7 @@ $html .= '<div class="wpneo-content">';
 
                     // Instagram
                     $html .= '<p>';
-                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/instagram.png" alt="instagram"> </a>';
+                    $html .='<img src="'.site_url().'/wp-content/uploads/2020/10/instagram.png" alt="instagram"> </a>';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_instagram'][0])){ $value = esc_textarea($data['profile_instagram'][0]); }
                             $html .= '<input type="text" name="profile_instagram" value="'.$value.'" disabled>';
@@ -185,7 +185,7 @@ $html .= '<div class="wpneo-content">';
                     
                     // Youtube
                     $html .= '<p>';
-                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/youtube.png" alt="youtube"> </a>';
+                    $html .='<img src="'.site_url().'/wp-content/uploads/2020/10/youtube.png" alt="youtube"> </a>';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_youtube'][0])){ $value = esc_textarea($data['profile_youtube'][0]); }
                             $html .= '<input type="text" name="profile_youtube" value="'.$value.'" disabled>';

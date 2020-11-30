@@ -305,10 +305,10 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                         <!-- Codigo de control de boton login - logout -->            
                                          <div class="col-xs-3 mb-device go-right">
                                                 <span class="header-btn">
-                                                <?php if (is_user_logged_in()) : ?>
-                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="header_logout"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/salir.png"> Cerrar<br>Sesión </a>
+                                                <?php if (is_user_logged_in()) : ?>                                                    
+                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="header_logout"> <img src=" <?php  echo site_url().'/wp-content/uploads/2020/10/salir.png' ?>"> Cerrar<br>Sesión </a>
                                                 <?php else : ?>
-                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="header_login"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/ingresar.png"> Iniciar<br>Sesión</a>
+                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="header_login"> <img src=" <?php  echo site_url().'/wp-content/uploads/2020/10/ingresar.png' ?>"> Iniciar<br>Sesión</a>
                                                 <?php endif;?>                                                
                                                 </span>
                                         </div>                                    
@@ -378,9 +378,9 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                         <div class="col-xs-3 mb-device go-right">
                                         <span class="header-btn">
                                                 <?php if (is_user_logged_in()) : ?>
-                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="header_logout"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/salir.png"> Cerrar<br>Sesión </a>
+                                                      <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="header_logout"> <img src="<?php  echo site_url().'/wp-content/uploads/2020/10/salir.png'?>"> Cerrar<br>Sesión </a>
                                                 <?php else : ?>
-                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="header_login"> <img src="http://localhost/wordpress/wp-content/uploads/2020/10/ingresar.png"> Iniciar<br>Sesión</a>
+                                                    <a href="<?php echo wp_login_url(get_permalink()); ?>" class="header_login"> <img src="<?php  echo site_url().'/wp-content/uploads/2020/10/ingresar.png'?>"> Iniciar<br>Sesión</a>
                                                 <?php endif;?>                                                
                                                 </span>
                                         </div>                                       

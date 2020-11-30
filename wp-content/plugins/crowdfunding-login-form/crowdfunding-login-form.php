@@ -173,7 +173,7 @@ function crowdfunding_login_form_handler($atts)
             $lost_password_link = '<a href="'.wp_lostpassword_url().'">'.__('Recordar Contraseña', 'crowdfunding-login-form').'</a><br>';
             $login_form .= $lost_password_link;
         }
-        $register_link = '<a href= "http://localhost/wordpress/registrate/" > ¿Aún no tienes cuenta? '.__('Regístrate', 'crowdfunding-login-form').'</a>';
+        $register_link = '<a href= "'.site_url().'/registrate/" > ¿Aún no tienes cuenta? '.__('Regístrate', 'crowdfunding-login-form').'</a>';
         $login_form .= $register_link;
     }
     return $login_form;

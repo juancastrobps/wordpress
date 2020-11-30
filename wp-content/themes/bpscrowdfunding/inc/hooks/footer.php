@@ -106,26 +106,26 @@ if ( ! function_exists( 'charitize_footer' ) ) :
     ****************************************** -->
         <footer id="colophon" class="wrapper evision-wrapper site-footer" role="contentinfo">
             <div class="elements">
-                <img src="http://localhost/wordpress/wp-content/uploads/2020/10/logo-wekii-negativo.png" alt="icon" class="custom-logo-footer">
+                <img src="<?php  echo site_url().'/wp-content/uploads/2020/10/logo-wekii-negativo.png'?>" alt="icon" class="custom-logo-footer">
                 <div class="container-footer">
                     <!-- <nav class="footer-nav main-navigation"> -->
                     <nav class="footer-nav">
                         <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
                     </nav>                    
                 </div>
-                <div class="politic-link" ><a href="http://localhost/wordpress/politica-de-proteccion-de-datos/">Política de protección de datos</a></div>
+                <div class="politic-link" ><a href="<?php  echo site_url().'/politica-de-proteccion-de-datos/'?>">Política de protección de datos</a></div>
             </div>
                     <!-- codigo social share -->
                     <!-- <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>    -->
                     <div class="footer-social-icons">
                         <a href="https://facebook.com"  target="_blank">
-                            <img src="http://localhost/wordpress/wp-content/uploads/2020/11/icons8-facebook-rodeado-de-círculo-50.png" alt="facebook">
+                            <img src="<?php  echo site_url().'/wp-content/uploads/2020/11/icons8-facebook-rodeado-de-círculo-50.png'?>" alt="facebook">
                         </a>
                         <a href="https://twitter.com"  target="_blank">
-                            <img src="http://localhost/wordpress/wp-content/uploads/2020/11/icons8-twitter-50.png" alt="twitter">
+                            <img src="<?php  echo site_url().'/wp-content/uploads/2020/11/icons8-twitter-50.png'?>" alt="twitter">
                         </a>                
                         <a href="https://Instagram.com"  target="_blank">
-                            <img src=" http://localhost/wordpress/wp-content/uploads/2020/11/icons8-instagram-50.png" alt="instagram">
+                            <img src="<?php  echo site_url().'/wp-content/uploads/2020/11/icons8-instagram-50.png'?>" alt="instagram">
                         </a>                   
                     </div>  
                     <div class="footer-bottom">
