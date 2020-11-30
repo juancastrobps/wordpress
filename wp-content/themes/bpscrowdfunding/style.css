@@ -8377,6 +8377,12 @@ p.wpneo-short-description {
   padding-right: 10px;
 }
 
+/* footer */
+
+.footer-social-icons img {
+  height: 35px;
+  margin: 10px;
+}
 
 /* Scroll utilizado en comentarios de campaña */
 #wpneo-tab-reviews {
@@ -8916,16 +8922,6 @@ ul.wpcf_predefined_pledge_amount li a:active  {
 .ur-frontend-form .ur-form-row .ur-form-grid input[type="text"] {
   background: white;
 }
-/* .ur-frontend-form .ur-form-row .ur-form-grid input[type="text"]::placeholder {
-  color: black;
-} */
-/* .ur-frontend-form .ur-form-row .ur-form-grid .ur-field-item.field-checkbox ul li input:checked:after {
-  background-color: orange;
-}
-.input-checkbox .ur-frontend-field input:checked:after {
-  background-color: orange;
-} */
-
 
 /* pagina de contact info */
 

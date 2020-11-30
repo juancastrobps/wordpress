@@ -116,7 +116,18 @@ if ( ! function_exists( 'charitize_footer' ) ) :
                 <div class="politic-link" ><a href="http://localhost/wordpress/politica-de-proteccion-de-datos/">Política de protección de datos</a></div>
             </div>
                     <!-- codigo social share -->
-                    <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>   
+                    <!-- <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>    -->
+                    <div class="footer-social-icons">
+                        <a href="https://facebook.com"  target="_blank">
+                            <img src="http://localhost/wordpress/wp-content/uploads/2020/11/icons8-facebook-rodeado-de-círculo-50.png" alt="facebook">
+                        </a>
+                        <a href="https://twitter.com"  target="_blank">
+                            <img src="http://localhost/wordpress/wp-content/uploads/2020/11/icons8-twitter-50.png" alt="twitter">
+                        </a>                
+                        <a href="https://Instagram.com"  target="_blank">
+                            <img src=" http://localhost/wordpress/wp-content/uploads/2020/11/icons8-instagram-50.png" alt="instagram">
+                        </a>                   
+                    </div>  
                     <div class="footer-bottom">
                         <span class="copyright">
                         
