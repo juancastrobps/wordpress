@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-07-13T09:22:24+05:45\n"
-"PO-Revision-Date: 2020-08-14 15:38+0000\n"
+"PO-Revision-Date: 2020-11-24 21:16+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: user-registration\n"
 "Language: es_CO\n"
@@ -1917,7 +1917,7 @@ msgstr "Sólo los administradores pueden agregar nuevos usuarios."
 
 #: includes/class-ur-ajax.php:147 includes/class-ur-shortcodes.php:139
 msgid "You are currently logged in as %1$1s. %2$2s"
-msgstr ""
+msgstr "Se encuentra registrado como %1$1s. %2$2s"
 
 #: includes/class-ur-ajax.php:147 includes/class-ur-shortcodes.php:139
 msgid "Log out of this account."

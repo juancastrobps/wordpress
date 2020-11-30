@@ -49,11 +49,6 @@ $the_query = new WP_Query( $args );
                     <!-- title -->
                     <h4><a href="<?php  echo get_permalink(); ?> "><?php echo get_the_title(); ?></a></h4>
                     
-                    <!-- author -->
-                    <p class="wpneo-author"><?php _e('by','wp-crowdfunding'); ?> 
-                        <a href="<?php echo wpcf_function()->get_author_url( get_the_author_meta( 'user_login' ) ); ?>"><?php echo wpcf_function()->get_author_name(); ?></a>
-                    </p>
-
                     <!-- location -->
                     <?php $location = wpcf_function()->campaign_location(); ?>
                     <?php if($location) { ?>
@@ -89,7 +84,10 @@ $the_query = new WP_Query( $args );
                     <?php $raised_percent = wpcf_function()->get_fund_raised_percent_format(); ?>
                     <div class="crowdfound-pie-chart" data-size="60" data-percent="<?php echo $raised_percent; ?>">
                         <div class="sppb-chart-percent"><span><?php echo round($raised_percent,0)."%"; ?></span></div>
+                        <div class="percent-message">Porcentaje Recaudado</div>
                     </div>
+
+                    <hr class='dotted' />
 
                     <!-- fund-raised -->
                     <?php 
@@ -124,7 +122,7 @@ $the_query = new WP_Query( $args );
                         <div class="crowdfound-time-remaining">
                             <?php if (wpcf_function()->is_campaign_started()){ ?>
                                 <div class="wpneo-meta-desc"><?php echo wpcf_function()->get_end_date(); ?></div>
-                                <div class="wpneo-meta-name"><?php _e( 'Days to go','wp-crowdfunding' ); ?></div>
+                                <div class="wpneo-meta-name"><?php _e( 'Fecha finalización','wp-crowdfunding' ); ?></div>
                             <?php } else { ?>
                                 <div class="wpneo-meta-desc"><?php echo wpcf_function()->days_until_launch(); ?></div>
                                 <div class="wpneo-meta-name"><?php _e( 'Days Until Launch','wp-crowdfunding' ); ?></div>

@@ -42,7 +42,7 @@ $my_orders_columns = apply_filters( 'woocommerce_my_account_my_orders_columns', 
     'order-date'    => __( 'Date', 'wp-crowdfunding' ),
     'order-status'  => __( 'Status', 'wp-crowdfunding' ),
     'order-total'   => __( 'Total', 'wp-crowdfunding' ),
-    'order-rewards' => __( 'Rewards', 'wp-crowdfunding' ),
+    // 'order-rewards' => __( 'Rewards', 'wp-crowdfunding' ),
     'order-actions' => __( 'Actions', 'wp-crowdfunding' ),
 ) );
 

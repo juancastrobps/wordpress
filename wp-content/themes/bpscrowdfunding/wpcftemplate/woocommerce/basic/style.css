@@ -33,7 +33,7 @@
 --------------------------------*/
 .wpneo-container{
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -213,7 +213,7 @@
     width: 48%;
     float: right;
     background: #f9f9f9;
-    padding: 5px;
+    padding: 20px;
 }
 .wpneo-campaign-single-left-info {
     margin-bottom: 35px;
@@ -312,7 +312,7 @@ a.wpneo-single-main-image{
 --------------------------------*/
 .wpneo-listings{
     float: left;
-    padding: 0px 1%;
+    padding: 0em 1em 0em 1em;
 }
 .wpneo-listings.two{
     width: 50%;
@@ -323,12 +323,12 @@ a.wpneo-single-main-image{
 .wpneo-listings.four{
     width: 25%;
 }
-.wpneo-listings.first{
+/* .wpneo-listings.first{
     padding-left: 0px;
 }
 .wpneo-listings.last{
     padding-right: 0px;
-}
+} */
 .wpneo-listings.first{
     clear: both;
 }
@@ -415,7 +415,7 @@ a.wpneo-single-main-image{
     font-size: 16px;
     line-height: 18px;
     margin: 0;
-    padding: 8px 20px;
+    padding: 0px 20px;
     text-align: right;
 }
 .wpneo-listings .wpneo-listing-content .wpneo-author a{
@@ -911,7 +911,7 @@ a.wpneo-profile-button:hover{
     margin-right: 5px;
 }
 .wpneo-campaign-summary-inner .wpneo-raised-bar {
-    padding: 1px 0px 20px;
+    padding: 10px 30px 10px;
 }
 #wpneo-tab-baker_list table{
     border: none;

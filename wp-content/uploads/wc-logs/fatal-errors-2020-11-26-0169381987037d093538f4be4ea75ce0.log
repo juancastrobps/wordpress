@@ -1,0 +1,244 @@
+2020-11-26T20:18:19+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#9 {ma in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:18:26+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:18:33+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:18:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:18:43+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:18:50+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:18:50+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#9 {ma in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:00+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#9 {ma in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:04+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#9 {ma in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:05+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:23+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:24+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:25+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:25+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:26+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:26+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+
+2020-11-26T20:19:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(534): execute_snippet('add_filter( 'wo...', 30)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): execute_active_snippets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(403): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 1
+

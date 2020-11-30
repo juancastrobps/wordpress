@@ -135,7 +135,7 @@ if ( ! function_exists( 'charitize_featured_home_slider' ) ) :
             <div class="controls">
                 <a href="#" id="charitize-prev"><i class="fa fa-angle-left"></i></a> 
                 <a href="#" id="charitize-next"><i class="fa fa-angle-right"></i></a>
-            </div>
+            </div>            
         <?php }  ?>
         <div class="container-fluid">
             <div class="cycle-slideshow"
@@ -176,7 +176,10 @@ if ( ! function_exists( 'charitize_featured_home_slider' ) ) :
                     ?>
                     <div class="slide-item" style="background-image: url('<?php echo esc_url( $charitize_feature_slider_image )?>');">
                         <div class="container-fluid">
+                            <div><img class="wekii-background" src="http://localhost/wordpress/wp-content/uploads/2020/11/fondo-wekii-color-e1605627248777.png" alt="fondo-wekii">     </div>
+       
                             <div class="thumb-overlay main-slider-overlay"></div>
+                            
                             <div class="row">
                                 <div class="col-xs-8 col-sm-8 col-md-6 col-xs-offset-2 banner-content">
                                     <?php if ((1 == $charitize_feature_enable_title) || (1 == $charitize_feature_enable_caption) || ( 1 == $charitize_feature_enable_button)){?>

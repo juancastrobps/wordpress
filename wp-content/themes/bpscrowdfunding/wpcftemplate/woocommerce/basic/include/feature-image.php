@@ -23,14 +23,14 @@ $funding_video = trim(get_post_meta($post->ID, 'wpneo_funding_video', true)); ?>
         ) );?>
         <div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
             <figure class="woocommerce-product-gallery__wrapper">
-                <?php
+                <?php 
                 $attributes = array(
                     'title'                   => $image_title,
                     'data-src'                => $full_size_image[0],
                     'data-large_image'        => $full_size_image[0],
                     'data-large_image_width'  => $full_size_image[1],
                     'data-large_image_height' => $full_size_image[2],
-                );
+                );                
                 if ( has_post_thumbnail() ) {
                     $html  = '<div data-thumb="' . get_the_post_thumbnail_url( $post->ID, 'shop_thumbnail' ) . '" class="woocommerce-product-gallery__image"><a itemprop="image" class="woocommerce-main-image cloud-zoom" href="'.esc_url( $full_size_image[0] ).'">';
                     $html .= get_the_post_thumbnail( $post->ID, 'shop_single', $attributes );
@@ -40,7 +40,7 @@ $funding_video = trim(get_post_meta($post->ID, 'wpneo_funding_video', true)); ?>
                     $html .= sprintf( '<img src="%s" alt="%s" class="wp-post-image" />', esc_url( wc_placeholder_img_src() ), esc_html__( 'Awaiting product image', 'backer' ) );
                     $html .= '</div>';
                 }
-                echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, get_post_thumbnail_id( $post->ID ) );
+                //echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, get_post_thumbnail_id( $post->ID ) );
                 do_action( 'woocommerce_product_thumbnails' );
                 ?>
             </figure>

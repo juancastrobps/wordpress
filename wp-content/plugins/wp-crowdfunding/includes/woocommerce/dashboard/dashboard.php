@@ -36,6 +36,7 @@ $html .= '<div class="wpneo-row">';
                         $html .= '<span class="data_name">'.__( "Usuario" , "wp-crowdfunding" ).'</span>';
                         // $html .= '<span class="data_info">'.wpcf_function()->get_author_name().'</span>';
                         global $current_user; 
+                        $html .= '<input type="hidden" name="action" value="wpneo_dashboard_form">';
                         $html .= '<span class="data_info">'.$current_user->display_name.'</span>';
                     $html .= '</p>';
 
@@ -43,15 +44,16 @@ $html .= '<div class="wpneo-row">';
                     $html .= '<p>';
                         $html .= '<span class="data_name">'.__( "Correo" , "wp-crowdfunding" ).'</span>';
                         $html .= '<span class="data_info">';
-                            $html .= '<input type="text" name="first_name" value="'.$current_user->user_email.'" disabled>';
+                            $html .= '<input type="text" name="email" value="'.$current_user->user_email.'" disabled>';
                         $html .= '</span>';
-                    $html .= '</p>';  
+                    $html .= '</p>'; 
+                    
 
                 // First Name
                     $html .= '<p>';
                         $html .= '<span class="data_name">'.__( "Nombre" , "wp-crowdfunding" ).'</span>';
                         $html .= '<span class="data_info">';
-                            $html .= '<input type="text" name="first_name" value="'.$current_user->user_firstname.'" disabled>';
+                            $html .= '<input type="text" name="firstname" value="'.$current_user->user_firstname.'" disabled>';
                         $html .= '</span>';
                     $html .= '</p>';  
 
@@ -59,7 +61,7 @@ $html .= '<div class="wpneo-row">';
                     $html .= '<p>';
                         $html .= '<span class="data_name">'.__( "Apellido" , "wp-crowdfunding" ).'</span>';
                         $html .= '<span class="data_info">';
-                            $html .= '<input type="text" name="first_name" value="'.$current_user->user_lastname.'" disabled>';
+                            $html .= '<input type="text" name="lastname" value="'.$current_user->user_lastname.'" disabled>';
                         $html .= '</span>';
                     $html .= '</p>'; 
 
@@ -67,19 +69,20 @@ $html .= '<div class="wpneo-row">';
                     $html .= '<p>';
                         $html .= '<span class="data_name">'.__( "Website" , "wp-crowdfunding" ).'</span>';
                         $html .= '<span class="data_info">';
-                            $html .= '<input type="text" name="first_name" value="'.$current_user->user_url.'" disabled>';
+                            $html .= '<input type="text" name="website" value="'.$current_user->user_url.'" disabled>';
                         $html .= '</span>';
                     $html .= '</p>';
 
                 // Bio Info
                     $html .= '<p>';
-                        $html .= '<span class="data_name">'.__( "Biografía" , "wp-crowdfunding" ).'</span>';
+                        $html .= '<span class="data_name_biografia">'.__( "Biografía:" , "wp-crowdfunding" ).'</span>';
                         $html .= '<span class="data_info">';
                         $html .= '<textarea name="description" rows="3" disabled>'.$current_user->description.'</textarea>';
                         $html .= '</span>';
                     $html .= '</p>';
 
                 $html .= '</div>';
+
 
 
             //$html .= '<h4>'.__('Payment Info', 'wp-crowdfunding').'</h4>';

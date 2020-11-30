@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-23 22:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: es_CO\n"
+"Project-Id-Version: Plugins - Ajax Search for WooCommerce - Stable (latest "
+"release)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 12:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+msgid ""
+" You have to update your PHP version to least 5.5 (recommended 7.2 or "
+"greater)."
+msgstr ""
+"Tendrás que actualizar tu versión de PHP al menos a la 5.5 (recomendamos "
+"usar 7.2 o mayor)"
+
+msgid ""
+"<b>AJAX Search for WooCommerce</b> is enabled but not effective. It requires "
+"%s in order to work."
+msgstr ""
+"<b>AJAX Search for WooCommerce</b> está habilitado pero no funcional. "
+"Require %s para funcionar."
+
+msgid ""
+"<b>AJAX Search for WooCommerce</b>: You need PHP version at least 5.3 to run "
+"this plugin. You are currently using PHP version "
+msgstr ""
+"<b>AJAX Search for WooCommerce</b>: Necesitas al menos la versión 5.3 de PHP "
+"para correr este plugin. Actualmente usas la versión de PHP "
+
+msgid ""
+"<b>AJAX Search for WooCommerce</b>:<br /> Your PHP version <b><i>%s</i></b> "
+"will not longer supported in the next plugin releases."
+msgstr ""
+"<b>AJAX Search for WooCommerce</b>:<br /> Tu versión de PHP <b><i>%s</i></b> "
+"dejará de ser soportata en las próximas versiones del plugin."
+
+msgid "AJAX Search for WooCommerce"
+msgstr "AJAX Search pra WooCommerce"
+
+msgid "AJAX Search for WooCommerce (PRO) Settings"
+msgstr "Ajustes de AJAX Search for WooCommerce (PRO)"
+
+msgid ""
+"Allows your customers to search products easily and quickly. It will display "
+"the results instantly while typing in an inputbox."
+msgstr ""
+"Permite que tus clientes busquen productos fácil y rápidamente. Mostrará los "
+"resultados al instante mientras vas escribiendo en una caja de texto."
+
+msgid "And more..."
+msgstr "Y más..."
+
+msgid "Author:"
+msgstr "Autor:"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Damian Góra"
+msgstr "Damian Góra"
+
+msgid ""
+"Efficient with a large number of products. Tested on <b>60 000 products</b>"
+msgstr ""
+"Eficiente con un gran número de productos. Probado con <b>60.000 "
+"productos</b>"
+
+msgid "Enhances user experience on mobile"
+msgstr "Mejora la experiencia del usuario en móviles"
+
+msgid "Exclude 'out of stock' products"
+msgstr "Excluir productos sin inventario"
+
+msgid ""
+"Hey %s, it's Damian Góra from %s. You have used this free plugin for some "
+"time now, and I hope you like it!"
+msgstr ""
+"Hola %s, soy Damian Góra de %s. Has usando este plugin gratuito desde hace "
+"tiempo ya, y espero que estés satisfecho con él!"
+
+msgid ""
+"I have spent countless hours developing it, and it would mean a lot to me if "
+"you %ssupport it with a quick review on WordPress.org.%s"
+msgstr ""
+"He perdido la cuenta del tiempo que he invertido en desarrollarlo, y "
+"significaría mucho para mí si %sapoyaras este plugin con una pequeña reseña "
+"en WordPress.org.%s"
+
+msgid ""
+"If the AJAX search form displays incorrectly after switching to the latest "
+"version, see the  %s"
+msgstr ""
+"Si el formulario de búsqueda AJAX se visualiza incorrectamente después de "
+"actualizar a la última versión, revisa el %s"
+
+msgid ""
+"If users can’t find the product they’re searching for, they can’t buy it. "
+"Help your customers to find the right products <span>faster and "
+"simpler</span>."
+msgstr ""
+"Si los usuarios no encuentran el producto que están buscando, no podrán "
+"comprarlo. Ayuda a tus clientes a econtrar los productos correctos <span>"
+"fácil y rápidamente</span>"
+
+msgid ""
+"If you cannot upgrade your PHP version yourself, you can send an email to "
+"your host."
+msgstr ""
+"Si no puedes actualizar tu versión de PHP por tu cuenta, puedes contactar a "
+"tu proveedor de alojamiento"
+
+msgid ""
+"If you do not upgrade the php version, the next plugin release will not work!"
+msgstr ""
+"Si no actualizas tu versión de PHP, la próxima versión del plugin no "
+"funcionará!"
+
+msgid "Increase sales"
+msgstr "Aumenta las ventas"
+
+msgid "Index status"
+msgstr "Estado del índice"
+
+msgid "Individual customization of the search form (simple CSS improvements)"
+msgstr ""
+"Personalización individual del formulario de búsqueda (mejoras simples de "
+"CSS)"
+
+msgid "Individual tips and support"
+msgstr "Soporte y sugerencias personalizadas"
+
+msgid "Individual tips and support by Damian Góra - the author of the plugin"
+msgstr "Sugerencias y soporte personalizado de Damian Góra, autor del plugin"
+
+msgid "Mobile"
+msgstr "Móvil"
+
+msgid "New modern search engine based on bm25 ranking algorithm"
+msgstr ""
+"Nuevo y moderno motor de búsqueda basado en el algoritmo de ranking bm25"
+
+msgid "No results"
+msgstr "No hay resultados"
+
+msgid "No thanks"
+msgstr "No, gracias"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Overlay search (beta)"
+msgstr "Capa adicional de búsqueda (beta)"
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "Pro features"
+msgstr "Características Pro"
+
+msgid "Remind me again in week."
+msgstr "Recuérdame en una semana."
+
+msgid "Remind me later"
+msgstr "Recuérdame después"
+
+msgid "Required PHP extension: %s"
+msgstr "Se requiere la extensión PHP: %s"
+
+msgid "Required PHP version 5.5 or higher. You use %s"
+msgstr "Se requiere PHP versión 5.5 o superior. Estás usando %s"
+
+msgid "Saved!"
+msgstr "¡Guardado!"
+
+msgid "Search in SKU"
+msgstr "Buscar en el SKU"
+
+msgid "Search in attributes"
+msgstr "Bustar en atributos"
+
+msgid "Search in attributes and variation products SKUs (option)"
+msgstr "Busca en los atributos y en los SKU de variaciones de producto"
+
+msgid "Search in description"
+msgstr "Buscar en la descripción"
+
+msgid "Search in product attributes (option)"
+msgstr "Buscar en los atributos del producto (opción)"
+
+msgid "Search in short description"
+msgstr "Buscar en la descripción corta"
+
+msgid "Search in variation products SKUs (option)"
+msgstr "Buscar en los SKU de variaciones de productos (opción)"
+
+msgid ""
+"Searching in variable products SKU is available only in <a href=\"%s\">the "
+"pro version</a>."
+msgstr ""
+"La búsqueda en la variable SKU de productos sólo está disponible en <a "
+"href=\"%s\">la versión Pro</a>."
+
+msgid "Show SKU"
+msgstr "Mostrar SKU"
+
+msgid "Show details"
+msgstr "Mostrar detalles"
+
+msgid "Speed up search! (even 10x faster) - users love it!"
+msgstr ""
+"¡Mejora la velocidad! (incluso 10 veces más rápido! - ¡A los usuarios les "
+"encantará!"
+
+msgid "Speed up search! (even <b>10x faster</b>) - users love it!"
+msgstr ""
+"¡Mejora la velocidad! (Incluso <b>10 veces más rápida</b>) - ¡A los usuarios "
+"les encanta!"
+
+msgid "The search index does not exist yet. Build it now."
+msgstr "El índice de búsqueda no existe aún. Constrúyelo ahora."
+
+msgid ""
+"Update now and increase your sales. You will receive 14-day satisfaction "
+"guarantee.  A return on investment will come very quickly."
+msgstr ""
+"Actualiza ahora y aumenta tus ventas. Si después de 14 días no estás "
+"satisfecho, te devolveremos tu dinero. Verás que rápidamente tu inversión "
+"repercute en tus resultados."
+
+msgid "Upgrade Now!"
+msgstr "¡Pásate a Pro ahora!"
+
+msgid "Visit your <a target=\"_blank\" href=\"%s\">store</a>"
+msgstr "Visita tu <a target=\"_blank\" href=\"%s\">tienda</a>"
+
+msgctxt "Wordpress theme name"
+msgid "Name:"
+msgstr "Nombre:"
+
+msgid "and more..."
+msgstr "Y más ..."
+
+msgid "by simple tricks"
+msgstr "con simples trucos"
+
+msgctxt "in categories fe. in Books > Crime stories"
+msgid "in"
+msgstr "en"
+
+msgid "latest version"
+msgstr "última versión"
+
+msgid "previous version"
+msgstr "versión anterior"

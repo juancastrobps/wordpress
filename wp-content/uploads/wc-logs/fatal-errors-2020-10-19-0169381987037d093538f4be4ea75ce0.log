@@ -1,4 +1,0 @@
-2020-10-19T19:17:49+00:00 CRITICAL Cannot declare class EpaycoOrder, because the name is already in use in C:\xampp\htdocs\wordpress\wp-content\plugins\Plugin_ePayco_WooCommerce_4.0.x\lib\EpaycoOrder.php on line 11
-
-2020-10-19T19:17:51+00:00 CRITICAL Cannot declare class EpaycoOrder, because the name is already in use in C:\xampp\htdocs\wordpress\wp-content\plugins\Plugin_ePayco_WooCommerce_4.0.x\lib\EpaycoOrder.php on line 11
-

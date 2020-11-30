@@ -365,9 +365,9 @@
  
 .wpneo-wrapper .wpneo-col6 h4,
 .wpneo-wrapper .wpneo-content h4 {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-size: 25px;
-    color: #686C8B;
+    color: #818181;
     font-weight: 300;
     letter-spacing: 0;
     margin: 15px 0 20px;
@@ -1441,12 +1441,12 @@ table.stripe-table td {
     font-size: 14px;
     color: #3A3D54;
 }
-.crowdfound-fund-raised .woocommerce-Price-amount,
+/* .crowdfound-fund-raised .woocommerce-Price-amount,
 .crowdfound-funding-goal .woocommerce-Price-amount,
 .crowdfound-time-remaining .wpneo-meta-desc {
     font-weight: 500;
     color: #3A3D54;
-}
+} */
 .wpneo-percent-rund-wrap {
     margin-top: 5px;
 }

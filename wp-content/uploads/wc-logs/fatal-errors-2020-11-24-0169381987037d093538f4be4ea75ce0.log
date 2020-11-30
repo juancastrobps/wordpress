@@ -1,0 +1,40 @@
+2020-11-24T15:26:28+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:26:45+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:26:50+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:26:51+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:26:56+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:27:04+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:27:20+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:27:29+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:27:34+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:27:35+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T15:32:16+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/bpscrowdfunding/inc/frameworks/evision-customizer/inc/evision-customizer-hooks.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\frameworks\evision-customizer\evision-customizer.php on line 613
+
+2020-11-24T15:32:38+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/bpscrowdfunding/inc/frameworks/evision-customizer/inc/evision-customizer-hooks.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\frameworks\evision-customizer\evision-customizer.php on line 613
+
+2020-11-24T15:36:56+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\twentyfourteen\functions.php on line 661
+
+2020-11-24T15:37:10+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\twentyfourteen\functions.php on line 661
+
+2020-11-24T15:37:54+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/charitize/inc/hooks/home-activity-section.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\charitize\inc\init.php on line 61
+
+2020-11-24T21:55:05+00:00 CRITICAL Uncaught Error: Call to a member function empty_cart() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213) : eval()'d code:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213): eval()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(263): Code_Snippets_Edit_Menu->test_code(Object(Code_Snippet))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(122): Code_Snippets_Edit_Menu->save_posted_snippet()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(99): Code_Snippets_Edit_Menu->process_actions()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): Code_Snippets_Edit_Menu->load('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213) : eval()'d code on line 1
+

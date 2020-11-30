@@ -40,10 +40,10 @@ jQuery(document).ready(function($){
     });
 
     $('.datepickers_1').datepicker({
-        dateFormat: 'yy-mm-dd'
+        dateFormat: 'dd-mm-yy'
     });
     $('.datepickers_2').datepicker({
-        dateFormat: 'yy-mm-dd'
+        dateFormat: 'dd-mm-yy'
     });
 
     // Insert Campaign Post Data
@@ -217,6 +217,7 @@ jQuery(document).ready(function($){
         $('.wpneo-save-btn').delay(100).fadeIn('slow');
         $('.wpneo-cancel-btn').delay(100).fadeIn('slow');
         $('button.wpneo-image-upload').show();
+        $('button.wpua-image-upload').show();
     });
 
     // Dashboard Data Save

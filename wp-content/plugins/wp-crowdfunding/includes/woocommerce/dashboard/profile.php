@@ -2,7 +2,6 @@
 defined( 'ABSPATH' ) || exit;
 
 $current_user_id = get_current_user_id();
-
 /**
  * If user can manage options
  */
@@ -20,26 +19,36 @@ $user = get_user_by('ID', $current_user_id);
 $html .= '<div class="wpneo-content">';
     $html .= '<form id="wpneo-dashboard-form" action="" method="" class="wpneo-form">';
     $html .= '<div class="profile-container">';
-    $html .= '<div class="wpneo-profile-header"><h2>Mi Cuenta </h2></div>';
+    $html .= '<div class="wpneo-profile-header"><h2>Mi cuenta</h2></div>';
     $html .= '<div class="wpneo-row">';
             $html .= '<div class="wpneo-col6-picture">';
                 $html .= '<div class="wpneo-shadow wpneo-clearfix">';
                     // $html .= '<h4>'.__("Profile Picture","wp-crowdfunding").'</h4>';
                     $html .= '<div class="wpneo-fields">';
                     $html .= '<input type="hidden" name="action" value="wpneo_profile_form">';
-                        
+
+                    $html .= '<div class="profile-image">';
+                    // do_shortcode('[avatar_upload]');
+                        $html .= '</div>';
+                
                         $img_src = get_avatar_url( $current_user_id );
                         $image_id = get_user_meta( $current_user_id, 'profile_image_id', true );
                         if ($image_id && $image_id > 0) {
                             $img_src = wp_get_attachment_image_src($image_id, 'full')[0];
                         }
+                        // editado imagen
+                        $img_src = get_wp_user_avatar_src($user->ID, 'fullsize');
                         $html .= '<img class="profile-form-img" src="'.$img_src.'" alt="'.__( "Profile Image:" , "wp-crowdfunding" ).'">';
+
+                        
 
                         $html .= '<span id="wpneo-image-show"></span>';
                         $html .= '<input type="hidden" name="profile_image_id" class="wpneo-form-image-id" value="'.$image_id.'">';
                         $html .= '<input type="hidden" name="wpneo-form-image-url" class="wpneo-form-image-url" value="">';
-                        $html .= '<button name="wpneo-upload" id="cc-image-upload-file-button" class="wpneo-image-upload" style="display: none;">'.__( "Upload" , "wp-crowdfunding" ).'</button>';
-                    $html .= '</div>';
+                        $html .= '<button id="wpneo-image" class="wpneo-image-btn"> Cambiar Imagen </button>';
+			
+
+                        $html .= '</div>';
                 $html .= '</div>';//wpneo-shadow
             $html .= '</div>';//wpneo-col6
 
@@ -47,7 +56,7 @@ $html .= '<div class="wpneo-content">';
                 
                 // Basic info
                 $html .= '<div class="profile_data">';
-                    $html .= '<h4>'.__("Mi Información","wp-crowdfunding").'</h4>';
+                    $html .= '<h4>'.__("Mi información","wp-crowdfunding").'</h4>';
                     $html .= '<p>';
 				    $html .= '<span class="data_name">'.__( "Usuario" , "wp-crowdfunding" ).'</span>';
                     // $html .= '<span class="data_info">'.wpcf_function()->get_author_name().'</span>';
@@ -81,7 +90,7 @@ $html .= '<div class="wpneo-content">';
 
                 // Profile Information
                 $html .= '<p>';
-                    $html .= '<span class="data_name">'.__( "Biografía" , "wp-crowdfunding" ).'</span>';
+                    $html .= '<span class="data_name_biografia">'.__( "Biografía:" , "wp-crowdfunding" ).'</span>';
                     $html .= '<span class="data_info">';
                         $value = ''; if(isset($data['profile_portfolio'][0])){ $value = esc_textarea($data['profile_portfolio'][0]); }
                         $html .= '<textarea name="profile_portfolio" rows="3" disabled>'.$value.'</textarea>';
@@ -147,13 +156,9 @@ $html .= '<div class="wpneo-content">';
                 $html .= '<div class="profile_data">';
                     // $html .= '<h4>'.__("Redes Sociales","wp-crowdfunding").'</h4>';
 
-                    $value = ''; if(isset($data['profile_facebook'][0])){ $value = esc_textarea($data['profile_facebook'][0]); }
-                    $html .='<a href="'.$value.'">';
-                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/twitter.png" alt="twitter"> </a>';
-
                     //Facebook
                     $html .= '<p>';
-                        $html .= '<span class="data_name">'.__( "Facebook" , "wp-crowdfunding" ).'</span>';
+                        $html .= '<img src="http://localhost/wordpress/wp-content/uploads/2020/10/facebook.png" alt="facebook">';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_facebook'][0])){ $value = esc_textarea($data['profile_facebook'][0]); }
                             $html .= '<input type="text" name="profile_facebook" value="'.$value.'" disabled>';
@@ -162,7 +167,7 @@ $html .= '<div class="wpneo-content">';
 
                     // Twitter
                     $html .= '<p>';
-                        $html .= '<span class="data_name">'.__( "Twitter" , "wp-crowdfunding" ).'</span>';
+                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/twitter.png" alt="twitter"> </a>';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_twitter'][0])){ $value = esc_textarea($data['profile_twitter'][0]); }
                             $html .= '<input type="text" name="profile_twitter" value="'.$value.'" disabled>';
@@ -171,7 +176,7 @@ $html .= '<div class="wpneo-content">';
 
                     // Instagram
                     $html .= '<p>';
-                        $html .= '<span class="data_name">'.__( "Instagram" , "wp-crowdfunding" ).'</span>';
+                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/instagram.png" alt="instagram"> </a>';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_instagram'][0])){ $value = esc_textarea($data['profile_instagram'][0]); }
                             $html .= '<input type="text" name="profile_instagram" value="'.$value.'" disabled>';
@@ -180,7 +185,7 @@ $html .= '<div class="wpneo-content">';
                     
                     // Youtube
                     $html .= '<p>';
-                        $html .= '<span class="data_name">'.__( "Youtube" , "wp-crowdfunding" ).'</span>';
+                    $html .='<img src="http://localhost/wordpress/wp-content/uploads/2020/10/youtube.png" alt="youtube"> </a>';
                         $html .= '<span class="data_info">';
                             $value = ''; if(isset($data['profile_youtube'][0])){ $value = esc_textarea($data['profile_youtube'][0]); }
                             $html .= '<input type="text" name="profile_youtube" value="'.$value.'" disabled>';
@@ -203,11 +208,11 @@ $html .= '<div class="wpneo-content">';
 
         //Save Button
 		if ($logged_user_info) {
-			$html .= '<div class="wpneo-buttons-group">';
-			$html .= '<button id="wpneo-edit" class="wpneo-edit-btn">' . __( "Edit", "wp-crowdfunding" ) . '</button>';
+            $html .= '<div class="wpneo-buttons-group">';
+            $html .= '<button id="wpneo-edit" class="wpneo-edit-btn">' . __( "Editar info", "wp-crowdfunding" ) . '</button>';
 			$html .= '<button id="wpneo-dashboard-btn-cancel" class="wpneo-cancel-btn wpneo-hidden" type="submit">' . __( "Cancel", "wp-crowdfunding" ) . '</button>';
-			$html .= '<button id="wpneo-profile-save" class="wpneo-save-btn wpneo-hidden" type="submit">' . __( "Save", "wp-crowdfunding" ) . '</button>';
-			$html .= '</div>';
+			$html .= '<button id="wpneo-profile-save" class="wpneo-save-btn wpneo-hidden button-primary" type="submit">' . __( "Save", "wp-crowdfunding" ) . '</button>';
+            $html .= '</div>';
 			$html .= '<div class="clear-float"></div>';
 		}
 

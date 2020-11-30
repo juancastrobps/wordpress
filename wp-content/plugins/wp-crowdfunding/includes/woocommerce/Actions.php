@@ -92,9 +92,9 @@ class Actions {
         $profile_address      = ( $_POST['profile_address'] ) ? sanitize_text_field($_POST['profile_address']) : "";
         $profile_facebook     = ( $_POST['profile_facebook'] ) ? sanitize_text_field($_POST['profile_facebook']) : "";
         $profile_twitter      = ( $_POST['profile_twitter'] ) ? sanitize_text_field($_POST['profile_twitter']) : "";
-        $profile_vk           = ( $_POST['profile_vk'] ) ? sanitize_text_field($_POST['profile_vk']) : "";
+        $profile_instagram           = ( $_POST['profile_instagram'] ) ? sanitize_text_field($_POST['profile_instagram']) : "";
         $profile_linkedin     = ( $_POST['profile_linkedin'] ) ? sanitize_text_field($_POST['profile_linkedin']) : "";
-        $profile_pinterest    = ( $_POST['profile_pinterest'] ) ? sanitize_text_field($_POST['profile_pinterest']) : "";
+        $profile_youtube    = ( $_POST['profile_youtube'] ) ? sanitize_text_field($_POST['profile_youtube']) : "";
         $profile_image_id     = ( $_POST['profile_image_id'] ) ? sanitize_text_field($_POST['profile_image_id']) : "";
 
         //add_user_meta
@@ -109,9 +109,9 @@ class Actions {
         update_user_meta( $user_id,'profile_address',   $profile_address );
         update_user_meta( $user_id,'profile_facebook',  $profile_facebook );
         update_user_meta( $user_id,'profile_twitter',   $profile_twitter );
-        update_user_meta( $user_id,'profile_vk',        $profile_vk );
+        update_user_meta( $user_id,'profile_instagram',        $profile_instagram );
         update_user_meta( $user_id,'profile_linkedin',  $profile_linkedin );
-        update_user_meta( $user_id,'profile_pinterest', $profile_pinterest );
+        update_user_meta( $user_id,'profile_youtube', $profile_youtube );
         update_user_meta( $user_id,'profile_image_id',  intval($profile_image_id) );
 
         //Update User Info

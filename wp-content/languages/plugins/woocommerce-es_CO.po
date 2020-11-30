@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-07-21T10:45:30+00:00\n"
-"PO-Revision-Date: 2020-08-25 15:17+0000\n"
+"PO-Revision-Date: 2020-11-25 16:01+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: es_CO\n"
@@ -34759,7 +34759,7 @@ msgstr "Usted debe estar conectado a la caja."
 
 #: templates/checkout/form-checkout.php:54
 msgid "Your order"
-msgstr "Su pedido"
+msgstr "Su donación"
 
 #: templates/checkout/form-coupon.php:26
 msgid "Have a coupon?"

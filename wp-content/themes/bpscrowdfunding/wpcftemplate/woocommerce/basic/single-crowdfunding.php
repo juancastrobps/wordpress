@@ -24,7 +24,8 @@ if ( post_password_required() ) {
                                     <?php do_action( 'wpcf_single_campaign_summary' ); ?>
                                 </div><!-- .wpneo-campaign-summary-inner -->
                                 <!-- control de comentarios - solo usuarios donates -->
-                                <?php if ( (!wc_customer_bought_product( '', get_current_user_id(), $product->get_id() )) || is_user_logged_in() ) {
+                                <?php                                 
+                                if ( (!wc_customer_bought_product( '', get_current_user_id(), $product->get_id() )) || !is_user_logged_in() ) {
                                     function restrict_submit ( $fields){
                                        
                                             $fields =  array(

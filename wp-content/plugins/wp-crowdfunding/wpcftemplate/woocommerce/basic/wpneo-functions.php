@@ -114,14 +114,14 @@ function wpcf_bio_campaign_action(){
 		if ( ! empty($user_info['profile_twitter'][0])){
 			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_twitter"][0].'"><i class="wpneo-icon wpneo-icon-twitter"></i></a>';
 		}
-		if ( ! empty($user_info['profile_vk'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_vk"][0].'"><i class="wpneo-icon wpneo-icon-gplus"></i></a>';
+		if ( ! empty($user_info['profile_instagram'][0])){
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_instagram"][0].'"><i class="wpneo-icon wpneo-icon-gplus"></i></a>';
 		}
 		if ( ! empty($user_info['profile_linkedin'][0])){
 			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_linkedin"][0].'"><i class="wpneo-icon wpneo-icon-linkedin"></i></a>';
 		}
-		if ( ! empty($user_info['profile_pinterest'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_pinterest"][0].'"><i class="wpneo-icon wpneo-icon-pinterest"></i></a>';
+		if ( ! empty($user_info['profile_youtube'][0])){
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_youtube"][0].'"><i class="wpneo-icon wpneo-icon-pinterest"></i></a>';
 		}
 		$html .= '</div>';
 

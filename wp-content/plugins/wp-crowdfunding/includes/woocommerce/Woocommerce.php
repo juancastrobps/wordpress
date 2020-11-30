@@ -54,6 +54,25 @@ class Woocommerce {
 
         add_action( 'wp_logout', array( $this, 'wc_empty_cart' ) );
 
+        // codigo eliminar shipping
+        add_filter( 'woocommerce_cart_needs_shipping_address', array($this, 'disable_shipping') );
+        add_filter( 'woocommerce_cart_ready_to_calc_shipping', array($this, 'disable_shipping'), 99);
+        function disable_shipping() {
+            global $woocommerce;
+            $has_crowdfunding_product = false;
+            $items = $woocommerce->cart->get_cart();
+            if( $items) {
+                foreach($items as $item => $values) {
+                    $product = wc_get_product( $values['product_id'] );
+                    if( $product->get_type() == 'crowdfunding' ){
+                        $has_crowdfunding_product = true;
+                    }
+                }
+            }
+            return !$has_crowdfunding_product;
+        }
+
+
         $this->filter_product_in_shop_page();
     }
 

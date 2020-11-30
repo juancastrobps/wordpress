@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: WP Crowdfunding\n"
 "POT-Creation-Date: 2020-04-02 15:15+0600\n"
-"PO-Revision-Date: 2020-10-28 17:01+0000\n"
+"PO-Revision-Date: 2020-11-27 19:07+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Colombia\n"
 "MIME-Version: 1.0\n"
@@ -860,7 +860,11 @@ msgstr "Esta campaña ha sido de final"
 
 #: includes/woocommerce/Woocommerce.php:800
 msgid "Make me anonymous"
-msgstr "Me hacen anónimo"
+msgstr "Registrarme como Anónimo"
+
+#: includes/woocommerce/Woocommerce.php:818
+msgid "Don´t save my data"
+msgstr "No guardar mis datos"
 
 #: includes/woocommerce/Woocommerce.php:856
 #: includes/woocommerce/Woocommerce.php:880
@@ -1092,7 +1096,7 @@ msgstr "La Información De Pago"
 #: includes/woocommerce/dashboard/order.php:51
 #: includes/woocommerce/dashboard/rewards.php:39
 msgid "Order"
-msgstr "El fin de"
+msgstr "Orden"
 
 #: includes/woocommerce/dashboard/investment.php:43
 #: includes/woocommerce/dashboard/order.php:53
