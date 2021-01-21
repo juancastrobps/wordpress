@@ -153,6 +153,8 @@ if ( ! function_exists( 'charitize_activities_slider' ) ) :
 
         if( is_array( $charitize_activities_slider_arrays )){
         $charitize_activities_number = absint( $charitize_customizer_all_values['charitize-activities-number'] );
+        $charitize_activities_number  = '8';
+       
         ?>
             <section id="wrapper-activity" class="wrapper wrapper-activity">
                 <div class="carousel-group">

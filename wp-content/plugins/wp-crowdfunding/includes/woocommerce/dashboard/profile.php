@@ -73,7 +73,7 @@ $html .= '<div class="wpneo-content">';
                     
 
                     $html .= '<p>';
-					$html .= '<span class="data_name">'.__( "Last Name:" , "wp-crowdfunding" ).'</span>';
+					$html .= '<span class="data_name">'.__( "Last Name" , "wp-crowdfunding" ).'</span>';
 					$html .= '<span class="data_info">';
 					$html .= '<input type="text" name="last_name" value="'.$user->last_name.'" disabled>';
 					$html .= '</span>';

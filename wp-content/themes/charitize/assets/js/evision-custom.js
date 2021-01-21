@@ -37,11 +37,14 @@ jQuery(document).ready(function ($) {
     // slick jQuery 
     jQuery('.carousel-group').slick({
       autoplay: true,
-      autoplaySpeed: 3000,
-      dots: true,
+      autoplaySpeed: 5000,
+      dots: false,
       slidesToShow: 4,
       slidesToScroll: 1,
       lazyLoad: 'ondemand',
+      arrows: true,
+      prevArrow: '<div class="slick-arrow"><span class="fa fa-angle-left"></span><span class="sr-only">Prev</span></div>',
+      nextArrow: '<div class="slick-arrow"><span class="fa fa-angle-right"></span><span class="sr-only">Next</span></div>',
       responsive: [
          {
            breakpoint: 1024,
@@ -49,7 +52,7 @@ jQuery(document).ready(function ($) {
              slidesToShow: 3,
              slidesToScroll: 3,
              infinite: true,
-             dots: true
+             dots: false
            }
          },
          {
@@ -71,6 +74,7 @@ jQuery(document).ready(function ($) {
          // instead of a settings object
        ]
     });
+
 
     // back to top animation
 

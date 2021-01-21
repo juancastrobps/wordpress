@@ -67,7 +67,7 @@ $the_query = new WP_Query( $args );
                             $permalink_edit     = add_query_arg( array( 'action' => 'edit', 'postid' => get_the_ID() ) , get_permalink($page_id) );
                             $permalink_update   = add_query_arg( array( 'page_type' => 'update', 'postid' => get_the_ID() ) , $current_page );
                             $operation_btn .= '<span><a href="'.$permalink_update.'">'.__("Update", "wp-crowdfunding").'</a></span>';
-                            $operation_btn .= '<span><a href="' . $permalink_edit . '" class="wp-crowd-btn wp-crowd-btn-primary">' . __("Edit", "wp-crowdfunding") . '</a></span>';
+                           // $operation_btn .= '<span><a href="' . $permalink_edit . '" class="wp-crowd-btn wp-crowd-btn-primary">' . __("Edit", "wp-crowdfunding") . '</a></span>';
                         }
                         
                     if (get_post_status() == 'draft'){

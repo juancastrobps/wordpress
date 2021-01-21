@@ -91,7 +91,9 @@ if ( ! function_exists( 'charitize_home_donate_section' ) ) :
                     <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
                         <!-- <h2><?php the_title(); ?></h2> -->
                         <div class="text-content">
-                            <?php echo wp_kses_post(charitize_words_count( $charitize_home_donate_single_words ,get_the_content()));; ?>
+                        
+                            <?php var_dump($charitize_home_donate_single_words);
+                             echo wp_kses_post(charitize_words_count( $charitize_home_donate_single_words ,get_the_content()));; ?>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,8 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Charitize
+ * 
+ * Template Name: content_page
  */
 
 ?>

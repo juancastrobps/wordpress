@@ -85,7 +85,7 @@ jQuery(document).ready(function($){
             '<div class="wpneo-modal-wrapper-head">' +
             '<span id="wpcf_modal_title">Message</span><a href="javascript:;" class="wpneo-modal-close">&times;</a>';
             if( print ){
-                html += '</div><span class="wpcf-print-button button">print</span>';
+                html += '</div><span class="wpcf-print-button button">Imprimir</span>';
             }
             html += '<div class="wpneo-modal-content-inner"><div id="wpcf_modal_message"></div></div></div></div>';
         if ($('.wpneo-modal-wrapper').length == 0){

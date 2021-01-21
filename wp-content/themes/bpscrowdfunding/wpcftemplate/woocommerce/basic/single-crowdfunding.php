@@ -37,7 +37,8 @@ if ( post_password_required() ) {
                                         add_filter ('comment_form_defaults' , 'restrict_submit');
                                 } ?>
                                 <!-- codigo social share -->
-                                <div><?php echo do_shortcode( '[kiwi-social-bar]' ) ?></div>
+                              
+                                
                             </div><!-- .wpneo-campaign-summary -->
                             <?php do_action( 'wpcf_after_single_campaign_summary' ); ?>
                             <meta itemprop="url" content="<?php the_permalink(); ?>" />

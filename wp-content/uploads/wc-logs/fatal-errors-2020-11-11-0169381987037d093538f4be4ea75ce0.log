@@ -1,6 +1,0 @@
-2020-11-11T14:32:05+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php on line 56
-
-2020-11-11T14:32:14+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php on line 56
-
-2020-11-11T14:56:00+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wordpress\wp-content\themes\bpscrowdfunding\wpcftemplate\woocommerce\basic\wpneo-listing.php on line 73
-

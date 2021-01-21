@@ -1,0 +1,10 @@
+2021-01-04T21:37:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 7 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\l10n.php:391
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code(7): _x('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): pressfore_comment_time_output_r('2020-08-14T16:4...', 'c', false)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('2020-08-14T16:4...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1062): apply_filters('get_comment_tim...', '2020-08-14T16:4...', 'c', false, true, Object(WP_Comment))
+#4 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1073): get_comment_time('c')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-walker-comment.php(431): comment_time('c')
+#6 C:\xampp\htdocs\wordpress\wp-includes\clas in C:\xampp\htdocs\wordpress\wp-includes\l10n.php on line 391
+

@@ -109,19 +109,19 @@ function wpcf_bio_campaign_action(){
 		$html .= '<div class="wpneo-profile-about">';
 		$html .= '<h3>'.__("Social Link","wp-crowdfunding").'</h3>';
 		if ( ! empty($user_info['profile_facebook'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_facebook"][0].'"><i class="wpneo-icon wpneo-icon-facebook"></i></a>';
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_facebook"][0].'"><img src="' .site_url().'/wp-content/uploads/2020/11/icons8-facebook-rodeado-de-círculo-50.png'.'" alt="facebook"></a>';
 		}
 		if ( ! empty($user_info['profile_twitter'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_twitter"][0].'"><i class="wpneo-icon wpneo-icon-twitter"></i></a>';
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_twitter"][0].'"><img src="' .site_url().'/wp-content/uploads/2020/11/icons8-twitter-50.png'.'" alt="twitter"></a>';
 		}
 		if ( ! empty($user_info['profile_instagram'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_instagram"][0].'"><i class="wpneo-icon wpneo-icon-gplus"></i></a>';
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_instagram"][0].'"><img src="' .site_url().'/wp-content/uploads/2020/11/icons8-instagram-50.png'.'" alt="instagram"></a>';
 		}
 		if ( ! empty($user_info['profile_linkedin'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_linkedin"][0].'"><i class="wpneo-icon wpneo-icon-linkedin"></i></a>';
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_linkedin"][0].'"><img src="' .site_url().'/wp-content/uploads/2020/12/icons8-linkedin-50.png'.'" alt="linkedin"></a>';
 		}
 		if ( ! empty($user_info['profile_youtube'][0])){
-			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_youtube"][0].'"><i class="wpneo-icon wpneo-icon-pinterest"></i></a>';
+			$html .= '<a class="wpcf-social-link" href="'.$user_info["profile_youtube"][0].'"><img src="' .site_url().'/wp-content/uploads/2020/12/icons8-youtube-play-50.png'.'" alt="youtube"></a>';
 		}
 		$html .= '</div>';
 

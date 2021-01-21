@@ -30,8 +30,12 @@ class Woocommerce {
         add_action( 'woocommerce_add_to_cart_validation',               array($this, 'remove_crowdfunding_item_from_cart'), 10, 5); // Remove crowdfunding item from cart
         add_action( 'woocommerce_new_order',                            array($this, 'crowdfunding_order_type')); // Track is this product crowdfunding.
         add_filter( 'woocommerce_checkout_fields' ,                     array($this, 'override_checkout_fields') ); // Remove billing address from the checkout page
-        add_action( 'woocommerce_review_order_before_payment',          array($this, 'check_anonymous_backer'));
-        add_action( 'woocommerce_review_order_before_payment',          array($this, 'dont_save_data'));
+       
+        add_action( 'woocommerce_checkout_before_order_review_heading', array($this, 'dont_save_data'));
+        add_action( 'woocommerce_checkout_before_order_review_heading', array($this, 'check_anonymous_backer'));
+       
+       // add_action( 'woocommerce_review_order_before_payment',          array($this, 'check_anonymous_backer'));
+       // add_action( 'woocommerce_review_order_before_payment',          array($this, 'dont_save_data'));
         add_action( 'woocommerce_checkout_order_processed',             array($this, 'check_anonymous_backer_post'));
         add_action( 'woocommerce_new_order_item',                       array($this, 'crowdfunding_new_order_item'), 10, 3);
         add_filter( 'wc_tax_enabled',                                   array($this, 'is_tax_enable_for_crowdfunding_product'));

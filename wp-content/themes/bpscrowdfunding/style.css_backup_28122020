@@ -1152,7 +1152,6 @@ dt {
   src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.6.1") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff2?v=4.6.1") format("woff2"), url("assets/fonts/fontawesome-webfont.woff?v=4.6.1") format("woff"), url("assets/fonts/fontawesome-webfont.ttf?v=4.6.1") format("truetype"), url("assets/fonts/fontawesome-webfont.svg?v=4.6.1#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 } 
 
 @font-face {
@@ -1160,21 +1159,18 @@ dt {
   src: url("assets/fonts/All-Round-Gothic-W01-Demi.ttf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'AllRoundGothicW01-XLig';
   src: url("assets/fonts/All-Round-Gothic-W01-XLig.ttf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'All-Round-Gothic-W03-Book';
   src: url("assets/fonts/All-Round-Gothic-W03-Book.ttf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -1182,7 +1178,6 @@ dt {
   src: url("assets/fonts/segoe-ui.ttf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 
@@ -4051,29 +4046,16 @@ dt {
 .donate-container {
   width: 50%;
   position: relative;
-  top: 2em;
+  top: 11em;
 }
 .donate-container .text-content {
   font-size: 28px;
   font-weight: lighter;
   font-family: "AllRoundGothicW01-XLig";
   position: relative;
+  top: -3em;
   text-align: initial;
 }
-
-@media screen and (max-width: 767px) {
-  .donate-container {
-    width: 100%;
-    position: relative;
-    top: 2em;
-    padding: 20px;
-  }
-
-  .donate-image { 
-    height: auto !important;  
-  }
-}
-
 .donate-image {
   height: 26em;
   position: relative;
@@ -4111,6 +4093,12 @@ dt {
 
 .col-xs-12 {
   width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .col-xs-12 {
+    width: 49%;
+  }
 }
 
 .col-xs-11 {
@@ -4452,13 +4440,6 @@ dt {
   }
 }
 
-.mt-3 {
-	margin-top: 3em;
-}
-.mb-3 {
-	margin-bottom: 3em;
-}
-
 body,
 button,
 input,
@@ -4475,7 +4456,7 @@ textarea {
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   /* font-family: "Lato", sans-serif; */
   font-family: "AllRoundGothicW01-Demi";
-  /* color: #1e414e; */
+  color: #1e414e;
   font-weight: 400;
   text-decoration: none;
 }
@@ -6998,7 +6979,7 @@ body.home.page #secondary2  {
 
 @media screen and (max-width: 767px) {
   #fixedhead .site-branding {
-    display: none;
+    /* display: none; */
   }
   #fixedhead .button {
     padding-left: 15px;
@@ -7874,7 +7855,6 @@ body.home.page #secondary2  {
   text-transform: uppercase;
   font-size: 18px;
   font-size: 1.125rem;
-  height: 3em;
 }
 
 .wrapper-activity .singlethumb .content-area .divider {
@@ -7893,10 +7873,9 @@ body.home.page #secondary2  {
 .wrapper-activity .singlethumb .content-area .content-text {
   color: #7e8d94;
   line-height: 22px;
-  margin-top: 20px;
+  margin-top: 35px;
   font-size: 14px;
   font-size: 0.875rem;
-  height: 3em;
 }
 
 .wrapper-activity .singlethumb:hover .thumb-holder img.desaturate, .wrapper-activity .singlethumb:focus .thumb-holder img.desaturate, .wrapper-activity .singlethumb:active .thumb-holder img.desaturate {
@@ -8077,10 +8056,7 @@ body.home.page #secondary2  {
   margin-right: 20px;
 }
 
-.justify-text {
-	text-align: justify;
-	text-justify: inter-word;
-}
+
 
 @media screen and (max-width: 1023px) {
   .entry-content .image-left {
@@ -8136,15 +8112,6 @@ body.home.page #secondary2  {
 .site-footer .elements {
   display: flex;
   justify-content: flex-start;
-}
-
-
-@media screen and (max-width: 767px) {
-	.site-footer .elements {
-		display: flex;
-		flex-direction: column;
-	}	
-	
 }
 
 .site-footer .copyright {
@@ -8364,6 +8331,30 @@ p.wpneo-short-description {
 }
 
 
+/* Formato de comentarios de campaña */
+.comment-body {
+  background-color: #f2f2f2;
+  border-bottom: 2px dotted black;
+  position: relative;
+  height: auto;
+}
+.wpneo-wrapper {
+  font-family: "All-Round-Gothic-W03-Book";
+  font-size: 15.008px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.wpneo-wrapper-inner {
+  margin-left: 30px;
+}
+.wpneo-wrapper li {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
 /* footer */
 
 .footer-social-icons img {
@@ -8492,15 +8483,10 @@ input[type=number] {
     -moz-appearance:textfield;
 }
 
-.slick-slider {
-	width: 100%;
-  margin: auto;
-  display: flex;
-}
-
 .slick-track {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  /* transform: scale(0.95) !important; */
 }
 
 .slick-track .slick-slide:nth-child(odd){
@@ -8519,16 +8505,6 @@ input[type=number] {
   background-color: #EC5E00;
   }
 
-.slick-arrow {
-  background: #f1f1f1;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.slick-arrow .fa {
-  background: #f1f1f1;
-  font-size: 4em;
-}
-
 .custom-logo-footer {
   width: 150px !important;
   height: 82px !important;
@@ -8540,18 +8516,6 @@ input[type=number] {
   position: relative;
   top: 4em;
 }
-
-@media screen and (max-width: 767px) {
-	.politic-link {
-		margin-left: auto;
-    padding-right: 0em;
-    position: relative;
-    top: 0em;
-    margin-right: auto;
-	}
-}
-
-
 .politic-link a {
   color: #EC5E00;
 }
@@ -8559,6 +8523,27 @@ input[type=number] {
 .dgwt-wcas-sf-wrapp{
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+
+  .user-background {
+    display: none;
+  }
+
+  .userlogged {
+    position: absolute;
+    bottom: 0px;
+    left: -4em;
+    top: -29px;
+    text-align: right;
+    width: 13em;
+  }
+
+  }
+
+
+
+/* campañas */
 
 .search-fields{
   display: flex;
@@ -8571,7 +8556,6 @@ input[type=number] {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 3em;
-  padding-top: 11px;
   width: 20%;
 }
 .search-fields_filters {
@@ -8587,7 +8571,6 @@ input[type=number] {
   border: 1px solid #ccc;
   font-size: 1rem;
   padding: 0px 8px !important;
-  border: none !important;
 }
 .search-fields-inputs {
   display:flex;
@@ -8605,12 +8588,11 @@ input[type=number] {
 .datepickers_1 {
   width: 9em;
   height: 25px;
-  border: none !important;
 } 
 
+
 .ui-datepicker {
-  background: #525252 !important;  
-  border-radius: 14px;
+  background: #525252;  
 }
 .ui-datepicker table {
   border: 0px;
@@ -8640,27 +8622,7 @@ input[type=number] {
   /* opacity: 0.5; */
 }
 
-@media screen and (max-width: 991px) { 
-	.user-background {
-		display: none;
-	}
-	.wekii-background {
-		display: none;
-	}
-	#masthead .nav-holder{
-		display: none;
-	}
-	.search-fields{
-		display: none;
-	}
-}
-
-
 /* pagina de campaña */
-
-.wpneo-campaign-summary {
-  margin-bottom: 3em;
-}
 
 .wpneo-list-details {
   background:white;
@@ -8683,24 +8645,12 @@ ul.wpcf_predefined_pledge_amount li a:focus  {
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
   display: none;
 }
-.wpneo-tabs-menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  height: 46px;
-  display: flex;
-  overflow-y: scroll;
-  white-space: nowrap;
-}
-
 .wpneo-tabs-menu li {
   border-bottom: 3px solid #EC5E00;
   background: #EC5E00;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin-right: 5px;
-  display: inline;
-  float: none;
 }
 .wpneo-tabs-menu li a{
   color: white;
@@ -8733,42 +8683,9 @@ ul.wpcf_predefined_pledge_amount li a:focus  {
 .wpneo-crowdfunding-update li span{
   display: none;
 }
-
-/* Formato de comentarios de campaña */
-.comment-body {
-  background-color: white;
-  border-bottom: 2px dotted black;
-  position: relative;
-  height: auto;
-}
-.wpneo-wrapper {
-  font-family: "All-Round-Gothic-W03-Book";
-  font-size: 15.008px;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 400;
-}
-.wpneo-wrapper-inner {
-  margin-left: 30px;
-}
-.wpneo-wrapper li {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-
-ol.commentlist {
-  border: solid 14px #f1f1f1;
-}
-.commentlist li {
-  background: white;
-  list-style-type: none;
-}
 .comment-meta {
   display: flex;
   position: relative;
-  flex-direction: column;
 }
 .comment-author{
   display: flex;
@@ -8776,15 +8693,15 @@ ol.commentlist {
   width: 50em;
 }
 .comment-author img{
-  height: 3em;
-  width: 3em;
+  height: 8em;
+  width: 8em;
   border-radius: 15px;
   object-fit: cover;
 }
 .comment-author b {
   font-weight: bold;
   font-size: 21px;
-  padding-left: 1%;
+  padding-left: 1em;
   color: black;
 }
 .comment-author b a{
@@ -8795,13 +8712,16 @@ ol.commentlist {
   display:none;
 }
 .comment-metadata {
-  position: relative;
-  top: -26px;
-  left: 53px;
+  position: absolute;
+  top: 1em;
+  left: 8em;
   font-size: 19px;
+  border-bottom: 2px dotted #EC5E00;
+  padding-top: 5px;
 }
 .comment-content {
   position: relative;
+  top: -4em;
   left: 10em;
   display: block;
   overflow: auto;
@@ -8816,7 +8736,9 @@ ol.commentlist {
 .comment-body .reply {
   position: relative;
   margin-bottom: 1em;
-  width: max-content;
+  left: 10em;
+  bottom: 20px;
+  width: 8em;
 }
 .comment-body .reply a {
   font-family: "AllRoundGothicW01-Demi";
@@ -8830,13 +8752,6 @@ ol.commentlist {
   padding-top: 1em;
 }
 
-@media screen and (max-width: 767px) {
-  .comment-author img {
-    height: 3em;
-    width: 3em;
-  }
-
-}
 
 /* mis campañas */
 .wpneo-links {
@@ -8976,7 +8891,6 @@ ol.commentlist {
   background: white;
 }
 
-
 /* ventana emergente perfil */
 
 .wpneo-modal-wrapper .wpneo-modal-content {
@@ -8994,14 +8908,9 @@ ol.commentlist {
 .wpneo-modal-wrapper .wpneo-profile-button {
   display: none;
 }
-.wpneo-profile-about .wpcf-social-link img {
-	padding: 5px;
-	height: 3em;
-}
 
-/* formulario login anterior */
-
-.user-login {
+/* formulario login */
+.login-form s{
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -9021,19 +8930,6 @@ ol.commentlist {
   margin: auto;
   width: 9em;
 }
-
-/* formulario de login - plugin */
-
-.user-registration {
-  width: 50%;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  background: #f2f2f2 !important;
-  padding: 3em;
-}
-
 
 /* formulario recuperacion contraseña */
 
@@ -9080,7 +8976,7 @@ ol.commentlist {
 }  
 .register {
   background: #f2f2f2;
-  /*width: 60%;*/
+  width: 60%;
   margin: auto;
   padding: 1em;
 }
@@ -9246,12 +9142,11 @@ ol.commentlist {
   width: 5em;
 }
 .profile_data .data_info {
-  padding-left: 10px;
+  padding-left: 15px;
   font-size: 20px;
-  vertical-align: middle;
 }
 .wpneo-col6-social .profile_data .data_info input {
-  width: max-content;
+  width: 20em;
 }
 .profile_data .data_info input[disabled]{
   border: none !important;
@@ -9259,6 +9154,7 @@ ol.commentlist {
   font-size: 20px !important;
   background-color: none !important;
   font-family: "All-Round-Gothic-W03-Book" !important;
+  opacity: unset !important;
 }
 #wpneo-dashboard-form textarea {
   height: 15em;
@@ -9271,7 +9167,7 @@ ol.commentlist {
   vertical-align: middle;
 }
 .profile_contact .data_info {
-  padding-left: 10px;
+  padding-left: 5px;
   font-size: 20px;
   vertical-align: middle;
 }
@@ -9281,6 +9177,7 @@ ol.commentlist {
   font-size: 20px !important;
   background-color: none !important;
   font-family: "All-Round-Gothic-W03-Book" !important;
+  font-weight: bold;
 }
 .wpneo-cancel-btn {
   padding: 14px 23px;
@@ -9408,15 +9305,3 @@ ol.commentlist {
   margin: 3em;
   padding: 20px;
 }
-
-.woocommerce ul.order_details {
-  margin-top: 1em;
-  color: black;
-}
-
-.page article.hentry li {
-  border-top: none;
-}
-
-
-

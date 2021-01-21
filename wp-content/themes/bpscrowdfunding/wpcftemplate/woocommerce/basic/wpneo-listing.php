@@ -8,16 +8,8 @@ $number = array( "2"=>"two","3"=>"three","4"=>"four" );
 //var_dump(get_post()->post_content);
 //var_dump($permalink);
 ?>
-<!-- <form label="porcentaje" action="campanas">
-<select name='percent' onchange="this.form.submit()">
-  <option value="---">---</option> 
-  <option value="10">10</option>  
-  <option value="20">20</option>  
-  <option value="30">30</option>
-  <option value="50">50</option>    
-</select>  
-</form> -->
-<div class="search-fields">
+<button onclick="myFunction()">V</button>
+<div id="SearchFields" class="search-fields">
     <div class="search-fields_searchbar"><?php echo do_shortcode( '[wcas-search-form]' ); ?></div>    
     <!-- <form label="porcentaje" action="campanas" class="search-fields_filters"> -->
     <form label="porcentaje" class="search-fields_filters">
@@ -53,6 +45,18 @@ $number = array( "2"=>"two","3"=>"three","4"=>"four" );
         <input class="search-buttom" type="submit" value="Filtrar">
     </form>
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("SearchFields");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 
 <?php
 if(isset($_GET["percent"])){

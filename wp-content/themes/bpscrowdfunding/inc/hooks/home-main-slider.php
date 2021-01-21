@@ -161,7 +161,7 @@ if ( ! function_exists( 'charitize_featured_home_slider' ) ) :
             >
                 <?php
                 $i = 1;
-                var_dump(sizeof($charitize_slider_arrays));
+                //var_dump(sizeof($charitize_slider_arrays));
                 foreach( $charitize_slider_arrays as $charitize_slider_array ){
                     // maximo 5 elementos en el slider   
                     if( '10' < $i){
@@ -176,7 +176,7 @@ if ( ! function_exists( 'charitize_featured_home_slider' ) ) :
                     ?>
                     <div class="slide-item" style="background-image: url('<?php echo esc_url( $charitize_feature_slider_image )?>');">
                         <div class="container-fluid">
-                            <div><img class="wekii-background" src="<?php  echo site_url().'wordpress/wp-content/uploads/2020/11/fondo-wekii-color-e1605627248777.png' ?>" alt="fondo-wekii">     </div>
+                            <div><img class="wekii-background" src="<?php  echo site_url().'/wp-content/uploads/2020/11/fondo-wekii-color-e1605627248777.png' ?>" alt="fondo-wekii">     </div>
        
                             <div class="thumb-overlay main-slider-overlay"></div>
                             
